@@ -1,0 +1,24 @@
+Operating point:               top 30% by score in this corpus (score >= 0.69)
+Sentences analysed:            98
+Candidate word instances:      598
+Flagged ambiguous instances:   183 (30.6%)
+  - Inter-Domain:              60
+  - Intra-Domain:              123
+
+Top 15 most frequently flagged ambiguous words:
+word
+know           9
+error          9
+page           7
+want           6
+submit         6
+round          5
+accept         4
+date           4
+field          4
+time           4
+member         4
+application    3
+design         3
+access         3
+provide        3

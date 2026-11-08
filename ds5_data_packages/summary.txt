@@ -1,0 +1,20 @@
+Dataset Title:                 Data Packages & Frictionless Tooling
+Dataset ID:                    ds5_data_packages
+Operating Point:               Score >= 0.718 (Top 30%)
+Sentences Analysed:            66
+Candidate Word Instances:      367
+Flagged Ambiguous Instances:   110 (30.0%)
+  - Inter-Domain:              28
+  - Intra-Domain:              82
+
+Top 10 Flagged Words:
+  analysis: 16
+  start: 12
+  add: 6
+  know: 5
+  line: 4
+  trust: 3
+  feel: 3
+  reference: 3
+  create: 3
+  clean: 3

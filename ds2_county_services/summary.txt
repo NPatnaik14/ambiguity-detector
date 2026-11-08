@@ -1,0 +1,20 @@
+Dataset Title:                 County & Municipal Services
+Dataset ID:                    ds2_county_services
+Operating Point:               Score >= 0.734 (Top 30%)
+Sentences Analysed:            58
+Candidate Word Instances:      555
+Flagged Ambiguous Instances:   204 (36.8%)
+  - Inter-Domain:              102
+  - Intra-Domain:              102
+
+Top 10 Flagged Words:
+  staff: 43
+  review: 19
+  application: 13
+  service: 9
+  manage: 7
+  assign: 6
+  issue: 6
+  track: 6
+  relate: 6
+  send: 5

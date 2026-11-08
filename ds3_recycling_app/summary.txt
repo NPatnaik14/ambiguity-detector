@@ -1,0 +1,20 @@
+Dataset Title:                 Smart Recycling & Waste Management
+Dataset ID:                    ds3_recycling_app
+Operating Point:               Score >= 0.729 (Top 30%)
+Sentences Analysed:            51
+Candidate Word Instances:      347
+Flagged Ambiguous Instances:   104 (30.0%)
+  - Inter-Domain:              32
+  - Intra-Domain:              72
+
+Top 10 Flagged Words:
+  time: 5
+  center: 5
+  drop: 4
+  feature: 4
+  add: 4
+  company: 4
+  know: 4
+  create: 3
+  access: 3
+  work: 3

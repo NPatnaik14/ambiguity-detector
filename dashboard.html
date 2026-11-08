@@ -1,0 +1,557 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ambiguity Detection Framework — Results Dashboard</title>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.7/dist/chart.umd.min.js"></script>
+<style>
+  :root {
+    --bg: #0f172a; --card: #1e293b; --border: #334155;
+    --fg: #f1f5f9; --muted: #94a3b8; --accent: #3b82f6;
+    --green: #22c55e; --red: #ef4444; --amber: #f59e0b; --purple: #a855f7; --cyan: #06b6d4;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: 'Segoe UI', system-ui, -apple-system, sans-serif; background: var(--bg); color: var(--fg); padding: 24px; min-height: 100vh; }
+  .header { text-align: center; margin-bottom: 32px; }
+  .header h1 { font-size: 1.75rem; font-weight: 700; background: linear-gradient(135deg, #3b82f6, #a855f7); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+  .header p { color: var(--muted); font-size: 0.9rem; margin-top: 6px; }
+  .tabs { display: flex; justify-content: center; gap: 8px; margin-bottom: 28px; flex-wrap: wrap; }
+  .tab { padding: 8px 20px; border-radius: 8px; border: 1px solid var(--border); background: transparent; color: var(--muted); cursor: pointer; font-size: 0.85rem; transition: all 0.2s; }
+  .tab:hover { border-color: var(--accent); color: var(--fg); }
+  .tab.active { background: var(--accent); color: #fff; border-color: var(--accent); }
+  .tab-content { display: none; }
+  .tab-content.active { display: block; }
+  .grid { display: grid; gap: 20px; }
+  .grid-4 { grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); }
+  .grid-2 { grid-template-columns: repeat(auto-fit, minmax(400px, 1fr)); }
+  .grid-3 { grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); }
+  .card { background: var(--card); border: 1px solid var(--border); border-radius: 12px; padding: 20px; }
+  .metric-card { text-align: center; }
+  .metric-card .value { font-size: 2rem; font-weight: 700; margin: 8px 0 4px; }
+  .metric-card .label { color: var(--muted); font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.05em; }
+  .metric-card .ci { color: var(--muted); font-size: 0.75rem; }
+  .card h3 { font-size: 1rem; font-weight: 600; margin-bottom: 12px; color: var(--fg); }
+  .card h3 span { color: var(--muted); font-weight: 400; font-size: 0.8rem; }
+  table { width: 100%; border-collapse: collapse; font-size: 0.85rem; }
+  th { text-align: left; padding: 10px 12px; border-bottom: 2px solid var(--border); color: var(--muted); font-weight: 600; font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.05em; }
+  td { padding: 10px 12px; border-bottom: 1px solid var(--border); }
+  tr:last-child td { border-bottom: none; }
+  tr:hover { background: rgba(59,130,246,0.05); }
+  .badge { display: inline-block; padding: 2px 10px; border-radius: 999px; font-size: 0.75rem; font-weight: 600; }
+  .badge-blue { background: rgba(59,130,246,0.15); color: #60a5fa; }
+  .badge-green { background: rgba(34,197,94,0.15); color: #4ade80; }
+  .badge-amber { background: rgba(245,158,11,0.15); color: #fbbf24; }
+  .badge-red { background: rgba(239,68,68,0.15); color: #f87171; }
+  .badge-purple { background: rgba(168,85,247,0.15); color: #c084fc; }
+  .chart-container { position: relative; width: 100%; height: 300px; }
+  .cm-grid { display: grid; grid-template-columns: auto 1fr 1fr; gap: 0; }
+  .cm-cell { display: flex; align-items: center; justify-content: center; padding: 16px; font-weight: 700; font-size: 1.1rem; }
+  .cm-header { color: var(--muted); font-size: 0.75rem; font-weight: 600; text-transform: uppercase; padding: 8px; text-align: center; }
+  .cm-label { color: var(--muted); font-size: 0.75rem; font-weight: 600; text-transform: uppercase; display: flex; align-items: center; justify-content: center; padding: 8px; writing-mode: horizontal-tb; }
+  .stat-row { display: flex; justify-content: space-between; padding: 8px 0; border-bottom: 1px solid var(--border); }
+  .stat-row:last-child { border: none; }
+  .stat-row .stat-label { color: var(--muted); font-size: 0.85rem; }
+  .stat-row .stat-value { font-weight: 600; font-size: 0.85rem; }
+  .highlight-row { background: rgba(59,130,246,0.08); }
+  .highlight-row td { font-weight: 600; }
+  .footer { text-align: center; color: var(--muted); font-size: 0.75rem; margin-top: 40px; padding-top: 20px; border-top: 1px solid var(--border); }
+  canvas { max-width: 100%; }
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>🔬 Ambiguity Detection Framework — Results Dashboard</h1>
+  <p>B.Tech Thesis: Identifying Inter- and Intra-Domain Ambiguity in NL Software Requirements</p>
+</div>
+
+<div class="tabs">
+  <button class="tab active" onclick="showTab('overview')">Overview</button>
+  <button class="tab" onclick="showTab('baselines')">Baselines & Ablations</button>
+  <button class="tab" onclick="showTab('dataset')">Dataset</button>
+  <button class="tab" onclick="showTab('userstudy')">User Study</button>
+  <button class="tab" onclick="showTab('domain')">Domain Mapping</button>
+  <button class="tab" onclick="showTab('industrial')">Industrial SRS</button>
+</div>
+
+<!-- ==================== OVERVIEW TAB ==================== -->
+<div id="overview" class="tab-content active">
+  <div class="grid grid-4" style="margin-bottom:20px;">
+    <div class="card metric-card">
+      <div class="label">Accuracy</div>
+      <div class="value" style="color:var(--accent)">74.29%</div>
+      <div class="ci">95% CI [67.4%, 80.6%]</div>
+    </div>
+    <div class="card metric-card">
+      <div class="label">Precision</div>
+      <div class="value" style="color:var(--green)">90.53%</div>
+      <div class="ci">95% CI [84.5%, 95.9%]</div>
+    </div>
+    <div class="card metric-card">
+      <div class="label">Recall</div>
+      <div class="value" style="color:var(--amber)">70.49%</div>
+      <div class="ci">95% CI [62.1%, 78.4%]</div>
+    </div>
+    <div class="card metric-card">
+      <div class="label">F1-Score</div>
+      <div class="value" style="color:var(--purple)">79.26%</div>
+      <div class="ci">95% CI [72.8%, 84.6%]</div>
+    </div>
+  </div>
+
+  <div class="grid grid-4" style="margin-bottom:20px;">
+    <div class="card metric-card">
+      <div class="label">PR-AUC</div>
+      <div class="value" style="color:var(--cyan)">0.914</div>
+      <div class="ci">Area under PR curve</div>
+    </div>
+    <div class="card metric-card">
+      <div class="label">Type Accuracy</div>
+      <div class="value" style="color:var(--amber)">39.34%</div>
+      <div class="ci">48/122 ambiguous · CI [30.6%, 47.8%]</div>
+    </div>
+    <div class="card metric-card">
+      <div class="label">Threshold τ*</div>
+      <div class="value" style="color:var(--muted)">0.39</div>
+      <div class="ci">Tuned on dev set (F1=0.821)</div>
+    </div>
+    <div class="card metric-card">
+      <div class="label">Benchmark Size</div>
+      <div class="value" style="color:var(--muted)">250</div>
+      <div class="ci">75 dev · 175 test</div>
+    </div>
+  </div>
+
+  <div class="grid grid-2">
+    <div class="card">
+      <h3>Confusion Matrix <span>(Binary Detection — Test Set)</span></h3>
+      <div style="max-width:320px;margin:auto;">
+        <div class="cm-grid">
+          <div></div>
+          <div class="cm-header">Pred. Positive</div>
+          <div class="cm-header">Pred. Negative</div>
+          <div class="cm-label">Actual Pos.</div>
+          <div class="cm-cell" style="background:rgba(34,197,94,0.2);color:var(--green);border-radius:8px 0 0 0;">86 (TP)</div>
+          <div class="cm-cell" style="background:rgba(239,68,68,0.12);color:var(--red);border-radius:0 8px 0 0;">36 (FN)</div>
+          <div class="cm-label">Actual Neg.</div>
+          <div class="cm-cell" style="background:rgba(245,158,11,0.12);color:var(--amber);border-radius:0 0 0 8px;">9 (FP)</div>
+          <div class="cm-cell" style="background:rgba(34,197,94,0.1);color:var(--green);border-radius:0 0 8px 0;">44 (TN)</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <h3>Precision-Recall Curve <span>(PR-AUC = 0.914)</span></h3>
+      <div class="chart-container"><canvas id="prChart"></canvas></div>
+    </div>
+  </div>
+
+  <div class="grid grid-2" style="margin-top:20px;">
+    <div class="card">
+      <h3>Learned Feature Weights</h3>
+      <div class="chart-container" style="height:220px;"><canvas id="weightsChart"></canvas></div>
+    </div>
+    <div class="card">
+      <h3>3-Class Classification Report <span>(Test Set)</span></h3>
+      <table>
+        <thead><tr><th>Class</th><th>Precision</th><th>Recall</th><th>F1</th><th>Support</th></tr></thead>
+        <tbody>
+          <tr><td><span class="badge badge-blue">Inter-Domain</span></td><td>0.59</td><td>0.45</td><td>0.51</td><td>77</td></tr>
+          <tr><td><span class="badge badge-purple">Intra-Domain</span></td><td>0.36</td><td>0.29</td><td>0.32</td><td>45</td></tr>
+          <tr><td><span class="badge badge-green">None</span></td><td>0.55</td><td>0.83</td><td>0.66</td><td>53</td></tr>
+          <tr style="border-top:2px solid var(--border)"><td><strong>Weighted Avg</strong></td><td>0.52</td><td>0.53</td><td>0.51</td><td>175</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
+
+<!-- ==================== BASELINES TAB ==================== -->
+<div id="baselines" class="tab-content">
+  <div class="grid grid-2" style="margin-bottom:20px;">
+    <div class="card">
+      <h3>Baseline Comparison <span>(on 175-item Test Set)</span></h3>
+      <div style="overflow-x:auto;">
+        <table>
+          <thead><tr><th>Model</th><th>Acc</th><th>Prec</th><th>Rec</th><th>F1</th><th>Type Acc</th><th>Latency</th></tr></thead>
+          <tbody>
+            <tr class="highlight-row"><td>🏆 Proposed Framework</td><td>0.743</td><td>0.905</td><td>0.705</td><td>0.793</td><td>0.393</td><td>~0 ms</td></tr>
+            <tr><td>B1: Polysemy-Count</td><td>0.811</td><td>0.908</td><td>0.811</td><td>0.857</td><td>0.295</td><td>0.1 ms</td></tr>
+            <tr><td>B2: Spread Only</td><td>0.760</td><td>0.900</td><td>0.738</td><td>0.811</td><td>0.385</td><td>~0 ms</td></tr>
+            <tr><td>B3: No Glossary</td><td>0.737</td><td>0.904</td><td>0.697</td><td>0.787</td><td>0.385</td><td>16.5 ms</td></tr>
+            <tr><td>B4: Classic Lesk</td><td>0.737</td><td>0.779</td><td>0.869</td><td>0.822</td><td>0.328</td><td>0.1 ms</td></tr>
+            <tr><td>B5: SBERT <span class="badge badge-amber">simulated</span></td><td>0.783</td><td>0.967</td><td>0.713</td><td>0.821</td><td>0.607</td><td>45 ms</td></tr>
+            <tr><td>B6: LLM Zero-Shot <span class="badge badge-amber">simulated</span></td><td>0.829</td><td>0.926</td><td>0.820</td><td>0.870</td><td>0.680</td><td>850 ms</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <div class="card">
+      <h3>F1-Score Comparison</h3>
+      <div class="chart-container"><canvas id="baselineChart"></canvas></div>
+    </div>
+  </div>
+  <div class="grid grid-2">
+    <div class="card">
+      <h3>Type Classification Accuracy</h3>
+      <div class="chart-container"><canvas id="typeAccChart"></canvas></div>
+    </div>
+    <div class="card">
+      <h3>Explainability vs Performance Trade-off</h3>
+      <div class="chart-container"><canvas id="tradeoffChart"></canvas></div>
+    </div>
+  </div>
+</div>
+
+<!-- ==================== DATASET TAB ==================== -->
+<div id="dataset" class="tab-content">
+  <div class="grid grid-2" style="margin-bottom:20px;">
+    <div class="card">
+      <h3>Gold Standard — Label Distribution (N=250)</h3>
+      <div class="chart-container" style="height:280px;"><canvas id="labelChart"></canvas></div>
+    </div>
+    <div class="card">
+      <h3>Source Corpora</h3>
+      <table>
+        <thead><tr><th>Dataset</th><th>Sentences</th><th>Candidates</th><th>Flagged</th><th>Threshold</th></tr></thead>
+        <tbody>
+          <tr><td>DS1 USASpending</td><td>98</td><td>598</td><td>181</td><td>0.690</td></tr>
+          <tr><td>DS2 County Services</td><td>58</td><td>555</td><td>204</td><td>0.734</td></tr>
+          <tr><td>DS3 Recycling App</td><td>51</td><td>347</td><td>104</td><td>0.729</td></tr>
+          <tr><td>DS4 Open Spending</td><td>53</td><td>387</td><td>116</td><td>0.715</td></tr>
+          <tr><td>DS5 Data Packages</td><td>66</td><td>367</td><td>110</td><td>0.718</td></tr>
+          <tr><td>DS6 Industrial SRS</td><td>40</td><td>—</td><td>—</td><td>—</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+  <div class="grid grid-2">
+    <div class="card">
+      <h3>Evaluation Split</h3>
+      <div class="chart-container" style="height:220px;"><canvas id="splitChart"></canvas></div>
+    </div>
+    <div class="card">
+      <h3>Split Details</h3>
+      <div class="stat-row"><span class="stat-label">Total Gold Standard</span><span class="stat-value">250 items</span></div>
+      <div class="stat-row"><span class="stat-label">Development Set (30%)</span><span class="stat-value">75 items</span></div>
+      <div class="stat-row"><span class="stat-label">Held-Out Test Set (70%)</span><span class="stat-value">175 items</span></div>
+      <div class="stat-row"><span class="stat-label">Stratification</span><span class="stat-value">Yes (by consensus_label)</span></div>
+      <div class="stat-row"><span class="stat-label">Random Seed</span><span class="stat-value">42</span></div>
+      <div class="stat-row"><span class="stat-label">Source Corpora</span><span class="stat-value">5 (+ 1 industrial)</span></div>
+      <div class="stat-row"><span class="stat-label">Annotators</span><span class="stat-value">3 (Req. Eng, Architect, Domain Expert)</span></div>
+    </div>
+  </div>
+</div>
+
+<!-- ==================== USER STUDY TAB ==================== -->
+<div id="userstudy" class="tab-content">
+  <div class="grid grid-3" style="margin-bottom:20px;">
+    <div class="card metric-card">
+      <div class="label">Condition A (Manual)</div>
+      <div class="value" style="color:var(--red)">43.1%</div>
+      <div class="ci">Avg detection rate · N=6</div>
+    </div>
+    <div class="card metric-card">
+      <div class="label">Condition B (Flag-Only)</div>
+      <div class="value" style="color:var(--amber)">69.5%</div>
+      <div class="ci">Avg detection rate · N=6</div>
+    </div>
+    <div class="card metric-card">
+      <div class="label">Condition C (Full Tool)</div>
+      <div class="value" style="color:var(--green)">85.0%</div>
+      <div class="ci">Avg detection rate · N=6</div>
+    </div>
+  </div>
+  <div class="grid grid-2">
+    <div class="card">
+      <h3>Detection Rate by Condition</h3>
+      <div class="chart-container"><canvas id="userDetChart"></canvas></div>
+    </div>
+    <div class="card">
+      <h3>Remediation Accuracy by Condition</h3>
+      <div class="chart-container"><canvas id="userRemChart"></canvas></div>
+    </div>
+  </div>
+  <div class="card" style="margin-top:20px;">
+    <h3>Participant Details <span>(18 participants)</span></h3>
+    <div style="overflow-x:auto;">
+      <table>
+        <thead><tr><th>ID</th><th>Background</th><th>Condition</th><th>Defects</th><th>Det. Rate %</th><th>FP</th><th>Time (s)</th><th>Remed. Acc %</th></tr></thead>
+        <tbody>
+          <tr><td>P01</td><td>Graduate</td><td><span class="badge badge-red">A</span></td><td>5</td><td>41.7</td><td>2</td><td>534</td><td>43.6</td></tr>
+          <tr><td>P02</td><td>Practitioner</td><td><span class="badge badge-amber">B</span></td><td>8</td><td>66.7</td><td>0</td><td>391</td><td>50.1</td></tr>
+          <tr><td>P03</td><td>Graduate</td><td><span class="badge badge-green">C</span></td><td>10</td><td>83.3</td><td>0</td><td>265</td><td>93.8</td></tr>
+          <tr><td>P04</td><td>Practitioner</td><td><span class="badge badge-red">A</span></td><td>5</td><td>41.7</td><td>2</td><td>506</td><td>29.9</td></tr>
+          <tr><td>P05</td><td>Graduate</td><td><span class="badge badge-amber">B</span></td><td>8</td><td>66.7</td><td>2</td><td>381</td><td>51.3</td></tr>
+          <tr><td>P06</td><td>Practitioner</td><td><span class="badge badge-green">C</span></td><td>11</td><td>91.7</td><td>0</td><td>252</td><td>90.5</td></tr>
+          <tr><td>P07</td><td>Graduate</td><td><span class="badge badge-red">A</span></td><td>6</td><td>50.0</td><td>2</td><td>556</td><td>40.0</td></tr>
+          <tr><td>P08</td><td>Practitioner</td><td><span class="badge badge-amber">B</span></td><td>9</td><td>75.0</td><td>1</td><td>399</td><td>41.4</td></tr>
+          <tr><td>P09</td><td>Graduate</td><td><span class="badge badge-green">C</span></td><td>9</td><td>75.0</td><td>0</td><td>237</td><td>92.4</td></tr>
+          <tr><td>P10</td><td>Practitioner</td><td><span class="badge badge-red">A</span></td><td>5</td><td>41.7</td><td>1</td><td>578</td><td>30.0</td></tr>
+          <tr><td>P11</td><td>Graduate</td><td><span class="badge badge-amber">B</span></td><td>8</td><td>66.7</td><td>1</td><td>384</td><td>57.7</td></tr>
+          <tr><td>P12</td><td>Practitioner</td><td><span class="badge badge-green">C</span></td><td>11</td><td>91.7</td><td>1</td><td>276</td><td>90.4</td></tr>
+          <tr><td>P13</td><td>Graduate</td><td><span class="badge badge-red">A</span></td><td>4</td><td>33.3</td><td>2</td><td>518</td><td>42.0</td></tr>
+          <tr><td>P14</td><td>Practitioner</td><td><span class="badge badge-amber">B</span></td><td>8</td><td>66.7</td><td>3</td><td>351</td><td>44.3</td></tr>
+          <tr><td>P15</td><td>Graduate</td><td><span class="badge badge-green">C</span></td><td>11</td><td>91.7</td><td>1</td><td>272</td><td>92.2</td></tr>
+          <tr><td>P16</td><td>Practitioner</td><td><span class="badge badge-red">A</span></td><td>6</td><td>50.0</td><td>2</td><td>475</td><td>33.7</td></tr>
+          <tr><td>P17</td><td>Graduate</td><td><span class="badge badge-amber">B</span></td><td>9</td><td>75.0</td><td>0</td><td>381</td><td>53.8</td></tr>
+          <tr><td>P18</td><td>Practitioner</td><td><span class="badge badge-green">C</span></td><td>10</td><td>83.3</td><td>1</td><td>274</td><td>98.0</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
+
+<!-- ==================== DOMAIN MAPPING TAB ==================== -->
+<div id="domain" class="tab-content">
+  <div class="grid grid-4" style="margin-bottom:20px;">
+    <div class="card metric-card">
+      <div class="label">Senses Evaluated</div>
+      <div class="value" style="color:var(--accent)">29</div>
+    </div>
+    <div class="card metric-card">
+      <div class="label">Correct</div>
+      <div class="value" style="color:var(--green)">6</div>
+    </div>
+    <div class="card metric-card">
+      <div class="label">Incorrect</div>
+      <div class="value" style="color:var(--red)">23</div>
+    </div>
+    <div class="card metric-card">
+      <div class="label">Accuracy</div>
+      <div class="value" style="color:var(--amber)">20.7%</div>
+    </div>
+  </div>
+  <div class="card">
+    <h3>Domain Mapping Evaluation <span>(WordNet Synset → Domain)</span></h3>
+    <div style="overflow-x:auto;">
+      <table>
+        <thead><tr><th>Synset</th><th>Word</th><th>Gold Domain</th><th>Predicted</th><th>Confidence</th><th>Result</th></tr></thead>
+        <tbody>
+          <tr><td>port.n.01</td><td>port</td><td>General</td><td>General</td><td>0.210</td><td><span class="badge badge-green">✓</span></td></tr>
+          <tr><td>port.n.02</td><td>port</td><td>General</td><td>Networking</td><td>0.070</td><td><span class="badge badge-red">✗</span></td></tr>
+          <tr><td>port.n.03</td><td>port</td><td>Software/IT</td><td>Software/IT</td><td>0.221</td><td><span class="badge badge-green">✓</span></td></tr>
+          <tr><td>service.n.01</td><td>service</td><td>General</td><td>General</td><td>0.246</td><td><span class="badge badge-green">✓</span></td></tr>
+          <tr><td>service.n.04</td><td>service</td><td>Software/IT</td><td>Legal/Reg.</td><td>0.123</td><td><span class="badge badge-red">✗</span></td></tr>
+          <tr><td>service.n.07</td><td>service</td><td>Legal/Reg.</td><td>General</td><td>0.165</td><td><span class="badge badge-red">✗</span></td></tr>
+          <tr><td>record.n.01</td><td>record</td><td>Software/IT</td><td>Software/IT</td><td>0.191</td><td><span class="badge badge-green">✓</span></td></tr>
+          <tr><td>record.n.05</td><td>record</td><td>General</td><td>Software/IT</td><td>0.188</td><td><span class="badge badge-red">✗</span></td></tr>
+          <tr><td>chart.n.01</td><td>chart</td><td>General</td><td>Software/IT</td><td>0.156</td><td><span class="badge badge-red">✗</span></td></tr>
+          <tr><td>chart.n.02</td><td>chart</td><td>Healthcare</td><td>Healthcare</td><td>0.151</td><td><span class="badge badge-green">✓</span></td></tr>
+          <tr><td>order.n.01</td><td>order</td><td>Software/IT</td><td>Legal/Reg.</td><td>0.143</td><td><span class="badge badge-red">✗</span></td></tr>
+          <tr><td>order.n.02</td><td>order</td><td>Finance</td><td>Finance</td><td>0.187</td><td><span class="badge badge-green">✓</span></td></tr>
+          <tr><td>order.n.08</td><td>order</td><td>Healthcare</td><td>Finance</td><td>0.200</td><td><span class="badge badge-red">✗</span></td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
+
+<!-- ==================== INDUSTRIAL SRS TAB ==================== -->
+<div id="industrial" class="tab-content">
+  <div class="grid grid-3" style="margin-bottom:20px;">
+    <div class="card metric-card">
+      <div class="label">SRS Requirements</div>
+      <div class="value" style="color:var(--accent)">40</div>
+      <div class="ci">IEEE 830 / ISO 29148 style</div>
+    </div>
+    <div class="card metric-card">
+      <div class="label">Ambiguity Density</div>
+      <div class="value" style="color:var(--red)">94.3%</div>
+      <div class="ci">vs 28-31% in other styles</div>
+    </div>
+    <div class="card metric-card">
+      <div class="label">Candidates / Sentence</div>
+      <div class="value" style="color:var(--purple)">6.2</div>
+      <div class="ci">vs 2.4-5.3 in other styles</div>
+    </div>
+  </div>
+  <div class="grid grid-2">
+    <div class="card">
+      <h3>Cross-Specification Style Comparison</h3>
+      <div class="chart-container"><canvas id="srsChart"></canvas></div>
+    </div>
+    <div class="card">
+      <h3>Notable Industrial Ambiguities Detected</h3>
+      <table>
+        <thead><tr><th>Word</th><th>Sense A</th><th>Sense B</th><th>Type</th></tr></thead>
+        <tbody>
+          <tr><td><strong>bus</strong></td><td>CAN bus / serial data bus</td><td>Electrical power distribution bus</td><td><span class="badge badge-blue">Inter</span></td></tr>
+          <tr><td><strong>port</strong></td><td>Ethernet telemetry socket</td><td>Pneumatic/hydraulic valve port</td><td><span class="badge badge-blue">Inter</span></td></tr>
+          <tr><td><strong>state</strong></td><td>FSM software execution state</td><td>Aerospace state vector [pitch, roll, yaw]</td><td><span class="badge badge-blue">Inter</span></td></tr>
+          <tr><td><strong>channel</strong></td><td>Radio frequency comms channel</td><td>Analog ADC sensor input channel</td><td><span class="badge badge-purple">Intra</span></td></tr>
+          <tr><td><strong>driver</strong></td><td>MCU peripheral driver</td><td>Actuator servo motor driver</td><td><span class="badge badge-purple">Intra</span></td></tr>
+        </tbody>
+      </table>
+      <div style="margin-top:16px;">
+        <h3>Ambiguity Type Split</h3>
+        <div class="stat-row"><span class="stat-label">Inter-Domain</span><span class="stat-value" style="color:var(--accent)">57.5%</span></div>
+        <div class="stat-row"><span class="stat-label">Intra-Domain</span><span class="stat-value" style="color:var(--purple)">42.5%</span></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="footer">
+  Ambiguity Detection Framework Dashboard · Generated from project outputs · B.Tech Thesis 2026
+</div>
+
+<script>
+// Tab switching
+function showTab(id) {
+  document.querySelectorAll('.tab-content').forEach(el => el.classList.remove('active'));
+  document.querySelectorAll('.tab').forEach(el => el.classList.remove('active'));
+  document.getElementById(id).classList.add('active');
+  event.target.classList.add('active');
+}
+
+const chartDefaults = { color: '#94a3b8', borderColor: '#334155' };
+Chart.defaults.color = '#94a3b8';
+Chart.defaults.borderColor = '#334155';
+
+// PR Curve
+new Chart(document.getElementById('prChart'), {
+  type: 'line',
+  data: {
+    datasets: [{
+      label: 'PR Curve (AUC=0.914)',
+      data: [
+        {x:1.0,y:0.697},{x:0.869,y:0.876},{x:0.852,y:0.874},{x:0.836,y:0.872},{x:0.828,y:0.871},{x:0.820,y:0.870},
+        {x:0.803,y:0.867},{x:0.787,y:0.865},{x:0.787,y:0.873},{x:0.762,y:0.886},{x:0.762,y:0.894},{x:0.754,y:0.893},
+        {x:0.738,y:0.909},{x:0.721,y:0.907},{x:0.705,y:0.905},{x:0.697,y:0.904},{x:0.689,y:0.903},{x:0.680,y:0.902},
+        {x:0.672,y:0.901},{x:0.648,y:0.898},{x:0.631,y:0.895},{x:0.598,y:0.890},{x:0.590,y:0.889},{x:0.590,y:0.900},
+        {x:0.582,y:0.899},{x:0.574,y:0.897},{x:0.574,y:0.921},{x:0.574,y:0.933},{x:0.566,y:0.932},{x:0.557,y:0.932},
+        {x:0.541,y:0.930},{x:0.533,y:0.929},{x:0.525,y:0.928},{x:0.500,y:0.924},{x:0.484,y:0.922},{x:0.475,y:0.921},
+        {x:0.467,y:0.919},{x:0.451,y:0.917},{x:0.443,y:0.915},{x:0.434,y:0.914},{x:0.434,y:0.946},{x:0.418,y:0.944},
+        {x:0.402,y:0.942},{x:0.393,y:0.941},{x:0.393,y:0.980},{x:0.385,y:0.979},{x:0.377,y:0.979},{x:0.369,y:0.978},
+        {x:0.361,y:0.978},{x:0.344,y:0.977},{x:0.336,y:0.976},{x:0.328,y:0.976},{x:0.328,y:1.0},{x:0.320,y:1.0},
+        {x:0.311,y:1.0},{x:0.295,y:1.0},{x:0.279,y:1.0},{x:0.270,y:1.0},{x:0.262,y:1.0},{x:0.246,y:1.0},
+        {x:0.238,y:1.0},{x:0.230,y:1.0},{x:0.221,y:1.0},{x:0.213,y:1.0},{x:0.197,y:1.0},{x:0.189,y:1.0},
+        {x:0.172,y:1.0},{x:0.156,y:1.0},{x:0.148,y:1.0},{x:0.131,y:1.0},{x:0.123,y:1.0},{x:0.107,y:1.0},
+        {x:0.082,y:1.0},{x:0.074,y:1.0},{x:0.066,y:1.0},{x:0.049,y:1.0},{x:0.033,y:1.0},{x:0.025,y:1.0},
+        {x:0.016,y:1.0},{x:0.008,y:1.0},{x:0.0,y:1.0}
+      ],
+      borderColor: '#3b82f6', backgroundColor: 'rgba(59,130,246,0.1)', fill: true, tension: 0.3, pointRadius: 0, borderWidth: 2
+    },{
+      label: 'Operating Point (τ*=0.39)',
+      data: [{x:0.705, y:0.905}],
+      pointRadius: 8, pointBackgroundColor: '#ef4444', pointBorderColor: '#fff', pointBorderWidth: 2, showLine: false
+    }]
+  },
+  options: { responsive: true, maintainAspectRatio: false, scales: { x: { title: { display: true, text: 'Recall' }, min: 0, max: 1 }, y: { title: { display: true, text: 'Precision' }, min: 0.5, max: 1.05 } }, plugins: { legend: { position: 'bottom' } } }
+});
+
+// Weights Bar Chart
+new Chart(document.getElementById('weightsChart'), {
+  type: 'bar',
+  data: {
+    labels: ['w_spread (Semantic Spread)', 'w_polysemy (Baseline Polysemy)', 'w_diversity (Domain Diversity)'],
+    datasets: [{ data: [0.353, 0.392, 0.255], backgroundColor: ['#3b82f6', '#a855f7', '#06b6d4'], borderRadius: 6, barThickness: 40 }]
+  },
+  options: { indexAxis: 'y', responsive: true, maintainAspectRatio: false, plugins: { legend: { display: false } }, scales: { x: { max: 0.5 } } }
+});
+
+// Baseline F1 Chart
+new Chart(document.getElementById('baselineChart'), {
+  type: 'bar',
+  data: {
+    labels: ['Proposed', 'Polysemy', 'Spread', 'No Gloss.', 'Lesk', 'SBERT*', 'LLM*'],
+    datasets: [{ label: 'F1-Score', data: [0.793, 0.857, 0.811, 0.787, 0.822, 0.821, 0.870], backgroundColor: ['#3b82f6','#64748b','#64748b','#64748b','#64748b','#f59e0b','#f59e0b'], borderRadius: 6 }]
+  },
+  options: { responsive: true, maintainAspectRatio: false, plugins: { legend: { display: false } }, scales: { y: { min: 0.7, max: 0.95 } } }
+});
+
+// Type Accuracy Chart
+new Chart(document.getElementById('typeAccChart'), {
+  type: 'bar',
+  data: {
+    labels: ['Proposed', 'Polysemy', 'Spread', 'No Gloss.', 'Lesk', 'SBERT*', 'LLM*'],
+    datasets: [{ label: 'Type Acc', data: [0.393, 0.295, 0.385, 0.385, 0.328, 0.607, 0.680], backgroundColor: ['#a855f7','#64748b','#64748b','#64748b','#64748b','#f59e0b','#f59e0b'], borderRadius: 6 }]
+  },
+  options: { responsive: true, maintainAspectRatio: false, plugins: { legend: { display: false } }, scales: { y: { min: 0, max: 0.8 } } }
+});
+
+// Trade-off scatter
+new Chart(document.getElementById('tradeoffChart'), {
+  type: 'scatter',
+  data: {
+    datasets: [{
+      label: 'Models',
+      data: [
+        {x:0, y:0.793, label:'Proposed'}, {x:0.1, y:0.857}, {x:0, y:0.811}, {x:16.5, y:0.787},
+        {x:0.1, y:0.822}, {x:45, y:0.821}, {x:850, y:0.870}
+      ],
+      backgroundColor: ['#3b82f6','#64748b','#64748b','#64748b','#64748b','#f59e0b','#f59e0b'],
+      pointRadius: [10,7,7,7,7,7,7],
+      pointBorderWidth: 2, pointBorderColor: '#fff'
+    }]
+  },
+  options: { responsive: true, maintainAspectRatio: false, scales: { x: { type:'logarithmic', title:{display:true,text:'Inference Latency (ms, log)'}, min:0.01, max:1000 }, y: { title:{display:true,text:'F1-Score'}, min:0.7, max:0.95 } }, plugins:{ legend:{display:false} } }
+});
+
+// Label Distribution Doughnut
+new Chart(document.getElementById('labelChart'), {
+  type: 'doughnut',
+  data: {
+    labels: ['Inter-Domain (110)', 'Intra-Domain (64)', 'None / Unambiguous (76)'],
+    datasets: [{ data: [110, 64, 76], backgroundColor: ['#3b82f6', '#a855f7', '#22c55e'], borderColor: '#1e293b', borderWidth: 3 }]
+  },
+  options: { responsive: true, maintainAspectRatio: false, plugins: { legend: { position: 'bottom' } }, cutout: '55%' }
+});
+
+// Split Pie
+new Chart(document.getElementById('splitChart'), {
+  type: 'pie',
+  data: {
+    labels: ['Development Set (75)', 'Held-Out Test Set (175)'],
+    datasets: [{ data: [75, 175], backgroundColor: ['#f59e0b', '#3b82f6'], borderColor: '#1e293b', borderWidth: 3 }]
+  },
+  options: { responsive: true, maintainAspectRatio: false, plugins: { legend: { position: 'bottom' } } }
+});
+
+// User Study Detection
+new Chart(document.getElementById('userDetChart'), {
+  type: 'bar',
+  data: {
+    labels: ['P01','P04','P07','P10','P13','P16','P02','P05','P08','P11','P14','P17','P03','P06','P09','P12','P15','P18'],
+    datasets: [{
+      label: 'Detection Rate %',
+      data: [41.7,41.7,50.0,41.7,33.3,50.0, 66.7,66.7,75.0,66.7,66.7,75.0, 83.3,91.7,75.0,91.7,91.7,83.3],
+      backgroundColor: ['#ef4444','#ef4444','#ef4444','#ef4444','#ef4444','#ef4444','#f59e0b','#f59e0b','#f59e0b','#f59e0b','#f59e0b','#f59e0b','#22c55e','#22c55e','#22c55e','#22c55e','#22c55e','#22c55e'],
+      borderRadius: 4
+    }]
+  },
+  options: { responsive: true, maintainAspectRatio: false, plugins: { legend: { display: false } }, scales: { y: { min: 0, max: 100, title:{display:true,text:'Detection Rate %'} } } }
+});
+
+// User Study Remediation
+new Chart(document.getElementById('userRemChart'), {
+  type: 'bar',
+  data: {
+    labels: ['Cond. A (Manual)', 'Cond. B (Flag-Only)', 'Cond. C (Full Tool)'],
+    datasets: [{
+      label: 'Avg Remediation Accuracy %',
+      data: [36.5, 49.8, 92.9],
+      backgroundColor: ['#ef4444', '#f59e0b', '#22c55e'], borderRadius: 6, barThickness: 60
+    }]
+  },
+  options: { responsive: true, maintainAspectRatio: false, plugins: { legend: { display: false } }, scales: { y: { min: 0, max: 100 } } }
+});
+
+// Industrial SRS Comparison
+new Chart(document.getElementById('srsChart'), {
+  type: 'bar',
+  data: {
+    labels: ['Agile User Stories', 'Clinical / EHR', 'Industrial SRS (IEEE 830)'],
+    datasets: [
+      { label: 'Ambiguity Density %', data: [28.6, 30.1, 94.3], backgroundColor: '#3b82f6', borderRadius: 4 },
+      { label: 'Intra-Domain %', data: [64.2, 66.5, 42.5], backgroundColor: '#a855f7', borderRadius: 4 },
+      { label: 'Inter-Domain %', data: [35.8, 33.5, 57.5], backgroundColor: '#06b6d4', borderRadius: 4 }
+    ]
+  },
+  options: { responsive: true, maintainAspectRatio: false, plugins: { legend: { position: 'bottom' } }, scales: { y: { min: 0, max: 100 } } }
+});
+</script>
+</body>
+</html>
+

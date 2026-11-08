@@ -1,0 +1,34 @@
+HELD-OUT TEST SET EVALUATION SUMMARY (Review Item 2)
+============================================================
+Benchmark Split: 30% Dev (N = 75) / 70% Test (N = 175)
+Hyperparameters Tuned on Dev:
+  - Operating Threshold tau*: 0.39
+  - Learned Feature Weights:
+      w_spread:     0.353
+      w_polysemy:   0.392
+      w_diversity:  0.255
+
+Headline Metrics on Held-Out Test Set (Evaluated ONCE):
+  - Accuracy:   74.29%  (95% CI: [67.4%, 80.6%])
+  - Precision:  90.53%  (95% CI: [84.5%, 95.9%])
+  - Recall:     70.49%  (95% CI: [62.1%, 78.4%])
+  - F1-Score:   79.26%  (95% CI: [72.8%, 84.6%])
+  - PR-AUC:     0.914
+
+Confusion Matrix (Detection):
+  TP: 86  FP: 9  FN: 36  TN: 44
+
+Inter- vs Intra-Domain Classification (Truly Ambiguous Cases):
+  - Accuracy:   39.34% (48/122)  (95% CI: [30.6%, 47.8%])
+
+Classification Report (All 3 Classes):
+              precision    recall  f1-score   support
+
+Inter-Domain       0.59      0.45      0.51        77
+Intra-Domain       0.36      0.29      0.32        45
+        None       0.55      0.83      0.66        53
+
+    accuracy                           0.53       175
+   macro avg       0.50      0.52      0.50       175
+weighted avg       0.52      0.53      0.51       175
+

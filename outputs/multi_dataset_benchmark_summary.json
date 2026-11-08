@@ -1,0 +1,112 @@
+[
+  {
+    "dataset_id": "ds1_usaspending_broker",
+    "dataset_title": "USASpending & Broker System",
+    "sentences_count": 98,
+    "candidate_words_count": 598,
+    "flagged_count": 181,
+    "inter_domain_count": 65,
+    "intra_domain_count": 116,
+    "operating_threshold": 0.69,
+    "top_words": {
+      "know": 9,
+      "page": 7,
+      "submit": 6,
+      "round": 5,
+      "leadership": 5,
+      "member": 4,
+      "time": 4,
+      "date": 4,
+      "accept": 4,
+      "field": 4
+    }
+  },
+  {
+    "dataset_id": "ds2_county_services",
+    "dataset_title": "County & Municipal Services",
+    "sentences_count": 58,
+    "candidate_words_count": 555,
+    "flagged_count": 204,
+    "inter_domain_count": 102,
+    "intra_domain_count": 102,
+    "operating_threshold": 0.734,
+    "top_words": {
+      "staff": 43,
+      "review": 19,
+      "application": 13,
+      "service": 9,
+      "manage": 7,
+      "assign": 6,
+      "issue": 6,
+      "track": 6,
+      "relate": 6,
+      "send": 5
+    }
+  },
+  {
+    "dataset_id": "ds3_recycling_app",
+    "dataset_title": "Smart Recycling & Waste Management",
+    "sentences_count": 51,
+    "candidate_words_count": 347,
+    "flagged_count": 104,
+    "inter_domain_count": 32,
+    "intra_domain_count": 72,
+    "operating_threshold": 0.729,
+    "top_words": {
+      "time": 5,
+      "center": 5,
+      "drop": 4,
+      "feature": 4,
+      "add": 4,
+      "company": 4,
+      "know": 4,
+      "create": 3,
+      "access": 3,
+      "work": 3
+    }
+  },
+  {
+    "dataset_id": "ds4_open_spending",
+    "dataset_title": "OpenSpending Fiscal Data Platform",
+    "sentences_count": 53,
+    "candidate_words_count": 387,
+    "flagged_count": 116,
+    "inter_domain_count": 43,
+    "intra_domain_count": 73,
+    "operating_threshold": 0.715,
+    "top_words": {
+      "platform": 8,
+      "view": 8,
+      "measure": 6,
+      "work": 6,
+      "state": 5,
+      "change": 4,
+      "use": 4,
+      "order": 4,
+      "convert": 4,
+      "share": 4
+    }
+  },
+  {
+    "dataset_id": "ds5_data_packages",
+    "dataset_title": "Data Packages & Frictionless Tooling",
+    "sentences_count": 66,
+    "candidate_words_count": 367,
+    "flagged_count": 110,
+    "inter_domain_count": 28,
+    "intra_domain_count": 82,
+    "operating_threshold": 0.718,
+    "top_words": {
+      "analysis": 16,
+      "start": 12,
+      "add": 6,
+      "know": 5,
+      "line": 4,
+      "trust": 3,
+      "feel": 3,
+      "reference": 3,
+      "create": 3,
+      "clean": 3
+    }
+  }
+]

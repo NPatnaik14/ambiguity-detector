@@ -1,0 +1,176 @@
+item_id,word,sentence,domain,gold_label,gold_is_ambig,spread,baseline_polysemy,domain_diversity,ambiguity_score,predicted_type,predicted_is_ambig,predicted_label,is_correct
+GS-104,contract,The microservice API contract shall specify JSON schema request and response structures.,Software/IT,Intra-Domain,True,0.7950954580361502,0.1,0.5,0.44718955523113957,,True,Inter-Domain,False
+GS-228,driver,The logistical supervisor must strictly assign a delivery driver to the truck route.,General,Inter-Domain,True,0.8120973712570276,0.3,0.5,0.5316783484186434,,True,Inter-Domain,True
+GS-061,tax,The resident shall pay the annual county property tax via debit card.,Finance/Business,None,False,0.0,0.0,0.0,0.0,None,False,None,True
+GS-078,fiscal,The system shall calculate expenditure totals for the current fiscal year.,Finance/Business,None,False,0.0,0.0,0.0,0.0,None,False,None,True
+GS-086,descriptor,The datapackage.json file shall serve as the central metadata descriptor.,Software/IT,None,False,0.0,0.0,0.0,0.0,None,False,None,True
+GS-056,profile,"As a user, I want to update my resident profile contact information.",Software/IT,Intra-Domain,True,0.7243809492091118,0.3,0.5,0.5007157590061801,,True,Inter-Domain,False
+GS-218,fiscal,The system must strictly calculate expenditure totals for the current fiscal year.,Finance/Business,None,False,0.0,0.0,0.0,0.0,None,False,None,True
+GS-172,hospital,"In accordance with system specifications, the patient was transferred from the regional hospital.",Healthcare,None,False,0.0,0.0,0.0,0.0,None,False,None,True
+GS-038,submission,"As a Developer, I want to prevent users from double publishing FABS submissions.",Finance/Business,Inter-Domain,True,0.5,0.5,1.0,0.6272890252346663,,True,Inter-Domain,True
+GS-117,cell,The spreadsheeting engine shall recalculate formula dependencies for each modified cell.,Software/IT,Inter-Domain,True,0.8107173741358615,0.5,0.0,0.4823895760360519,,True,Intra-Domain,False
+GS-110,sample,The statistics engine shall draw a random sample of 500 rows from the dataset.,Software/IT,Intra-Domain,True,0.5407826053033478,0.1,0.0,0.23013188397057122,,False,None,False
+GS-039,header,"As a Developer, I want to update the sample file to remove FundingAgencyCode header.",Software/IT,Inter-Domain,True,0.7661421668329753,0.5,0.5,0.5939442175661394,,True,Intra-Domain,False
+GS-154,screen,The nurse must strictly perform a routine vision screen during annual checkup.,Healthcare,Inter-Domain,True,0.9227256219407656,0.7,0.5,0.7277032143267231,,True,Inter-Domain,True
+GS-199,resident,"As a county resident, I need to urgently locate the nearest polling place.",General,None,False,0.0,0.0,0.0,0.0,None,False,None,True
+GS-076,statement,"As an accountant, I want to print the monthly financial bank statement.",Finance/Business,Inter-Domain,True,0.9967189253677944,0.5,0.5,0.6753343761691704,,True,Inter-Domain,True
+GS-141,record,The system must strictly create a single patient record for each encounter.,Healthcare,Intra-Domain,True,0.9381897435212684,0.6,0.0,0.5666291078572734,,True,Intra-Domain,True
+GS-167,physician,The physician must strictly sign the electronic prescription.,Healthcare,None,False,0.0,0.0,0.0,0.0,None,False,None,True
+GS-243,contract,The vendor must strictly sign a three-year service level contract with explicit SLA penalties.,Legal/Regulatory,Inter-Domain,True,0.7950954580361502,0.1,0.5,0.44718955523113957,,True,Inter-Domain,True
+GS-125,surgeon,The orthopedic surgeon shall perform the joint replacement procedure.,Healthcare,None,False,0.0,0.0,0.0,0.0,None,False,None,True
+GS-023,flag,The system shall raise an alert flag when drug interactions are detected.,Healthcare,Intra-Domain,True,0.5,0.5,0.5,0.5,,True,Inter-Domain,False
+GS-026,patient,The system shall display the patient name on the header.,Healthcare,None,False,0.0,0.0,0.0,0.0,None,False,None,True
+GS-058,portal,"As a citizen, I want the county portal to display news announcements.",Software/IT,Intra-Domain,True,0.0,0.0,0.0,0.0,None,False,None,False
+GS-168,allergy,The application must strictly store documented drug allergies.,Healthcare,None,False,0.0,0.0,0.0,0.0,None,False,None,True
+GS-210,aluminum,"In accordance with system specifications, the recycling drop-off accepts crushed aluminum beverage cans.",General,None,False,0.0,0.0,0.0,0.0,None,False,None,True
+GS-132,latency,The round trip network latency between servers shall remain below 15 milliseconds.,Networking,None,False,0.9225085709428065,0.1,0.5,0.4921644847664278,,True,Inter-Domain,False
+GS-184,extension,"As an Agency user, I need to urgently receive an error when I upload a file with the wrong extension.",Software/IT,Intra-Domain,True,0.9716929559905221,1.0,0.5,0.8627190101972027,,True,Intra-Domain,True
+GS-230,socket,The motherboard must strictly house a LGA-1700 processor socket.,Software/IT,Intra-Domain,True,0.8764748568485561,0.1,0.5,0.4759152699061545,,True,Inter-Domain,False
+GS-054,permit,"As a contractor, I want to apply for a building permit through the county portal.",Legal/Regulatory,Inter-Domain,True,0.776122899279211,0.1,0.5,0.4404925248099255,,True,Inter-Domain,True
+GS-041,file,"As a Website user, I want to access published FABS files directly.",Software/IT,Intra-Domain,True,0.5,0.2,0.5,0.3822689431032251,,False,None,False
+GS-101,client,The attorney shall represent the corporate client during contract negotiations.,Legal/Regulatory,Inter-Domain,True,0.9573733315187034,0.1,0.5,0.5044712255279884,,True,Intra-Domain,False
+GS-034,immunization,The system shall track pediatric immunization records.,Healthcare,None,False,0.0,0.0,0.0,0.0,None,False,None,True
+GS-084,metadata,The repository shall index dataset metadata for search discovery.,Software/IT,None,False,0.0,0.0,0.0,0.0,None,False,None,True
+GS-197,request,"As a citizen, I need to urgently submit a service request for road maintenance.",Software/IT,Intra-Domain,True,0.0,0.0,0.0,0.0,None,False,None,False
+GS-225,repository,The researcher must strictly push code and datasets to the remote git repository.,Software/IT,None,False,0.5,0.1,0.5,0.3430252574709668,,False,None,True
+GS-029,medication,The nurse shall administer the prescribed medication dosage.,Healthcare,None,False,0.0,0.0,0.0,0.0,None,False,None,True
+GS-190,staging,"As an Owner, I need to urgently reset the environment to only accept Staging permissions.",Software/IT,Intra-Domain,True,0.7941088814670545,0.2,0.5,0.48608499404119876,,True,Inter-Domain,False
+GS-194,permit,"As a contractor, I need to urgently apply for a building permit through the county portal.",Legal/Regulatory,Inter-Domain,True,0.7761228992792111,0.1,0.5,0.4404925248099256,,True,Inter-Domain,True
+GS-152,system,The respiratory system must strictly be evaluated by the attending physician.,Healthcare,Inter-Domain,True,0.5,0.7,1.0,0.7057763964991828,,True,Inter-Domain,True
+GS-055,property,"As a homeowner, I want to check my real estate property valuation.",Finance/Business,Inter-Domain,True,0.8788463510852197,0.3,0.5,0.5552397432848423,,True,Inter-Domain,True
+GS-159,log,The EHR system must strictly maintain a tamper-evident audit log of patient record accesses.,Healthcare,Intra-Domain,True,0.7569092404911052,0.3,0.5,0.5121977609362542,,True,Intra-Domain,True
+GS-214,claim,"As an insurer, I need to urgently verify the reimbursement claim against policy limits.",Finance/Business,Inter-Domain,True,0.9564131882504229,0.4,0.5,0.6218633661637162,,True,Intra-Domain,False
+GS-169,medication,The nurse must strictly administer the prescribed medication dosage.,Healthcare,None,False,0.0,0.0,0.0,0.0,None,False,None,True
+GS-015,table,The system shall load reference ranges into a lookup table.,Healthcare,Inter-Domain,True,0.8855749281784557,0.4,0.5,0.5968585163295144,,True,Intra-Domain,False
+GS-059,resident,"As a county resident, I want to locate the nearest polling place.",General,None,False,0.0,0.0,0.0,0.0,None,False,None,True
+GS-025,form,The system shall display an intake form for new patient registrations.,Healthcare,Intra-Domain,True,0.8337617641281927,1.0,0.5,0.8140313555813762,,True,Inter-Domain,False
+GS-102,client,The browser shall act as an HTTP client sending GET requests to the origin server.,Software/IT,Intra-Domain,True,0.9573733315187035,0.1,0.5,0.5044712255279884,,True,Intra-Domain,True
+GS-217,currency,The application must strictly format all expenditure figures in US currency.,Finance/Business,None,False,0.9146595745270247,0.1,0.5,0.4893939060350132,,True,Intra-Domain,False
+GS-007,provider,The system shall display the primary care provider associated with the account.,Healthcare,Inter-Domain,True,0.9458615061493998,0.0,1.0,0.5884530623794175,,True,Inter-Domain,True
+GS-143,note,The system must strictly provide the ability to cosign a clinical note and record timestamp.,Healthcare,Inter-Domain,True,0.9721989618943379,0.7,0.5,0.74516656584155,,True,Inter-Domain,True
+GS-115,node,The cluster scheduler shall deploy the pod container onto the healthiest worker node.,Software/IT,Intra-Domain,True,0.8670528026968188,0.6,0.5,0.6688078534044835,,True,Inter-Domain,False
+GS-074,claim,"As an insurer, I want to verify the reimbursement claim against policy limits.",Finance/Business,Inter-Domain,True,0.9564131882504228,0.4,0.5,0.6218633661637162,,True,Intra-Domain,False
+GS-240,gateway,The payment gateway must strictly process Visa and Mastercard transactions securely.,Finance/Business,Inter-Domain,True,0.0,0.0,0.0,0.0,None,False,None,False
+GS-187,homepage,"As a UI designer, I need to urgently redesign the homepage to match modern standards.",Software/IT,None,False,0.0,0.0,0.0,0.0,None,False,None,True
+GS-062,item,"As a user, I want to search for recyclable items by barcode.",General,Inter-Domain,True,0.8332586879098349,0.3,0.0,0.41185895251507404,,True,Intra-Domain,False
+GS-238,token,The transit passenger must strictly deposit a brass fare token into the turnstile.,General,Inter-Domain,True,0.0,0.0,0.0,0.0,None,False,None,False
+GS-165,form,The system must strictly display an intake form for new patient registrations.,Healthcare,Intra-Domain,True,0.8337617641281927,1.0,0.5,0.8140313555813762,,True,Inter-Domain,False
+GS-174,immunization,The system must strictly track pediatric immunization records.,Healthcare,None,False,0.0,0.0,0.0,0.0,None,False,None,True
+GS-020,service,The EHR platform shall expose a FHIR web service for interoperability.,Healthcare,Intra-Domain,True,0.9354623516880011,1.0,0.5,0.8499301469604921,,True,Intra-Domain,True
+GS-051,service,"As a resident, I want to request a county transit service online.",General,Inter-Domain,True,0.935462351688001,1.0,0.5,0.8499301469604921,,True,Intra-Domain,False
+GS-018,field,The system shall require the diagnosis description field on the submission form.,Healthcare,Intra-Domain,True,0.9790956659315143,1.0,0.5,0.8653320564557163,,True,Inter-Domain,False
+GS-028,allergy,The application shall store documented drug allergies.,Healthcare,None,False,0.0,0.0,0.0,0.0,None,False,None,True
+GS-091,channel,The system shall broadcast notifications across the Slack alert channel.,Software/IT,Intra-Domain,True,0.9895408516329961,0.6,0.5,0.7120443087750964,,True,Intra-Domain,True
+GS-246,policy,The patient must strictly provide proof of active private health insurance policy coverage.,Finance/Business,Inter-Domain,True,0.6284015521634017,0.1,0.5,0.38834909132942785,,False,None,False
+GS-071,scanner,The handheld scanner shall beep upon successful code capture.,Software/IT,None,False,0.5,0.2,0.5,0.3822689431032251,,False,None,True
+GS-064,bin,"As a user, I want to know which colored bin accepts glass bottles.",General,Inter-Domain,True,0.5,0.1,0.5,0.3430252574709668,,False,None,False
+GS-085,repository,The researcher shall push code and datasets to the remote git repository.,Software/IT,None,False,0.5,0.1,0.5,0.3430252574709668,,False,None,True
+GS-188,upload,"As a user, I need to urgently upload the annual financial report in CSV format.",Software/IT,None,False,0.0,0.0,0.0,0.0,None,False,None,True
+GS-158,field,The system must strictly require the diagnosis description field on the submission form.,Healthcare,Intra-Domain,True,0.9790956659315143,1.0,0.5,0.8653320564557163,,True,Inter-Domain,False
+GS-044,extension,"As an Agency user, I want to receive an error when I upload a file with the wrong extension.",Software/IT,Intra-Domain,True,0.9597559931503054,1.0,0.5,0.8585054402564274,,True,Inter-Domain,False
+GS-229,socket,The telemetry daemon must strictly open a TCP socket on port 8080.,Networking,Inter-Domain,True,0.876474856848556,0.1,0.5,0.4759152699061545,,True,Inter-Domain,True
+GS-146,code,The medical coder must strictly assign a diagnostic code to the hospital visit.,Healthcare,Inter-Domain,True,0.8131102970085915,0.1,0.0,0.3262594996102891,,False,None,False
+GS-120,spine,The orthopedic surgeon shall inspect the thoracic spine MRI for vertebrae fractures.,Healthcare,Inter-Domain,True,0.5,0.3,1.0,0.5488016539701497,,True,Inter-Domain,True
+GS-171,dosage,The system must strictly prevent entering a dosage exceeding maximum safety guidelines.,Healthcare,None,False,0.0,0.0,0.0,0.0,None,False,None,True
+GS-204,bin,"As a user, I need to urgently know which colored bin accepts glass bottles.",General,Inter-Domain,True,0.5,0.1,0.5,0.3430252574709668,,False,None,False
+GS-092,channel,The cargo vessel shall navigate the deep water harbor channel.,General,Inter-Domain,True,0.7306165183163337,0.6,0.0,0.4933588536108069,,True,Intra-Domain,False
+GS-105,policy,The firewall shall enforce a security policy blocking unauthorized egress traffic.,Software/IT,Intra-Domain,True,0.9856756662573514,0.1,0.5,0.5144615277937165,,True,Inter-Domain,False
+GS-239,bridge,The network switch must strictly bridge packets between VLAN 10 and VLAN 20.,Networking,Inter-Domain,True,0.945048588162741,0.1,0.0,0.3728317496110519,,False,None,False
+GS-093,pipeline,The CI/CD server shall execute the automated test pipeline on every pull request.,Software/IT,Intra-Domain,True,0.0,0.0,0.0,0.0,None,False,None,False
+GS-024,queue,The system shall place outbound laboratory orders into the messaging queue.,Healthcare,Intra-Domain,True,0.9945997055123307,0.1,1.0,0.6449006058565943,,True,Inter-Domain,False
+GS-186,agency,"As an Agency user, I need to urgently see updated financial assistance data daily.",Finance/Business,None,False,0.8654679940592606,0.3,0.5,0.550517382683063,,True,Inter-Domain,False
+GS-090,socket,The motherboard shall house a LGA-1700 processor socket.,Software/IT,Intra-Domain,True,0.8764748568485561,0.1,0.5,0.4759152699061545,,True,Inter-Domain,False
+GS-249,sample,The pathology lab must strictly stain the biopsy tissue sample for microscopic examination.,Healthcare,Inter-Domain,True,0.9833469997915592,0.1,0.0,0.3863505180095719,,False,None,False
+GS-237,token,The identity provider must strictly issue a signed JSON Web Token upon successful MFA authentication.,Software/IT,Intra-Domain,True,0.0,0.0,0.0,0.0,None,False,None,False
+GS-073,transaction,"As an auditor, I want to inspect each line item financial transaction.",Finance/Business,Inter-Domain,True,0.5,0.0,0.0,0.17649254660404218,,False,None,False
+GS-031,dosage,The system shall prevent entering a dosage exceeding maximum safety guidelines.,Healthcare,None,False,0.0,0.0,0.0,0.0,None,False,None,True
+GS-182,schedule,"As an Owner, I need to urgently design a schedule from the UI SME for upcoming milestones.",Software/IT,Intra-Domain,True,0.0,0.0,0.0,0.0,None,False,None,False
+GS-097,token,The identity provider shall issue a signed JSON Web Token upon successful MFA authentication.,Software/IT,Intra-Domain,True,0.0,0.0,0.0,0.0,None,False,None,False
+GS-215,rate,"As a procurement officer, I need to urgently calculate the currency exchange rate.",Finance/Business,Inter-Domain,True,0.9951440293712354,0.2,0.5,0.5570474044622571,,True,Inter-Domain,True
+GS-052,license,"As a business owner, I want to renew my commercial operating license.",Legal/Regulatory,Inter-Domain,True,0.6588632800624434,0.2,0.5,0.4383453128234087,,True,Inter-Domain,True
+GS-129,firewall,The network administrator shall configure the hardware firewall to drop ICMP echo requests.,Networking,None,False,0.8498427597762725,0.1,0.0,0.33922551140410145,,False,None,True
+GS-224,metadata,The repository must strictly index dataset metadata for search discovery.,Software/IT,None,False,0.0,0.0,0.0,0.0,None,False,None,True
+GS-027,physician,The physician shall sign the electronic prescription.,Healthcare,None,False,0.0,0.0,0.0,0.0,None,False,None,True
+GS-136,compliance,The architecture shall maintain full compliance with HIPAA security standards.,Legal/Regulatory,None,False,0.8977455235979397,0.1,0.5,0.48342349819128383,,True,Inter-Domain,False
+GS-069,glass,The user shall indicate whether the container is green or brown glass.,General,None,False,0.9305317962443542,0.5,0.0,0.524682280991691,,True,Intra-Domain,False
+GS-003,note,The system shall provide the ability to cosign a clinical note and record timestamp.,Healthcare,Inter-Domain,True,0.9721989618943379,0.7,0.5,0.74516656584155,,True,Inter-Domain,True
+GS-161,review,The physician must strictly complete a medication review before prescribing.,Healthcare,Intra-Domain,True,0.8677438286862365,0.8,1.0,0.8748281717769502,,True,Inter-Domain,False
+GS-211,scanner,The handheld scanner must strictly beep upon successful code capture.,Software/IT,None,False,0.5,0.2,0.5,0.3822689431032251,,False,None,True
+GS-232,channel,The cargo vessel must strictly navigate the deep water harbor channel.,General,Inter-Domain,True,0.7306165183163336,0.6,0.0,0.4933588536108068,,True,Intra-Domain,False
+GS-016,session,The clinician shall terminate the authentication session upon stepping away.,Healthcare,Intra-Domain,True,0.8885901530724625,0.2,0.5,0.5194354745052521,,True,Intra-Domain,True
+GS-245,policy,The firewall must strictly enforce a security policy blocking unauthorized egress traffic.,Software/IT,Intra-Domain,True,0.9856756662573514,0.1,0.5,0.5144615277937165,,True,Inter-Domain,False
+GS-008,discharge,The system shall generate a discharge summary upon patient departure.,Healthcare,Inter-Domain,True,0.9159212847913498,0.7,0.5,0.7253013847438174,,True,Inter-Domain,True
+GS-231,channel,The system must strictly broadcast notifications across the Slack alert channel.,Software/IT,Intra-Domain,True,0.9895408516329961,0.6,0.5,0.7120443087750964,,True,Intra-Domain,True
+GS-112,register,The clinical nurse shall register the newly arrived trauma patient at the triage desk.,Healthcare,Inter-Domain,True,0.9802676468587797,0.8,0.5,0.7872583769880486,,True,Intra-Domain,False
+GS-150,encounter,The EHR system must strictly log each patient encounter within 24 hours.,Healthcare,Inter-Domain,True,0.8458403565341034,0.2,0.5,0.5043454335895327,,True,Inter-Domain,True
+GS-098,token,The transit passenger shall deposit a brass fare token into the turnstile.,General,Inter-Domain,True,0.0,0.0,0.0,0.0,None,False,None,False
+GS-122,password,The authentication service shall require passwords to contain at least 12 characters.,Software/IT,None,False,0.0,0.0,0.0,0.0,None,False,None,True
+GS-205,material,"As a user, I need to urgently know the material composition of the packaging.",General,Inter-Domain,True,0.0,0.0,0.0,0.0,None,False,None,False
+GS-045,balance,"As an agency user, I want the transaction balance to reconcile with the ledger.",Finance/Business,Inter-Domain,True,0.9793979125383107,1.0,0.5,0.8654387450023882,,True,Intra-Domain,False
+GS-234,pipeline,The utility company must strictly monitor oil flow velocity across the trans-continental pipeline.,General,Inter-Domain,True,0.0,0.0,0.0,0.0,None,False,None,False
+GS-221,package,"As a researcher, I need to urgently publish a frictionless data package with metadata.",Software/IT,Inter-Domain,True,0.9730275106123404,0.1,0.5,0.5099969173944519,,True,Inter-Domain,True
+GS-083,resource,"As a data curator, I want to link multiple tabular resources in one dataset.",Software/IT,Inter-Domain,True,0.5,0.1,0.5,0.3430252574709668,,False,None,False
+GS-114,charge,The device battery shall accept a fast charge via USB Power Delivery.,General,Inter-Domain,True,0.8451403782265566,1.0,1.0,0.9453368619741322,,True,Inter-Domain,True
+GS-002,chart,The physician shall be able to view the patient chart from any authorized terminal.,Healthcare,Inter-Domain,True,0.9231807659130622,0.0,0.0,0.32586904870373296,,False,None,False
+GS-075,rate,"As a procurement officer, I want to calculate the currency exchange rate.",Finance/Business,Inter-Domain,True,0.9951440293712354,0.2,0.5,0.5570474044622571,,True,Inter-Domain,True
+GS-170,clinic,The outpatient clinic must strictly operate between 8 AM and 5 PM.,Healthcare,None,False,0.539049748758011,0.1,0.5,0.35680923667606557,,False,None,True
+GS-138,statute,The legal counsel shall cite the relevant state privacy statute in the disclosures.,Legal/Regulatory,None,False,0.0,0.0,0.0,0.0,None,False,None,True
+GS-119,spine,The datacenter shall deploy redundant 400GbE spine switches in the leaf-spine fabric.,Networking,Inter-Domain,True,0.5,0.3,1.0,0.5488016539701497,,True,Inter-Domain,True
+GS-131,bandwidth,The telemetry link shall require a minimum network bandwidth of 10 megabits per second.,Networking,None,False,0.0,0.0,0.0,0.0,None,False,None,True
+GS-108,batch,The pharmaceutical compounding lab shall prepare a sterile batch of penicillin vials.,Healthcare,Inter-Domain,True,0.9653133783070887,0.1,0.5,0.5072739436836631,,True,Intra-Domain,False
+GS-163,flag,The system must strictly raise an alert flag when drug interactions are detected.,Healthcare,Intra-Domain,True,0.5,0.5,0.5,0.5,,True,Inter-Domain,False
+GS-195,property,"As a homeowner, I need to urgently check my real estate property valuation.",Finance/Business,Inter-Domain,True,0.8788463510852198,0.3,0.5,0.5552397432848424,,True,Inter-Domain,True
+GS-166,patient,The system must strictly display the patient name on the header.,Healthcare,None,False,0.0,0.0,0.0,0.0,None,False,None,True
+GS-109,sample,The pathology lab shall stain the biopsy tissue sample for microscopic examination.,Healthcare,Inter-Domain,True,0.9833469997915592,0.1,0.0,0.3863505180095719,,False,None,False
+GS-209,glass,The user must strictly indicate whether the container is green or brown glass.,General,None,False,0.9305317962443543,0.5,0.0,0.524682280991691,,True,Intra-Domain,False
+GS-160,service,The EHR platform must strictly expose a FHIR web service for interoperability.,Healthcare,Intra-Domain,True,0.9354623516880011,1.0,0.5,0.8499301469604921,,True,Intra-Domain,True
+GS-144,order,The system must strictly allow the clinician to enter a medication order for the patient.,Healthcare,Inter-Domain,True,0.9779591052270799,1.0,0.5,0.8649308674695249,,True,Inter-Domain,True
+GS-089,socket,The telemetry daemon shall open a TCP socket on port 8080.,Networking,Inter-Domain,True,0.876474856848556,0.1,0.5,0.4759152699061545,,True,Inter-Domain,True
+GS-203,center,"As a resident, I need to urgently find the nearest recycling center location.",General,Inter-Domain,True,0.9238808128127454,1.0,0.5,0.8458420363811169,,True,Inter-Domain,True
+GS-175,blood,The laboratory technician must strictly collect the blood sample.,Healthcare,None,False,0.9830505650350759,0.3,0.5,0.5920222774586075,,True,Inter-Domain,False
+GS-220,procurement,The municipal procurement office must strictly solicit competitive vendor bids.,Finance/Business,None,False,0.0,0.0,0.0,0.0,None,False,None,True
+GS-140,biopsy,The laboratory technician shall prepare the needle biopsy tissue for histology.,Healthcare,None,False,0.0,0.0,0.0,0.0,None,False,None,True
+GS-139,pediatric,The dosage calculator shall apply specialized rules for pediatric patients under age 12.,Healthcare,None,False,0.0,0.0,0.0,0.0,None,False,None,True
+GS-244,contract,The microservice API contract must strictly specify JSON schema request and response structures.,Software/IT,Intra-Domain,True,0.7950954580361502,0.1,0.5,0.44718955523113957,,True,Inter-Domain,False
+GS-088,driver,The logistical supervisor shall assign a delivery driver to the truck route.,General,Inter-Domain,True,0.8120973712570276,0.3,0.5,0.5316783484186434,,True,Inter-Domain,True
+GS-022,status,The system shall display the order status on the ward dashboard.,Healthcare,Intra-Domain,True,0.9493041325948686,0.0,0.0,0.33509020772681936,,False,None,False
+GS-133,invoice,The accounts department shall generate a PDF invoice for all billable services.,Finance/Business,None,False,0.0,0.0,0.0,0.0,None,False,None,True
+GS-156,session,The clinician must strictly terminate the authentication session upon stepping away.,Healthcare,Intra-Domain,True,0.8885901530724624,0.2,0.5,0.519435474505252,,True,Intra-Domain,True
+GS-208,barcode,The app must strictly scan the barcode using the mobile device camera.,Software/IT,None,False,0.0,0.0,0.0,0.0,None,False,None,True
+GS-066,point,"As a user, I want to earn reward points for every can recycled.",General,Inter-Domain,True,0.9297154313557481,1.0,0.5,0.8479015697513523,,True,Intra-Domain,False
+GS-142,chart,The physician must strictly be able to view the patient chart from any authorized terminal.,Healthcare,Inter-Domain,True,0.9231807659130623,0.0,0.0,0.325869048703733,,False,None,False
+GS-236,thread,The textile factory must strictly weave cotton thread into medical gauze bandages.,General,Inter-Domain,True,0.9791796128979587,0.2,0.5,0.5514122034254249,,True,Inter-Domain,True
+GS-176,broker,"In accordance with system specifications, as a Broker user, I want the D1 file generation to sync with the FPDS data load.",Finance/Business,Inter-Domain,True,0.0,0.0,0.0,0.0,None,False,None,False
+GS-226,descriptor,The datapackage.json file must strictly serve as the central metadata descriptor.,Software/IT,None,False,0.0,0.0,0.0,0.0,None,False,None,True
+GS-177,grant,"As an owner, I need to urgently be sure that USAspending only sends grant records to my system.",Finance/Business,Inter-Domain,True,0.8957347224082746,0.6,0.0,0.5516431182725521,,True,Intra-Domain,False
+GS-162,status,The system must strictly display the order status on the ward dashboard.,Healthcare,Intra-Domain,True,0.9493041325948686,0.0,0.0,0.33509020772681936,,False,None,False
+GS-124,physician,The physician shall document the clinical consultation notes within 4 hours.,Healthcare,None,False,0.0,0.0,0.0,0.0,None,False,None,True
+GS-042,schedule,"As an Owner, I want to design a schedule from the UI SME for upcoming milestones.",Software/IT,Intra-Domain,True,0.0,0.0,0.0,0.0,None,False,None,False
+GS-079,invoice,The accounts payable module shall record the vendor invoice number.,Finance/Business,None,False,0.0,0.0,0.0,0.0,None,False,None,True
+GS-180,rule,"As a Developer, I need to urgently update the Broker validation rule table.",Software/IT,Intra-Domain,True,0.8694337615264685,1.0,0.0,0.6993340136732588,,True,Intra-Domain,True
+GS-009,history,The application shall capture the surgical history prior to anesthesia.,Healthcare,Inter-Domain,True,0.9863901163985987,0.3,0.0,0.4659120640732674,,True,Intra-Domain,False
+GS-213,transaction,"As an auditor, I need to urgently inspect each line item financial transaction.",Finance/Business,Inter-Domain,True,0.5,0.0,0.0,0.17649254660404218,,False,None,False
+GS-046,agency,"As an Agency user, I want to see updated financial assistance data daily.",Finance/Business,None,False,0.8654679940592606,0.3,0.5,0.550517382683063,,True,Inter-Domain,False
+GS-181,file,"As a Website user, I need to urgently access published FABS files directly.",Software/IT,Intra-Domain,True,0.5,0.2,0.5,0.3822689431032251,,False,None,False
+GS-006,code,The medical coder shall assign a diagnostic code to the hospital visit.,Healthcare,Inter-Domain,True,0.8131102970085915,0.1,0.0,0.3262594996102891,,False,None,False
+GS-235,thread,The application server must strictly spawn a worker thread for each concurrent incoming request.,Software/IT,Intra-Domain,True,0.971949397800467,0.2,0.5,0.5488600452753222,,True,Inter-Domain,False
+GS-094,pipeline,The utility company shall monitor oil flow velocity across the trans-continental pipeline.,General,Inter-Domain,True,0.0,0.0,0.0,0.0,None,False,None,False
+GS-149,history,The application must strictly capture the surgical history prior to anesthesia.,Healthcare,Inter-Domain,True,0.9863901163985987,0.3,0.0,0.4659120640732674,,True,Intra-Domain,False
+GS-216,statement,"As an accountant, I need to urgently print the monthly financial bank statement.",Finance/Business,Inter-Domain,True,0.8707545304692226,0.5,0.5,0.630870822494998,,True,Inter-Domain,True
+GS-241,client,The attorney must strictly represent the corporate client during contract negotiations.,Legal/Regulatory,Inter-Domain,True,0.9573733315187034,0.1,0.5,0.5044712255279884,,True,Intra-Domain,False
+GS-065,material,"As a user, I want to know the material composition of the packaging.",General,Inter-Domain,True,0.0,0.0,0.0,0.0,None,False,None,False
+GS-047,homepage,"As a UI designer, I want to redesign the homepage to match modern standards.",Software/IT,None,False,0.0,0.0,0.0,0.0,None,False,None,True
+GS-106,policy,The patient shall provide proof of active private health insurance policy coverage.,Finance/Business,Inter-Domain,True,0.6284015521634017,0.1,0.5,0.38834909132942785,,False,None,False
+GS-113,charge,The billing department shall post a room charge of $500 to the patient account.,Finance/Business,Inter-Domain,True,0.9529764173279831,1.0,1.0,0.98340137628754,,True,Inter-Domain,True
+GS-040,rule,"As a Developer, I want to update the Broker validation rule table.",Software/IT,Intra-Domain,True,0.8694337615264686,1.0,0.0,0.6993340136732589,,True,Intra-Domain,True
+GS-183,audit,"As an Owner, I need to urgently design an audit from the UI SME to track UI quality.",Finance/Business,Inter-Domain,True,0.0,0.0,0.0,0.0,None,False,None,False
+GS-247,batch,The database engine must strictly execute the nightly batch processing job at midnight.,Software/IT,Intra-Domain,True,0.9653133783070886,0.1,0.5,0.5072739436836631,,True,Intra-Domain,True
+GS-004,order,The system shall allow the clinician to enter a medication order for the patient.,Healthcare,Inter-Domain,True,0.9779591052270799,1.0,0.5,0.8649308674695249,,True,Inter-Domain,True
+GS-206,point,"As a user, I need to urgently earn reward points for every can recycled.",General,Inter-Domain,True,0.9297154313557481,1.0,0.5,0.8479015697513523,,True,Intra-Domain,False
+GS-189,validation,"As a Developer, I need to urgently clarify what is triggering the CFDA validation error.",Software/IT,None,False,0.0,0.0,0.0,0.0,None,False,None,True
+GS-014,screen,The nurse shall perform a routine vision screen during annual checkup.,Healthcare,Inter-Domain,True,0.9227256219407656,0.7,0.5,0.7277032143267231,,True,Inter-Domain,True
+GS-145,plan,The care team must strictly update the patient care plan upon discharge.,Healthcare,Inter-Domain,True,0.9135561805534383,0.1,0.5,0.4890044244104016,,True,Inter-Domain,True
+GS-178,submission,"As a Developer, I need to urgently prevent users from double publishing FABS submissions.",Finance/Business,Inter-Domain,True,0.5,0.5,1.0,0.6272890252346663,,True,Inter-Domain,True
+GS-250,sample,The statistics engine must strictly draw a random sample of 500 rows from the dataset.,Software/IT,Intra-Domain,True,0.5407826053033478,0.1,0.0,0.23013188397057122,,False,None,False
+GS-116,node,The oncologist shall examine the sentinel lymph node for metastatic cancer cells.,Healthcare,Inter-Domain,True,0.867052802696819,0.6,0.5,0.6688078534044835,,True,Inter-Domain,True
+GS-134,currency,The application shall format all pricing displays according to the ISO 4217 currency code.,Finance/Business,None,False,0.9146595745270247,0.1,0.5,0.4893939060350132,,True,Intra-Domain,False

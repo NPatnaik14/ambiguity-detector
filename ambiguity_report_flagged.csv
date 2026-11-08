@@ -1,0 +1,733 @@
+word,surface_form,sentence,sentence_domain,ambiguity_score,semantic_similarity_spread,contextual_confidence_gap,domain_diversity,is_ambiguous,ambiguity_type,top_sense_1_domain,top_sense_1_gloss,top_sense_2_domain,top_sense_2_gloss,explanation
+side,sides,"As an agency user, I want a landing page to navigate to either FABS or DABS pages, so that I can access both sides of the site.",Software/IT,0.999,0.999,1.0,0.5,True,Inter-Domain,Software/IT,an opinion that is held in opposition to another in an argument or dispute,General,an extended outer surface of an object,"The word ""side"" appears in a sentence whose detected domain is ""Software/IT"".
+  Candidate sense 1: [Software/IT] an opinion that is held in opposition to another in an argument or dispute (context similarity=0.07)
+  Candidate sense 2: [General] an extended outer surface of an object (context similarity=0.07)
+Classified as INTER-DOMAIN ambiguity: the top two candidate senses belong to different application domains (""Software/IT"" vs. ""General"")."
+represent,represent,"As a FABS user, I want to submission errors to accurately represent FABS errors, so that I know why my submission didn't work.",Software/IT,0.999,0.999,1.0,0.0,True,Intra-Domain,Software/IT,be characteristic of,Software/IT,be the defense counsel for someone in a trial,"The word ""represent"" appears in a sentence whose detected domain is ""Software/IT"".
+  Candidate sense 1: [Software/IT] be characteristic of (context similarity=0.10)
+  Candidate sense 2: [Software/IT] be the defense counsel for someone in a trial (context similarity=0.10)
+Classified as INTRA-DOMAIN ambiguity: the top two candidate senses both belong to the ""Software/IT"" domain but represent distinct concepts."
+fix,fix,"As a Broker user, I want to have updated error codes that accurately reflect the logic and provide enough information, so that I can fix my submission.",Software/IT,0.997,0.996,1.0,0.0,True,Intra-Domain,Software/IT,decide upon or fix definitely,Software/IT,set or place definitely,"The word ""fix"" appears in a sentence whose detected domain is ""Software/IT"".
+  Candidate sense 1: [Software/IT] decide upon or fix definitely (context similarity=0.14)
+  Candidate sense 2: [Software/IT] set or place definitely (context similarity=0.14)
+Classified as INTRA-DOMAIN ambiguity: the top two candidate senses both belong to the ""Software/IT"" domain but represent distinct concepts."
+case,case,"As a Developer , I want to clarify to users what exactly is triggering the CFDA error code in each case.",Software/IT,0.996,0.994,1.0,0.5,True,Intra-Domain,Software/IT,"(printing) the receptacle in which a compositor has his type, which is divided into compartments for the different letters, spaces, or numbers",Software/IT,the quantity contained in a case,"The word ""case"" appears in a sentence whose detected domain is ""Software/IT"".
+  Candidate sense 1: [Software/IT] (printing) the receptacle in which a compositor has his type, which is divided into compartments for the different letters, spaces, or numbers (context similarity=0.13)
+  Candidate sense 2: [Software/IT] the quantity contained in a case (context similarity=0.12)
+Classified as INTRA-DOMAIN ambiguity: the top two candidate senses both belong to the ""Software/IT"" domain but represent distinct concepts."
+field,fields,"As a data user, I want to access two additional fields from the FPDS data pull.",Software/IT,0.996,0.994,1.0,0.0,True,Intra-Domain,Software/IT,somewhere (away from a studio or office or library or laboratory) where practical work is done or data is collected,Software/IT,a geographic region (land or sea) under which something valuable is found,"The word ""field"" appears in a sentence whose detected domain is ""Software/IT"".
+  Candidate sense 1: [Software/IT] somewhere (away from a studio or office or library or laboratory) where practical work is done or data is collected (context similarity=0.09)
+  Candidate sense 2: [Software/IT] a geographic region (land or sea) under which something valuable is found (context similarity=0.09)
+Classified as INTRA-DOMAIN ambiguity: the top two candidate senses both belong to the ""Software/IT"" domain but represent distinct concepts."
+deal,deal,"As a Developer, I want to prevent duplicate transactions from being published and deal with the time gap between validation and the publishing decision.",Software/IT,0.994,0.991,1.0,1.0,True,Inter-Domain,General,take action with respect to (someone or something),Software/IT,sell,"The word ""deal"" appears in a sentence whose detected domain is ""Software/IT"".
+  Candidate sense 1: [General] take action with respect to (someone or something) (context similarity=0.14)
+  Candidate sense 2: [Software/IT] sell (context similarity=0.14)
+Classified as INTER-DOMAIN ambiguity: the top two candidate senses belong to different application domains (""General"" vs. ""Software/IT"")."
+case,cases,"As a broker team member, I want to add the 00***** and 00FORGN PPoPCode cases to the derivation logic.",Software/IT,0.993,0.989,1.0,0.5,True,Intra-Domain,General,a portable container for carrying several objects,General,a person who is subjected to experimental or other observational procedures; someone who is an object of investigation,"The word ""case"" appears in a sentence whose detected domain is ""Software/IT"".
+  Candidate sense 1: [General] a portable container for carrying several objects (context similarity=0.08)
+  Candidate sense 2: [General] a person who is subjected to experimental or other observational procedures; someone who is an object of investigation (context similarity=0.08)
+Classified as INTRA-DOMAIN ambiguity: the top two candidate senses both belong to the ""General"" domain but represent distinct concepts."
+point,point,"As a FABS user, I want to link the SAMPLE FILE on the ""What you want  to submit"" dialog to point to the correct file, so that I have an accurate reference for my agency submissions.",Software/IT,0.992,0.988,1.0,0.5,True,Inter-Domain,Finance/Business,direct into a position for use,Software/IT,mark with diacritics,"The word ""point"" appears in a sentence whose detected domain is ""Software/IT"".
+  Candidate sense 1: [Finance/Business] direct into a position for use (context similarity=0.10)
+  Candidate sense 2: [Software/IT] mark with diacritics (context similarity=0.10)
+Classified as INTER-DOMAIN ambiguity: the top two candidate senses belong to different application domains (""Finance/Business"" vs. ""Software/IT"")."
+set,sets,"As a FABS user, I want to have read-only access to DABS, so that I can view DABS pages without wanting two sets of permissions.",Software/IT,0.991,0.987,1.0,0.5,True,Inter-Domain,General,several exercises intended to be done in series,Software/IT,a unit of play in tennis or squash,"The word ""set"" appears in a sentence whose detected domain is ""Software/IT"".
+  Candidate sense 1: [General] several exercises intended to be done in series (context similarity=0.06)
+  Candidate sense 2: [Software/IT] a unit of play in tennis or squash (context similarity=0.06)
+Classified as INTER-DOMAIN ambiguity: the top two candidate senses belong to different application domains (""General"" vs. ""Software/IT"")."
+run,run,"As a FABS user, I want to have my validations run in a reasonable amount of time.",Software/IT,0.99,0.985,1.0,0.5,True,Inter-Domain,Software/IT,extend or continue for a certain period of time,Healthcare,change from one state to another,"The word ""run"" appears in a sentence whose detected domain is ""Software/IT"".
+  Candidate sense 1: [Software/IT] extend or continue for a certain period of time (context similarity=0.22)
+  Candidate sense 2: [Healthcare] change from one state to another (context similarity=0.22)
+Classified as INTER-DOMAIN ambiguity: the top two candidate senses belong to different application domains (""Software/IT"" vs. ""Healthcare"")."
+rule,rule,"As a Developer, I want to update the Broker validation rule table to account for the rule updates in DB-2213.",Legal/Regulatory,0.973,0.958,1.0,0.0,True,Intra-Domain,Legal/Regulatory,(linguistics) a rule describing (or prescribing) a linguistic practice,Legal/Regulatory,the duration of a monarch's or government's power,"The word ""rule"" appears in a sentence whose detected domain is ""Legal/Regulatory"".
+  Candidate sense 1: [Legal/Regulatory] (linguistics) a rule describing (or prescribing) a linguistic practice (context similarity=0.29)
+  Candidate sense 2: [Legal/Regulatory] the duration of a monarch's or government's power (context similarity=0.26)
+Classified as INTRA-DOMAIN ambiguity: the top two candidate senses both belong to the ""Legal/Regulatory"" domain but represent distinct concepts."
+rule,rule,"As a Developer, I want to update the Broker validation rule table to account for the rule updates in DB-2213.",Legal/Regulatory,0.973,0.958,1.0,0.0,True,Intra-Domain,Legal/Regulatory,(linguistics) a rule describing (or prescribing) a linguistic practice,Legal/Regulatory,the duration of a monarch's or government's power,"The word ""rule"" appears in a sentence whose detected domain is ""Legal/Regulatory"".
+  Candidate sense 1: [Legal/Regulatory] (linguistics) a rule describing (or prescribing) a linguistic practice (context similarity=0.29)
+  Candidate sense 2: [Legal/Regulatory] the duration of a monarch's or government's power (context similarity=0.26)
+Classified as INTRA-DOMAIN ambiguity: the top two candidate senses both belong to the ""Legal/Regulatory"" domain but represent distinct concepts."
+work,work,"As a FABS user, I want to submission errors to accurately represent FABS errors, so that I know why my submission didn't work.",Software/IT,0.969,0.952,1.0,0.5,True,Intra-Domain,Software/IT,be employed,Software/IT,cause to work,"The word ""work"" appears in a sentence whose detected domain is ""Software/IT"".
+  Candidate sense 1: [Software/IT] be employed (context similarity=0.12)
+  Candidate sense 2: [Software/IT] cause to work (context similarity=0.11)
+Classified as INTRA-DOMAIN ambiguity: the top two candidate senses both belong to the ""Software/IT"" domain but represent distinct concepts."
+work,work,"As a Broker user, I want to have PPoPZIP+4 work the same as the Legal Entity ZIP validations.",General,0.969,0.952,1.0,0.5,True,Intra-Domain,Software/IT,be employed,Software/IT,cause to work,"The word ""work"" appears in a sentence whose detected domain is ""General"".
+  Candidate sense 1: [Software/IT] be employed (context similarity=0.17)
+  Candidate sense 2: [Software/IT] cause to work (context similarity=0.15)
+Classified as INTRA-DOMAIN ambiguity: the top two candidate senses both belong to the ""Software/IT"" domain but represent distinct concepts."
+accept,accept,"As a user, I want the DUNS validations to accept records whose ActionDates are before the current registration date in SAM, but after the initial registration date.",Software/IT,0.961,0.993,0.9,0.5,True,Intra-Domain,Software/IT,consider or hold as true,Software/IT,make use of or accept for some purpose,"The word ""accept"" appears in a sentence whose detected domain is ""Software/IT"".
+  Candidate sense 1: [Software/IT] consider or hold as true (context similarity=0.13)
+  Candidate sense 2: [Software/IT] make use of or accept for some purpose (context similarity=0.13)
+Classified as INTRA-DOMAIN ambiguity: the top two candidate senses both belong to the ""Software/IT"" domain but represent distinct concepts."
+accept,accept,"As a user, I want the DUNS validations to accept records whose ActionTypes are B, C, or D and the DUNS is registered in SAM, even though it may have expired.",Software/IT,0.961,0.993,0.9,0.5,True,Intra-Domain,Software/IT,consider or hold as true,Software/IT,make use of or accept for some purpose,"The word ""accept"" appears in a sentence whose detected domain is ""Software/IT"".
+  Candidate sense 1: [Software/IT] consider or hold as true (context similarity=0.14)
+  Candidate sense 2: [Software/IT] make use of or accept for some purpose (context similarity=0.14)
+Classified as INTRA-DOMAIN ambiguity: the top two candidate senses both belong to the ""Software/IT"" domain but represent distinct concepts."
+accept,accept,"As an agency user, I want the FABS validation rules to accept zero and blank for non-loan records.",Software/IT,0.961,0.993,0.9,0.5,True,Intra-Domain,Software/IT,consider or hold as true,Software/IT,make use of or accept for some purpose,"The word ""accept"" appears in a sentence whose detected domain is ""Software/IT"".
+  Candidate sense 1: [Software/IT] consider or hold as true (context similarity=0.17)
+  Candidate sense 2: [Software/IT] make use of or accept for some purpose (context similarity=0.17)
+Classified as INTRA-DOMAIN ambiguity: the top two candidate senses both belong to the ""Software/IT"" domain but represent distinct concepts."
+accept,accept,"As an agency user, I want the FABS validation rules to accept zero and blank for loan records.",Software/IT,0.961,0.993,0.9,0.5,True,Intra-Domain,Software/IT,consider or hold as true,Software/IT,make use of or accept for some purpose,"The word ""accept"" appears in a sentence whose detected domain is ""Software/IT"".
+  Candidate sense 1: [Software/IT] consider or hold as true (context similarity=0.18)
+  Candidate sense 2: [Software/IT] make use of or accept for some purpose (context similarity=0.18)
+Classified as INTRA-DOMAIN ambiguity: the top two candidate senses both belong to the ""Software/IT"" domain but represent distinct concepts."
+know,know,"As an Owner, I want to design an audit from the UI SME, so that I know the potential scope of the UI improvements want ed.",Legal/Regulatory,0.95,0.977,0.9,0.5,True,Intra-Domain,General,be cognizant or aware of a fact or a specific piece of information; possess knowledge or information about,General,be familiar or acquainted with a person or an object,"The word ""know"" appears in a sentence whose detected domain is ""Legal/Regulatory"".
+  Candidate sense 1: [General] be cognizant or aware of a fact or a specific piece of information; possess knowledge or information about (context similarity=0.16)
+  Candidate sense 2: [General] be familiar or acquainted with a person or an object (context similarity=0.15)
+Classified as INTRA-DOMAIN ambiguity: the top two candidate senses both belong to the ""General"" domain but represent distinct concepts."
+know,know,"As an Owner, I want to create a user testing summary from the UI SME, so that I can know what UI improvements we will follow through on.",Software/IT,0.945,0.969,0.9,0.5,True,Inter-Domain,General,be familiar or acquainted with a person or an object,Software/IT,know how to do or perform something,"The word ""know"" appears in a sentence whose detected domain is ""Software/IT"".
+  Candidate sense 1: [General] be familiar or acquainted with a person or an object (context similarity=0.17)
+  Candidate sense 2: [Software/IT] know how to do or perform something (context similarity=0.16)
+Classified as INTER-DOMAIN ambiguity: the top two candidate senses belong to different application domains (""General"" vs. ""Software/IT"")."
+know,know,"As an agency user, I want to know when the submission periods start and end, so that I know when the submission starts and ends.",Software/IT,0.945,0.969,0.9,0.5,True,Inter-Domain,General,be familiar or acquainted with a person or an object,Software/IT,know how to do or perform something,"The word ""know"" appears in a sentence whose detected domain is ""Software/IT"".
+  Candidate sense 1: [General] be familiar or acquainted with a person or an object (context similarity=0.33)
+  Candidate sense 2: [Software/IT] know how to do or perform something (context similarity=0.31)
+Classified as INTER-DOMAIN ambiguity: the top two candidate senses belong to different application domains (""General"" vs. ""Software/IT"")."
+know,know,"As an Owner, I want to design a schedule from the UI SME, so that I know the potential timeline of the UI improvements wanted.",Software/IT,0.945,0.969,0.9,0.5,True,Inter-Domain,General,be familiar or acquainted with a person or an object,Software/IT,know how to do or perform something,"The word ""know"" appears in a sentence whose detected domain is ""Software/IT"".
+  Candidate sense 1: [General] be familiar or acquainted with a person or an object (context similarity=0.15)
+  Candidate sense 2: [Software/IT] know how to do or perform something (context similarity=0.15)
+Classified as INTER-DOMAIN ambiguity: the top two candidate senses belong to different application domains (""General"" vs. ""Software/IT"")."
+know,know,"As a Developer, I want to add the updates on a FABS submission to be modified when the publishStatus changes, so that I know when the status of the submission has changed.",Software/IT,0.945,0.969,0.9,0.5,True,Inter-Domain,General,be familiar or acquainted with a person or an object,Software/IT,know how to do or perform something,"The word ""know"" appears in a sentence whose detected domain is ""Software/IT"".
+  Candidate sense 1: [General] be familiar or acquainted with a person or an object (context similarity=0.16)
+  Candidate sense 2: [Software/IT] know how to do or perform something (context similarity=0.15)
+Classified as INTER-DOMAIN ambiguity: the top two candidate senses belong to different application domains (""General"" vs. ""Software/IT"")."
+know,know,"As an agency user, I want to know when the submission periods start and end, so that I know when the submission starts and ends.",Software/IT,0.945,0.969,0.9,0.5,True,Inter-Domain,General,be familiar or acquainted with a person or an object,Software/IT,know how to do or perform something,"The word ""know"" appears in a sentence whose detected domain is ""Software/IT"".
+  Candidate sense 1: [General] be familiar or acquainted with a person or an object (context similarity=0.33)
+  Candidate sense 2: [Software/IT] know how to do or perform something (context similarity=0.31)
+Classified as INTER-DOMAIN ambiguity: the top two candidate senses belong to different application domains (""General"" vs. ""Software/IT"")."
+know,know,"As a FABS user, I want to submission errors to accurately represent FABS errors, so that I know why my submission didn't work.",Software/IT,0.945,0.969,0.9,0.5,True,Inter-Domain,General,be familiar or acquainted with a person or an object,Software/IT,know how to do or perform something,"The word ""know"" appears in a sentence whose detected domain is ""Software/IT"".
+  Candidate sense 1: [General] be familiar or acquainted with a person or an object (context similarity=0.15)
+  Candidate sense 2: [Software/IT] know how to do or perform something (context similarity=0.14)
+Classified as INTER-DOMAIN ambiguity: the top two candidate senses belong to different application domains (""General"" vs. ""Software/IT"")."
+fix,fixed,"As a UI designer, I want to track the issues that come up in Tech Thursday, so that I know what to test and what want s to be fixed.",Software/IT,0.943,0.912,1.0,0.5,True,Intra-Domain,Software/IT,"make fixed, stable or stationary",Software/IT,cause to be firmly attached,"The word ""fix"" appears in a sentence whose detected domain is ""Software/IT"".
+  Candidate sense 1: [Software/IT] make fixed, stable or stationary (context similarity=0.09)
+  Candidate sense 2: [Software/IT] cause to be firmly attached (context similarity=0.07)
+Classified as INTRA-DOMAIN ambiguity: the top two candidate senses both belong to the ""Software/IT"" domain but represent distinct concepts."
+mark,marks,"As an agency user, I want to submit my data elements surrounded by quotation marks, so that Excel won't strip off leading and trailing zeroes.",Software/IT,0.937,0.904,1.0,0.0,True,Intra-Domain,Software/IT,a marking that consists of lines that cross each other,Software/IT,a visible indication made on a surface,"The word ""mark"" appears in a sentence whose detected domain is ""Software/IT"".
+  Candidate sense 1: [Software/IT] a marking that consists of lines that cross each other (context similarity=0.08)
+  Candidate sense 2: [Software/IT] a visible indication made on a surface (context similarity=0.06)
+Classified as INTRA-DOMAIN ambiguity: the top two candidate senses both belong to the ""Software/IT"" domain but represent distinct concepts."
+way,way,"As a Developer , I want to determine the best way to load historical FPDS data, so that I can load all FPDS data since 2007.",Software/IT,0.936,0.902,1.0,0.5,True,Inter-Domain,Healthcare,the condition of things generally,Software/IT,a journey or passage,"The word ""way"" appears in a sentence whose detected domain is ""Software/IT"".
+  Candidate sense 1: [Healthcare] the condition of things generally (context similarity=0.12)
+  Candidate sense 2: [Software/IT] a journey or passage (context similarity=0.10)
+Classified as INTER-DOMAIN ambiguity: the top two candidate senses belong to different application domains (""Healthcare"" vs. ""Software/IT"")."
+round,round,"As a UI designer, I want to move on to round 2 of DABS or FABS landing page edits, so that I can get approvals from leadership.",Software/IT,0.933,0.896,1.0,0.5,True,Inter-Domain,Software/IT,a serving to each of a group (usually alcoholic),Healthcare,the usual activities in your day,"The word ""round"" appears in a sentence whose detected domain is ""Software/IT"".
+  Candidate sense 1: [Software/IT] a serving to each of a group (usually alcoholic) (context similarity=0.14)
+  Candidate sense 2: [Healthcare] the usual activities in your day (context similarity=0.11)
+Classified as INTER-DOMAIN ambiguity: the top two candidate senses belong to different application domains (""Software/IT"" vs. ""Healthcare"")."
+pass,pass,"As a FABS user, I want to submit a citywide as a PPoPZIP and pass validations.",Software/IT,0.93,0.893,1.0,0.5,True,Inter-Domain,Software/IT,cause to pass,General,transmit information,"The word ""pass"" appears in a sentence whose detected domain is ""Software/IT"".
+  Candidate sense 1: [Software/IT] cause to pass (context similarity=0.23)
+  Candidate sense 2: [General] transmit information (context similarity=0.18)
+Classified as INTER-DOMAIN ambiguity: the top two candidate senses belong to different application domains (""Software/IT"" vs. ""General"")."
+come,come,"As a Website user, I want to access published FABS files, so that I can see the new files as they come in.",Software/IT,0.926,0.887,1.0,0.0,True,Intra-Domain,Software/IT,"move toward, travel toward something or somebody or approach something or somebody",Software/IT,proceed or get along,"The word ""come"" appears in a sentence whose detected domain is ""Software/IT"".
+  Candidate sense 1: [Software/IT] move toward, travel toward something or somebody or approach something or somebody (context similarity=0.16)
+  Candidate sense 2: [Software/IT] proceed or get along (context similarity=0.13)
+Classified as INTRA-DOMAIN ambiguity: the top two candidate senses both belong to the ""Software/IT"" domain but represent distinct concepts."
+time,time,"As a FABS user, I want to have my validations run in a reasonable amount of time.",Software/IT,0.924,0.991,0.8,0.0,True,Intra-Domain,Software/IT,a period of time considered as a resource under your control and sufficient to accomplish something,Software/IT,a suitable moment,"The word ""time"" appears in a sentence whose detected domain is ""Software/IT"".
+  Candidate sense 1: [Software/IT] a period of time considered as a resource under your control and sufficient to accomplish something (context similarity=0.22)
+  Candidate sense 2: [Software/IT] a suitable moment (context similarity=0.22)
+Classified as INTRA-DOMAIN ambiguity: the top two candidate senses both belong to the ""Software/IT"" domain but represent distinct concepts."
+time,time,"As a Developer , I want my domain models to be indexed properly, so that I can get validation results back in a reasonable amount of time.",Software/IT,0.924,0.991,0.8,0.0,True,Intra-Domain,Software/IT,a period of time considered as a resource under your control and sufficient to accomplish something,Software/IT,a suitable moment,"The word ""time"" appears in a sentence whose detected domain is ""Software/IT"".
+  Candidate sense 1: [Software/IT] a period of time considered as a resource under your control and sufficient to accomplish something (context similarity=0.15)
+  Candidate sense 2: [Software/IT] a suitable moment (context similarity=0.15)
+Classified as INTRA-DOMAIN ambiguity: the top two candidate senses both belong to the ""Software/IT"" domain but represent distinct concepts."
+time,time,"As a Developer, I want to prevent duplicate transactions from being published and deal with the time gap between validation and the publishing decision.",Software/IT,0.924,0.991,0.8,0.0,True,Intra-Domain,Software/IT,a period of time considered as a resource under your control and sufficient to accomplish something,Software/IT,a suitable moment,"The word ""time"" appears in a sentence whose detected domain is ""Software/IT"".
+  Candidate sense 1: [Software/IT] a period of time considered as a resource under your control and sufficient to accomplish something (context similarity=0.14)
+  Candidate sense 2: [Software/IT] a suitable moment (context similarity=0.14)
+Classified as INTRA-DOMAIN ambiguity: the top two candidate senses both belong to the ""Software/IT"" domain but represent distinct concepts."
+check,check,"As a tester, I want to ensure that FABS is deriving fields properly through a robust test file plus a follow up check.",Software/IT,0.923,0.882,1.0,0.5,True,Inter-Domain,General,the act of inspecting or verifying,Software/IT,a mark indicating that something has been noted or completed etc.,"The word ""check"" appears in a sentence whose detected domain is ""Software/IT"".
+  Candidate sense 1: [General] the act of inspecting or verifying (context similarity=0.17)
+  Candidate sense 2: [Software/IT] a mark indicating that something has been noted or completed etc. (context similarity=0.13)
+Classified as INTER-DOMAIN ambiguity: the top two candidate senses belong to different application domains (""General"" vs. ""Software/IT"")."
+receive,receive,"As an data user, I want to receive updates to FABS records.",Software/IT,0.92,0.877,1.0,0.5,True,Inter-Domain,Finance/Business,get something; come into possession of,Software/IT,receive as a retribution or punishment,"The word ""receive"" appears in a sentence whose detected domain is ""Software/IT"".
+  Candidate sense 1: [Finance/Business] get something; come into possession of (context similarity=0.29)
+  Candidate sense 2: [Software/IT] receive as a retribution or punishment (context similarity=0.23)
+Classified as INTER-DOMAIN ambiguity: the top two candidate senses belong to different application domains (""Finance/Business"" vs. ""Software/IT"")."
+receive,receive,"As an Agency user, I want to receive a more helpful file-level error when I upload a file with the wrong extension.",Software/IT,0.92,0.877,1.0,0.5,True,Inter-Domain,Finance/Business,get something; come into possession of,Software/IT,receive as a retribution or punishment,"The word ""receive"" appears in a sentence whose detected domain is ""Software/IT"".
+  Candidate sense 1: [Finance/Business] get something; come into possession of (context similarity=0.19)
+  Candidate sense 2: [Software/IT] receive as a retribution or punishment (context similarity=0.15)
+Classified as INTER-DOMAIN ambiguity: the top two candidate senses belong to different application domains (""Finance/Business"" vs. ""Software/IT"")."
+submit,submit,"As a FABS user, I want to submit a citywide as a PPoPZIP and pass validations.",Software/IT,0.919,0.983,0.8,0.5,True,Intra-Domain,Software/IT,"accept or undergo, often unwillingly",Software/IT,yield to the control of another,"The word ""submit"" appears in a sentence whose detected domain is ""Software/IT"".
+  Candidate sense 1: [Software/IT] accept or undergo, often unwillingly (context similarity=0.19)
+  Candidate sense 2: [Software/IT] yield to the control of another (context similarity=0.19)
+Classified as INTRA-DOMAIN ambiguity: the top two candidate senses both belong to the ""Software/IT"" domain but represent distinct concepts."
+come,come,"As a UI designer, I want to track the issues that come up in Tech Thursday, so that I know what to test and what want s to be fixed.",Software/IT,0.915,0.869,1.0,0.5,True,Intra-Domain,Software/IT,"move toward, travel toward something or somebody or approach something or somebody",Software/IT,come to one's mind; suggest itself,"The word ""come"" appears in a sentence whose detected domain is ""Software/IT"".
+  Candidate sense 1: [Software/IT] move toward, travel toward something or somebody or approach something or somebody (context similarity=0.15)
+  Candidate sense 2: [Software/IT] come to one's mind; suggest itself (context similarity=0.11)
+Classified as INTRA-DOMAIN ambiguity: the top two candidate senses both belong to the ""Software/IT"" domain but represent distinct concepts."
+allow,allowed,"As an agency user, I want the maximum length allowed for LegalEntityAddressLine3 to match Schema v1.1.",Software/IT,0.914,0.975,0.8,1.0,True,Inter-Domain,Software/IT,let have,Finance/Business,grant as a discount or in exchange,"The word ""allow"" appears in a sentence whose detected domain is ""Software/IT"".
+  Candidate sense 1: [Software/IT] let have (context similarity=0.12)
+  Candidate sense 2: [Finance/Business] grant as a discount or in exchange (context similarity=0.12)
+Classified as INTER-DOMAIN ambiguity: the top two candidate senses belong to different application domains (""Software/IT"" vs. ""Finance/Business"")."
+begin,begin,"As a UI designer, I want to begin user testing, so that I can validate stakeholder UI improvement requests.",Software/IT,0.913,0.973,0.8,1.0,True,Inter-Domain,Software/IT,begin to speak or say;  he began,Healthcare,"achieve or accomplish in the least degree, usually used in the negative","The word ""begin"" appears in a sentence whose detected domain is ""Software/IT"".
+  Candidate sense 1: [Software/IT] begin to speak or say;  he began (context similarity=0.14)
+  Candidate sense 2: [Healthcare] achieve or accomplish in the least degree, usually used in the negative (context similarity=0.14)
+Classified as INTER-DOMAIN ambiguity: the top two candidate senses belong to different application domains (""Software/IT"" vs. ""Healthcare"")."
+match,match,"As an agency user, I want the maximum length allowed for LegalEntityAddressLine3 to match Schema v1.1.",Software/IT,0.906,0.963,0.8,0.5,True,Inter-Domain,Software/IT,be equal or harmonize,Legal/Regulatory,make correspond or harmonize,"The word ""match"" appears in a sentence whose detected domain is ""Software/IT"".
+  Candidate sense 1: [Software/IT] be equal or harmonize (context similarity=0.18)
+  Candidate sense 2: [Legal/Regulatory] make correspond or harmonize (context similarity=0.17)
+Classified as INTER-DOMAIN ambiguity: the top two candidate senses belong to different application domains (""Software/IT"" vs. ""Legal/Regulatory"")."
+follow,follow,"As an Owner, I want to create a user testing summary from the UI SME, so that I can know what UI improvements we will follow through on.",Software/IT,0.905,0.854,1.0,0.0,True,Intra-Domain,Software/IT,grasp the meaning,Software/IT,behave in accordance or in agreement with,"The word ""follow"" appears in a sentence whose detected domain is ""Software/IT"".
+  Candidate sense 1: [Software/IT] grasp the meaning (context similarity=0.19)
+  Candidate sense 2: [Software/IT] behave in accordance or in agreement with (context similarity=0.14)
+Classified as INTRA-DOMAIN ambiguity: the top two candidate senses both belong to the ""Software/IT"" domain but represent distinct concepts."
+issue,issues,"As a UI designer, I want to track the issues that come up in Tech Thursday, so that I know what to test and what want s to be fixed.",Software/IT,0.905,0.907,0.9,0.5,True,Intra-Domain,Software/IT,one of a series published periodically,Software/IT,an important question that is in dispute and must be settled,"The word ""issue"" appears in a sentence whose detected domain is ""Software/IT"".
+  Candidate sense 1: [Software/IT] one of a series published periodically (context similarity=0.08)
+  Candidate sense 2: [Software/IT] an important question that is in dispute and must be settled (context similarity=0.06)
+Classified as INTRA-DOMAIN ambiguity: the top two candidate senses both belong to the ""Software/IT"" domain but represent distinct concepts."
+submit,submit,"As a Broker user, I want  to help create content mockups, so that I can submit my data efficiently.",Software/IT,0.904,0.961,0.8,0.5,True,Inter-Domain,Software/IT,yield to the control of another,Healthcare,put before,"The word ""submit"" appears in a sentence whose detected domain is ""Software/IT"".
+  Candidate sense 1: [Software/IT] yield to the control of another (context similarity=0.17)
+  Candidate sense 2: [Healthcare] put before (context similarity=0.15)
+Classified as INTER-DOMAIN ambiguity: the top two candidate senses belong to different application domains (""Software/IT"" vs. ""Healthcare"")."
+submit,submit,"As a Broker user, I want to submit records for individual recipients without receiving a DUNS error.",Software/IT,0.904,0.961,0.8,0.5,True,Inter-Domain,Software/IT,yield to the control of another,Healthcare,put before,"The word ""submit"" appears in a sentence whose detected domain is ""Software/IT"".
+  Candidate sense 1: [Software/IT] yield to the control of another (context similarity=0.16)
+  Candidate sense 2: [Healthcare] put before (context similarity=0.15)
+Classified as INTER-DOMAIN ambiguity: the top two candidate senses belong to different application domains (""Software/IT"" vs. ""Healthcare"")."
+submit,submit,"As a FABS user, I want to link the SAMPLE FILE on the ""What you want  to submit"" dialog to point to the correct file, so that I have an accurate reference for my agency submissions.",Software/IT,0.904,0.961,0.8,0.5,True,Inter-Domain,Software/IT,yield to the control of another,Healthcare,put before,"The word ""submit"" appears in a sentence whose detected domain is ""Software/IT"".
+  Candidate sense 1: [Software/IT] yield to the control of another (context similarity=0.13)
+  Candidate sense 2: [Healthcare] put before (context similarity=0.12)
+Classified as INTER-DOMAIN ambiguity: the top two candidate senses belong to different application domains (""Software/IT"" vs. ""Healthcare"")."
+submit,submit,"As an agency user, I want to submit my data elements surrounded by quotation marks, so that Excel won't strip off leading and trailing zeroes.",Software/IT,0.904,0.961,0.8,0.5,True,Inter-Domain,Software/IT,yield to the control of another,Healthcare,put before,"The word ""submit"" appears in a sentence whose detected domain is ""Software/IT"".
+  Candidate sense 1: [Software/IT] yield to the control of another (context similarity=0.13)
+  Candidate sense 2: [Healthcare] put before (context similarity=0.12)
+Classified as INTER-DOMAIN ambiguity: the top two candidate senses belong to different application domains (""Software/IT"" vs. ""Healthcare"")."
+submit,submit,"As an Agency user, I want FABS deployed into production, so I can submit my Financial Assistance data.",Finance/Business,0.904,0.961,0.8,0.5,True,Inter-Domain,Software/IT,yield to the control of another,Healthcare,put before,"The word ""submit"" appears in a sentence whose detected domain is ""Finance/Business"".
+  Candidate sense 1: [Software/IT] yield to the control of another (context similarity=0.17)
+  Candidate sense 2: [Healthcare] put before (context similarity=0.16)
+Classified as INTER-DOMAIN ambiguity: the top two candidate senses belong to different application domains (""Software/IT"" vs. ""Healthcare"")."
+know,know,"As a UI designer, I want to track the issues that come up in Tech Thursday, so that I know what to test and what want s to be fixed.",Software/IT,0.902,0.903,0.9,0.5,True,Inter-Domain,Software/IT,have fixed in the mind,General,be cognizant or aware of a fact or a specific piece of information; possess knowledge or information about,"The word ""know"" appears in a sentence whose detected domain is ""Software/IT"".
+  Candidate sense 1: [Software/IT] have fixed in the mind (context similarity=0.22)
+  Candidate sense 2: [General] be cognizant or aware of a fact or a specific piece of information; possess knowledge or information about (context similarity=0.18)
+Classified as INTER-DOMAIN ambiguity: the top two candidate senses belong to different application domains (""Software/IT"" vs. ""General"")."
+read,read,"As a FABS user, I want to have read-only access to DABS, so that I can view DABS pages without wanting two sets of permissions.",Software/IT,0.901,0.902,0.9,0.0,True,Intra-Domain,Software/IT,interpret something that is written or printed,Software/IT,to hear and understand,"The word ""read"" appears in a sentence whose detected domain is ""Software/IT"".
+  Candidate sense 1: [Software/IT] interpret something that is written or printed (context similarity=0.16)
+  Candidate sense 2: [Software/IT] to hear and understand (context similarity=0.13)
+Classified as INTRA-DOMAIN ambiguity: the top two candidate senses both belong to the ""Software/IT"" domain but represent distinct concepts."
+strip,strip,"As an agency user, I want to submit my data elements surrounded by quotation marks, so that Excel won't strip off leading and trailing zeroes.",Software/IT,0.897,0.841,1.0,0.0,True,Intra-Domain,Software/IT,strip the cured leaves from,Software/IT,remove the surface from,"The word ""strip"" appears in a sentence whose detected domain is ""Software/IT"".
+  Candidate sense 1: [Software/IT] strip the cured leaves from (context similarity=0.14)
+  Candidate sense 2: [Software/IT] remove the surface from (context similarity=0.11)
+Classified as INTRA-DOMAIN ambiguity: the top two candidate senses both belong to the ""Software/IT"" domain but represent distinct concepts."
+field,fields,"As a broker user, I want the historical FABS loader to derive fields, so that my agency codes are correct in the PublishedAwardFinancialAssistance table.",Software/IT,0.894,0.837,1.0,0.0,True,Intra-Domain,Software/IT,a geographic region (land or sea) under which something valuable is found,Software/IT,extensive tract of level open land,"The word ""field"" appears in a sentence whose detected domain is ""Software/IT"".
+  Candidate sense 1: [Software/IT] a geographic region (land or sea) under which something valuable is found (context similarity=0.08)
+  Candidate sense 2: [Software/IT] extensive tract of level open land (context similarity=0.05)
+Classified as INTRA-DOMAIN ambiguity: the top two candidate senses both belong to the ""Software/IT"" domain but represent distinct concepts."
+field,fields,"As a tester, I want to ensure that FABS is deriving fields properly through a robust test file plus a follow up check.",Software/IT,0.894,0.837,1.0,0.0,True,Intra-Domain,Software/IT,a geographic region (land or sea) under which something valuable is found,Software/IT,extensive tract of level open land,"The word ""field"" appears in a sentence whose detected domain is ""Software/IT"".
+  Candidate sense 1: [Software/IT] a geographic region (land or sea) under which something valuable is found (context similarity=0.07)
+  Candidate sense 2: [Software/IT] extensive tract of level open land (context similarity=0.05)
+Classified as INTRA-DOMAIN ambiguity: the top two candidate senses both belong to the ""Software/IT"" domain but represent distinct concepts."
+field,fields,"As an owner, I only want zero-padded fields, so that I can justify padding.",Software/IT,0.894,0.837,1.0,0.0,True,Intra-Domain,Software/IT,a geographic region (land or sea) under which something valuable is found,Software/IT,extensive tract of level open land,"The word ""field"" appears in a sentence whose detected domain is ""Software/IT"".
+  Candidate sense 1: [Software/IT] a geographic region (land or sea) under which something valuable is found (context similarity=0.10)
+  Candidate sense 2: [Software/IT] extensive tract of level open land (context similarity=0.07)
+Classified as INTRA-DOMAIN ambiguity: the top two candidate senses both belong to the ""Software/IT"" domain but represent distinct concepts."
+extension,extension,"As an Agency user, I want to receive a more helpful file-level error when I upload a file with the wrong extension.",Software/IT,0.892,0.834,1.0,0.0,True,Intra-Domain,Software/IT,a string of characters beginning with a period and followed by one or more letters; the optional second part of a PC computer filename,Software/IT,an educational opportunity provided by colleges and universities to people who are not enrolled as regular students,"The word ""extension"" appears in a sentence whose detected domain is ""Software/IT"".
+  Candidate sense 1: [Software/IT] a string of characters beginning with a period and followed by one or more letters; the optional second part of a PC computer filename (context similarity=0.19)
+  Candidate sense 2: [Software/IT] an educational opportunity provided by colleges and universities to people who are not enrolled as regular students (context similarity=0.14)
+Classified as INTRA-DOMAIN ambiguity: the top two candidate senses both belong to the ""Software/IT"" domain but represent distinct concepts."
+lock,locked,"As a Developer, I want to add the GTAS window data to the database, so that I can ensure the site is locked down during the GTAS submission period.",Software/IT,0.883,0.982,0.7,0.0,True,Intra-Domain,Software/IT,place in a place where something cannot be removed or someone cannot escape,Software/IT,hold fast (in a certain state),"The word ""lock"" appears in a sentence whose detected domain is ""Software/IT"".
+  Candidate sense 1: [Software/IT] place in a place where something cannot be removed or someone cannot escape (context similarity=0.08)
+  Candidate sense 2: [Software/IT] hold fast (in a certain state) (context similarity=0.08)
+Classified as INTRA-DOMAIN ambiguity: the top two candidate senses both belong to the ""Software/IT"" domain but represent distinct concepts."
+start,start,"As an agency user, I want to know when the submission periods start and end, so that I know when the submission starts and ends.",Software/IT,0.874,0.807,1.0,0.0,True,Intra-Domain,Software/IT,get going or set in motion,Software/IT,begin or set in motion,"The word ""start"" appears in a sentence whose detected domain is ""Software/IT"".
+  Candidate sense 1: [Software/IT] get going or set in motion (context similarity=0.20)
+  Candidate sense 2: [Software/IT] begin or set in motion (context similarity=0.13)
+Classified as INTRA-DOMAIN ambiguity: the top two candidate senses both belong to the ""Software/IT"" domain but represent distinct concepts."
+start,starts,"As an agency user, I want to know when the submission periods start and end, so that I know when the submission starts and ends.",Software/IT,0.874,0.807,1.0,0.0,True,Intra-Domain,Software/IT,get going or set in motion,Software/IT,begin or set in motion,"The word ""start"" appears in a sentence whose detected domain is ""Software/IT"".
+  Candidate sense 1: [Software/IT] get going or set in motion (context similarity=0.20)
+  Candidate sense 2: [Software/IT] begin or set in motion (context similarity=0.13)
+Classified as INTRA-DOMAIN ambiguity: the top two candidate senses both belong to the ""Software/IT"" domain but represent distinct concepts."
+time,time,"As an Agency user, I want the header information box to show updated date AND time, so that I know when it was updated.",General,0.869,0.907,0.8,0.0,True,Intra-Domain,Software/IT,a reading of a point in time as given by a clock,Software/IT,a period of time considered as a resource under your control and sufficient to accomplish something,"The word ""time"" appears in a sentence whose detected domain is ""General"".
+  Candidate sense 1: [Software/IT] a reading of a point in time as given by a clock (context similarity=0.18)
+  Candidate sense 2: [Software/IT] a period of time considered as a resource under your control and sufficient to accomplish something (context similarity=0.15)
+Classified as INTRA-DOMAIN ambiguity: the top two candidate senses both belong to the ""Software/IT"" domain but represent distinct concepts."
+leave,leave,"As an agency user, I want to leave off the last 4 digits of the ZIP without an error, so that I can complete my submissions.",Software/IT,0.858,0.782,1.0,0.0,True,Intra-Domain,Software/IT,leave unchanged or undisturbed or refrain from taking,Software/IT,go away from a place,"The word ""leave"" appears in a sentence whose detected domain is ""Software/IT"".
+  Candidate sense 1: [Software/IT] leave unchanged or undisturbed or refrain from taking (context similarity=0.28)
+  Candidate sense 2: [Software/IT] go away from a place (context similarity=0.18)
+Classified as INTRA-DOMAIN ambiguity: the top two candidate senses both belong to the ""Software/IT"" domain but represent distinct concepts."
+window,window,"As a Developer, I want to add the GTAS window data to the database, so that I can ensure the site is locked down during the GTAS submission period.",Software/IT,0.857,0.996,0.6,0.0,True,Intra-Domain,Software/IT,an opening that resembles a window in appearance or function,Software/IT,the time period that is considered best for starting or finishing something,"The word ""window"" appears in a sentence whose detected domain is ""Software/IT"".
+  Candidate sense 1: [Software/IT] an opening that resembles a window in appearance or function (context similarity=0.17)
+  Candidate sense 2: [Software/IT] the time period that is considered best for starting or finishing something (context similarity=0.17)
+Classified as INTRA-DOMAIN ambiguity: the top two candidate senses both belong to the ""Software/IT"" domain but represent distinct concepts."
+date,date,"As a user, I want the DUNS validations to accept records whose ActionDates are before the current registration date in SAM, but after the initial registration date.",Software/IT,0.854,0.991,0.6,0.0,True,Intra-Domain,Software/IT,a participant in a date,Software/IT,a particular but unspecified point in time,"The word ""date"" appears in a sentence whose detected domain is ""Software/IT"".
+  Candidate sense 1: [Software/IT] a participant in a date (context similarity=0.28)
+  Candidate sense 2: [Software/IT] a particular but unspecified point in time (context similarity=0.27)
+Classified as INTRA-DOMAIN ambiguity: the top two candidate senses both belong to the ""Software/IT"" domain but represent distinct concepts."
+date,date,"As a user, I want the DUNS validations to accept records whose ActionDates are before the current registration date in SAM, but after the initial registration date.",Software/IT,0.854,0.991,0.6,0.0,True,Intra-Domain,Software/IT,a participant in a date,Software/IT,a particular but unspecified point in time,"The word ""date"" appears in a sentence whose detected domain is ""Software/IT"".
+  Candidate sense 1: [Software/IT] a participant in a date (context similarity=0.28)
+  Candidate sense 2: [Software/IT] a particular but unspecified point in time (context similarity=0.27)
+Classified as INTRA-DOMAIN ambiguity: the top two candidate senses both belong to the ""Software/IT"" domain but represent distinct concepts."
+date,date,"As an Agency user, I want FPDS data to be up-to-date daily.",Software/IT,0.854,0.991,0.6,0.0,True,Intra-Domain,Software/IT,a participant in a date,Software/IT,a particular but unspecified point in time,"The word ""date"" appears in a sentence whose detected domain is ""Software/IT"".
+  Candidate sense 1: [Software/IT] a participant in a date (context similarity=0.26)
+  Candidate sense 2: [Software/IT] a particular but unspecified point in time (context similarity=0.26)
+Classified as INTRA-DOMAIN ambiguity: the top two candidate senses both belong to the ""Software/IT"" domain but represent distinct concepts."
+box,box,"As an Agency user, I want the header information box to show updated date AND time, so that I know when it was updated.",General,0.85,0.877,0.8,0.0,True,Intra-Domain,Software/IT,the quantity contained in a box,Software/IT,the driver's seat on a coach,"The word ""box"" appears in a sentence whose detected domain is ""General"".
+  Candidate sense 1: [Software/IT] the quantity contained in a box (context similarity=0.20)
+  Candidate sense 2: [Software/IT] the driver's seat on a coach (context similarity=0.16)
+Classified as INTRA-DOMAIN ambiguity: the top two candidate senses both belong to the ""Software/IT"" domain but represent distinct concepts."
+know,know,"As an Agency user, I want the header information box to show updated date AND time, so that I know when it was updated.",General,0.849,0.822,0.9,0.5,True,Intra-Domain,General,be cognizant or aware of a fact or a specific piece of information; possess knowledge or information about,General,be familiar or acquainted with a person or an object,"The word ""know"" appears in a sentence whose detected domain is ""General"".
+  Candidate sense 1: [General] be cognizant or aware of a fact or a specific piece of information; possess knowledge or information about (context similarity=0.27)
+  Candidate sense 2: [General] be familiar or acquainted with a person or an object (context similarity=0.19)
+Classified as INTRA-DOMAIN ambiguity: the top two candidate senses both belong to the ""General"" domain but represent distinct concepts."
+number,number,"As an Agency user, I want to be able to include a large number of flexfields without performance impact.",Software/IT,0.847,0.818,0.9,0.5,True,Intra-Domain,General,the number is used in calling a particular telephone,General,an item of merchandise offered for sale,"The word ""number"" appears in a sentence whose detected domain is ""Software/IT"".
+  Candidate sense 1: [General] the number is used in calling a particular telephone (context similarity=0.19)
+  Candidate sense 2: [General] an item of merchandise offered for sale (context similarity=0.13)
+Classified as INTRA-DOMAIN ambiguity: the top two candidate senses both belong to the ""General"" domain but represent distinct concepts."
+number,number,"As an Agency user, I want to be able to include a large number of flexfields without performance impact.",Software/IT,0.847,0.818,0.9,0.5,True,Intra-Domain,General,the number is used in calling a particular telephone,General,an item of merchandise offered for sale,"The word ""number"" appears in a sentence whose detected domain is ""Software/IT"".
+  Candidate sense 1: [General] the number is used in calling a particular telephone (context similarity=0.19)
+  Candidate sense 2: [General] an item of merchandise offered for sale (context similarity=0.13)
+Classified as INTRA-DOMAIN ambiguity: the top two candidate senses both belong to the ""General"" domain but represent distinct concepts."
+send,send,"As an owner, I want to be sure that USAspending only send grant records to my system.",Software/IT,0.841,0.97,0.6,0.5,True,Inter-Domain,Software/IT,"to cause or order to be taken, directed, or transmitted to another place",General,transfer,"The word ""send"" appears in a sentence whose detected domain is ""Software/IT"".
+  Candidate sense 1: [Software/IT] to cause or order to be taken, directed, or transmitted to another place (context similarity=0.22)
+  Candidate sense 2: [General] transfer (context similarity=0.21)
+Classified as INTER-DOMAIN ambiguity: the top two candidate senses belong to different application domains (""Software/IT"" vs. ""General"")."
+extract,extracted,"As a Developer , I want the historical FPDS data loader to include both extracted historical data and FPDS feed data.",Software/IT,0.841,0.971,0.6,0.5,True,Intra-Domain,Software/IT,get despite difficulties or obstacles,Software/IT,deduce (a principle) or construe (a meaning),"The word ""extract"" appears in a sentence whose detected domain is ""Software/IT"".
+  Candidate sense 1: [Software/IT] get despite difficulties or obstacles (context similarity=0.09)
+  Candidate sense 2: [Software/IT] deduce (a principle) or construe (a meaning) (context similarity=0.08)
+Classified as INTRA-DOMAIN ambiguity: the top two candidate senses both belong to the ""Software/IT"" domain but represent distinct concepts."
+correct,correct,"As a Developer , I want to ensure that attempts to correct or delete non-existent records don't create new published data.",Software/IT,0.833,0.959,0.6,1.0,True,Inter-Domain,Healthcare,treat a defect,Software/IT,make right or correct,"The word ""correct"" appears in a sentence whose detected domain is ""Software/IT"".
+  Candidate sense 1: [Healthcare] treat a defect (context similarity=0.16)
+  Candidate sense 2: [Software/IT] make right or correct (context similarity=0.15)
+Classified as INTER-DOMAIN ambiguity: the top two candidate senses belong to different application domains (""Healthcare"" vs. ""Software/IT"")."
+date,date,"As an Agency user, I want the header information box to show updated date AND time, so that I know when it was updated.",General,0.831,0.955,0.6,0.5,True,Intra-Domain,Software/IT,a particular but unspecified point in time,Software/IT,the present,"The word ""date"" appears in a sentence whose detected domain is ""General"".
+  Candidate sense 1: [Software/IT] a particular but unspecified point in time (context similarity=0.25)
+  Candidate sense 2: [Software/IT] the present (context similarity=0.23)
+Classified as INTRA-DOMAIN ambiguity: the top two candidate senses both belong to the ""Software/IT"" domain but represent distinct concepts."
+remove,remove,"As a Developer , I want to update the FABS sample file to remove FundingAgencyCode after FABS is updated to no longer require the header.",Software/IT,0.823,0.943,0.6,0.0,True,Intra-Domain,Software/IT,remove from a position or an office,Software/IT,"remove something concrete, as by lifting, pushing, or taking off, or remove something abstract","The word ""remove"" appears in a sentence whose detected domain is ""Software/IT"".
+  Candidate sense 1: [Software/IT] remove from a position or an office (context similarity=0.19)
+  Candidate sense 2: [Software/IT] remove something concrete, as by lifting, pushing, or taking off, or remove something abstract (context similarity=0.17)
+Classified as INTRA-DOMAIN ambiguity: the top two candidate senses both belong to the ""Software/IT"" domain but represent distinct concepts."
+round,round,"As a UI designer,  I want to move on to round 2 of the Help page edits, so that I can get approvals from leadership.",Software/IT,0.821,0.994,0.5,0.0,True,Intra-Domain,Software/IT,make round,Software/IT,express as a round number,"The word ""round"" appears in a sentence whose detected domain is ""Software/IT"".
+  Candidate sense 1: [Software/IT] make round (context similarity=0.27)
+  Candidate sense 2: [Software/IT] express as a round number (context similarity=0.26)
+Classified as INTRA-DOMAIN ambiguity: the top two candidate senses both belong to the ""Software/IT"" domain but represent distinct concepts."
+round,round,"As a UI designer, I want to move on to round 2 of Homepage edits, so that I can get approvals from leadership.",Software/IT,0.821,0.994,0.5,0.0,True,Intra-Domain,Software/IT,make round,Software/IT,express as a round number,"The word ""round"" appears in a sentence whose detected domain is ""Software/IT"".
+  Candidate sense 1: [Software/IT] make round (context similarity=0.27)
+  Candidate sense 2: [Software/IT] express as a round number (context similarity=0.27)
+Classified as INTRA-DOMAIN ambiguity: the top two candidate senses both belong to the ""Software/IT"" domain but represent distinct concepts."
+round,round,"As a UI designer, I want to move on to round 2 of Homepage edits, so that I can get approvals from leadership.",Software/IT,0.821,0.994,0.5,0.0,True,Intra-Domain,Software/IT,make round,Software/IT,express as a round number,"The word ""round"" appears in a sentence whose detected domain is ""Software/IT"".
+  Candidate sense 1: [Software/IT] make round (context similarity=0.27)
+  Candidate sense 2: [Software/IT] express as a round number (context similarity=0.27)
+Classified as INTRA-DOMAIN ambiguity: the top two candidate senses both belong to the ""Software/IT"" domain but represent distinct concepts."
+round,round,"As a UI designer, I want to move on to round 3 of the Help page edits, so that I can get approvals from leadership.",Software/IT,0.821,0.994,0.5,0.0,True,Intra-Domain,Software/IT,make round,Software/IT,express as a round number,"The word ""round"" appears in a sentence whose detected domain is ""Software/IT"".
+  Candidate sense 1: [Software/IT] make round (context similarity=0.27)
+  Candidate sense 2: [Software/IT] express as a round number (context similarity=0.26)
+Classified as INTRA-DOMAIN ambiguity: the top two candidate senses both belong to the ""Software/IT"" domain but represent distinct concepts."
+generation,generation,"As a Developer, I want D Files generation requests to be managed and cached, so that duplicate requests do not cause performance issues.",Software/IT,0.818,0.989,0.5,0.0,True,Intra-Domain,Software/IT,a stage of technological development or innovation,Software/IT,the normal time between successive generations,"The word ""generation"" appears in a sentence whose detected domain is ""Software/IT"".
+  Candidate sense 1: [Software/IT] a stage of technological development or innovation (context similarity=0.14)
+  Candidate sense 2: [Software/IT] the normal time between successive generations (context similarity=0.13)
+Classified as INTRA-DOMAIN ambiguity: the top two candidate senses both belong to the ""Software/IT"" domain but represent distinct concepts."
+generation,generation,"As a Broker user, I want the D1 file generation to be synced with the FPDS data load, so that I don't have to regenerate a file if no data has been updated.",Software/IT,0.818,0.989,0.5,0.0,True,Intra-Domain,Software/IT,a stage of technological development or innovation,Software/IT,the normal time between successive generations,"The word ""generation"" appears in a sentence whose detected domain is ""Software/IT"".
+  Candidate sense 1: [Software/IT] a stage of technological development or innovation (context similarity=0.14)
+  Candidate sense 2: [Software/IT] the normal time between successive generations (context similarity=0.14)
+Classified as INTRA-DOMAIN ambiguity: the top two candidate senses both belong to the ""Software/IT"" domain but represent distinct concepts."
+application,application,"As a Developer I want to quickly access Broker application data, so that I can investigate issues.",Software/IT,0.813,0.982,0.5,0.0,True,Intra-Domain,Software/IT,the action of putting something into operation,Software/IT,the act of bringing something to bear; using it for a particular purpose,"The word ""application"" appears in a sentence whose detected domain is ""Software/IT"".
+  Candidate sense 1: [Software/IT] the action of putting something into operation (context similarity=0.22)
+  Candidate sense 2: [Software/IT] the act of bringing something to bear; using it for a particular purpose (context similarity=0.21)
+Classified as INTRA-DOMAIN ambiguity: the top two candidate senses both belong to the ""Software/IT"" domain but represent distinct concepts."
+reflect,reflect,"As a FABS user, I want the frontend URLs to more accurately reflect the page I'm accessing, so that I'm not confused.",Software/IT,0.813,0.982,0.5,0.5,True,Intra-Domain,Software/IT,to throw or bend back (from a surface),Software/IT,show an image of,"The word ""reflect"" appears in a sentence whose detected domain is ""Software/IT"".
+  Candidate sense 1: [Software/IT] to throw or bend back (from a surface) (context similarity=0.10)
+  Candidate sense 2: [Software/IT] show an image of (context similarity=0.09)
+Classified as INTRA-DOMAIN ambiguity: the top two candidate senses both belong to the ""Software/IT"" domain but represent distinct concepts."
+determine,determine,"As a Developer , I want to determine how agencies will generate and validate D Files from FABS and FPDS data.",Software/IT,0.81,0.923,0.6,0.0,True,Intra-Domain,Software/IT,fix in scope; fix the boundaries of,Software/IT,"find out, learn, or determine with certainty, usually by making an inquiry or other effort","The word ""determine"" appears in a sentence whose detected domain is ""Software/IT"".
+  Candidate sense 1: [Software/IT] fix in scope; fix the boundaries of (context similarity=0.13)
+  Candidate sense 2: [Software/IT] find out, learn, or determine with certainty, usually by making an inquiry or other effort (context similarity=0.11)
+Classified as INTRA-DOMAIN ambiguity: the top two candidate senses both belong to the ""Software/IT"" domain but represent distinct concepts."
+determine,determine,"As a Developer , I want to determine the best way to load historical FPDS data, so that I can load all FPDS data since 2007.",Software/IT,0.81,0.923,0.6,0.0,True,Intra-Domain,Software/IT,fix in scope; fix the boundaries of,Software/IT,"find out, learn, or determine with certainty, usually by making an inquiry or other effort","The word ""determine"" appears in a sentence whose detected domain is ""Software/IT"".
+  Candidate sense 1: [Software/IT] fix in scope; fix the boundaries of (context similarity=0.10)
+  Candidate sense 2: [Software/IT] find out, learn, or determine with certainty, usually by making an inquiry or other effort (context similarity=0.09)
+Classified as INTRA-DOMAIN ambiguity: the top two candidate senses both belong to the ""Software/IT"" domain but represent distinct concepts."
+reflect,reflect,"As a Broker user, I want to have updated error codes that accurately reflect the logic and provide enough information, so that I can fix my submission.",Software/IT,0.809,0.976,0.5,0.0,True,Intra-Domain,Software/IT,give evidence of the quality of,Software/IT,give evidence of a certain behavior,"The word ""reflect"" appears in a sentence whose detected domain is ""Software/IT"".
+  Candidate sense 1: [Software/IT] give evidence of the quality of (context similarity=0.12)
+  Candidate sense 2: [Software/IT] give evidence of a certain behavior (context similarity=0.12)
+Classified as INTRA-DOMAIN ambiguity: the top two candidate senses both belong to the ""Software/IT"" domain but represent distinct concepts."
+design,design,"As an Owner, I want to design an audit from the UI SME, so that I know the potential scope of the UI improvements want ed.",Legal/Regulatory,0.806,0.97,0.5,0.5,True,Intra-Domain,Healthcare,plan something for a specific role or purpose or effect,Healthcare,"make a design of; plan out in systematic, often graphic form","The word ""design"" appears in a sentence whose detected domain is ""Legal/Regulatory"".
+  Candidate sense 1: [Healthcare] plan something for a specific role or purpose or effect (context similarity=0.11)
+  Candidate sense 2: [Healthcare] make a design of; plan out in systematic, often graphic form (context similarity=0.11)
+Classified as INTRA-DOMAIN ambiguity: the top two candidate senses both belong to the ""Healthcare"" domain but represent distinct concepts."
+design,design,"As an Owner, I want to design a schedule from the UI SME, so that I know the potential timeline of the UI improvements wanted.",Software/IT,0.806,0.97,0.5,0.5,True,Intra-Domain,Healthcare,plan something for a specific role or purpose or effect,Healthcare,"make a design of; plan out in systematic, often graphic form","The word ""design"" appears in a sentence whose detected domain is ""Software/IT"".
+  Candidate sense 1: [Healthcare] plan something for a specific role or purpose or effect (context similarity=0.12)
+  Candidate sense 2: [Healthcare] make a design of; plan out in systematic, often graphic form (context similarity=0.11)
+Classified as INTRA-DOMAIN ambiguity: the top two candidate senses both belong to the ""Healthcare"" domain but represent distinct concepts."
+error,error,"As a Broker user, I want to have updated error codes that accurately reflect the logic and provide enough information, so that I can fix my submission.",Software/IT,0.803,0.966,0.5,0.5,True,Inter-Domain,Software/IT,(computer science) the occurrence of an incorrect result produced by a computer,General,a misconception resulting from incorrect information,"The word ""error"" appears in a sentence whose detected domain is ""Software/IT"".
+  Candidate sense 1: [Software/IT] (computer science) the occurrence of an incorrect result produced by a computer (context similarity=0.12)
+  Candidate sense 2: [General] a misconception resulting from incorrect information (context similarity=0.11)
+Classified as INTER-DOMAIN ambiguity: the top two candidate senses belong to different application domains (""Software/IT"" vs. ""General"")."
+help,help,"As a Broker user, I want  to help create content mockups, so that I can submit my data efficiently.",Software/IT,0.802,0.911,0.6,0.5,True,Inter-Domain,Software/IT,abstain from doing; always used with a negative,Healthcare,improve the condition of,"The word ""help"" appears in a sentence whose detected domain is ""Software/IT"".
+  Candidate sense 1: [Software/IT] abstain from doing; always used with a negative (context similarity=0.21)
+  Candidate sense 2: [Healthcare] improve the condition of (context similarity=0.18)
+Classified as INTER-DOMAIN ambiguity: the top two candidate senses belong to different application domains (""Software/IT"" vs. ""Healthcare"")."
+error,errors,"As an Agency user, I want to better understand my file-level errors.",Software/IT,0.796,0.956,0.5,1.0,True,Inter-Domain,General,a wrong action attributable to bad judgment or ignorance or inattention,Finance/Business,part of a statement that is not correct,"The word ""error"" appears in a sentence whose detected domain is ""Software/IT"".
+  Candidate sense 1: [General] a wrong action attributable to bad judgment or ignorance or inattention (context similarity=0.15)
+  Candidate sense 2: [Finance/Business] part of a statement that is not correct (context similarity=0.13)
+Classified as INTER-DOMAIN ambiguity: the top two candidate senses belong to different application domains (""General"" vs. ""Finance/Business"")."
+content,content,"As a Broker user, I want  to help create content mockups, so that I can submit my data efficiently.",Software/IT,0.796,0.956,0.5,0.5,True,Inter-Domain,General,"the sum or range of what has been perceived, discovered, or learned",Software/IT,everything that is included in a collection and that is held or included in something,"The word ""content"" appears in a sentence whose detected domain is ""Software/IT"".
+  Candidate sense 1: [General] the sum or range of what has been perceived, discovered, or learned (context similarity=0.15)
+  Candidate sense 2: [Software/IT] everything that is included in a collection and that is held or included in something (context similarity=0.14)
+Classified as INTER-DOMAIN ambiguity: the top two candidate senses belong to different application domains (""General"" vs. ""Software/IT"")."
+manage,managed,"As a Developer, I want D Files generation requests to be managed and cached, so that duplicate requests do not cause performance issues.",Software/IT,0.795,0.954,0.5,1.0,True,Inter-Domain,Finance/Business,"be in charge of, act on, or dispose of",Software/IT,be successful; achieve a goal,"The word ""manage"" appears in a sentence whose detected domain is ""Software/IT"".
+  Candidate sense 1: [Finance/Business] be in charge of, act on, or dispose of (context similarity=0.07)
+  Candidate sense 2: [Software/IT] be successful; achieve a goal (context similarity=0.06)
+Classified as INTER-DOMAIN ambiguity: the top two candidate senses belong to different application domains (""Finance/Business"" vs. ""Software/IT"")."
+element,element,"As a user, I want the flexfields in my submission file to appear in the warning and error files when the only error is a missing required element.",Software/IT,0.793,0.951,0.5,0.0,True,Intra-Domain,Software/IT,the most favorable environment for a plant or animal,Software/IT,the situation in which you are happiest and most effective,"The word ""element"" appears in a sentence whose detected domain is ""Software/IT"".
+  Candidate sense 1: [Software/IT] the most favorable environment for a plant or animal (context similarity=0.13)
+  Candidate sense 2: [Software/IT] the situation in which you are happiest and most effective (context similarity=0.12)
+Classified as INTRA-DOMAIN ambiguity: the top two candidate senses both belong to the ""Software/IT"" domain but represent distinct concepts."
+load,load,"As a Broker user, I want the D1 file generation to be synced with the FPDS data load, so that I don't have to regenerate a file if no data has been updated.",Software/IT,0.792,0.841,0.7,0.0,True,Intra-Domain,Software/IT,an amount of alcohol sufficient to intoxicate,Software/IT,an onerous or difficult concern,"The word ""load"" appears in a sentence whose detected domain is ""Software/IT"".
+  Candidate sense 1: [Software/IT] an amount of alcohol sufficient to intoxicate (context similarity=0.12)
+  Candidate sense 2: [Software/IT] an onerous or difficult concern (context similarity=0.09)
+Classified as INTRA-DOMAIN ambiguity: the top two candidate senses both belong to the ""Software/IT"" domain but represent distinct concepts."
+grant,grant,"As an owner, I want to be sure that USAspending only send grant records to my system.",Software/IT,0.791,0.894,0.6,0.0,True,Intra-Domain,Software/IT,18th President of the United States; commander of the Union armies in the American Civil War (1822-1885),Software/IT,Scottish painter; cousin of Lytton Strachey and member of the Bloomsbury Group (1885-1978),"The word ""grant"" appears in a sentence whose detected domain is ""Software/IT"".
+  Candidate sense 1: [Software/IT] 18th President of the United States; commander of the Union armies in the American Civil War (1822-1885) (context similarity=0.22)
+  Candidate sense 2: [Software/IT] Scottish painter; cousin of Lytton Strachey and member of the Bloomsbury Group (1885-1978) (context similarity=0.18)
+Classified as INTRA-DOMAIN ambiguity: the top two candidate senses both belong to the ""Software/IT"" domain but represent distinct concepts."
+design,design,"As a UI designer, I want to redesign the Resources page, so that it matches the new Broker design styles.",Software/IT,0.791,0.948,0.5,1.0,True,Inter-Domain,Healthcare,the act of working out the form of something (as by making a sketch or outline or plan),General,an arrangement scheme,"The word ""design"" appears in a sentence whose detected domain is ""Software/IT"".
+  Candidate sense 1: [Healthcare] the act of working out the form of something (as by making a sketch or outline or plan) (context similarity=0.14)
+  Candidate sense 2: [General] an arrangement scheme (context similarity=0.12)
+Classified as INTER-DOMAIN ambiguity: the top two candidate senses belong to different application domains (""Healthcare"" vs. ""General"")."
+reference,reference,"As a FABS user, I want to link the SAMPLE FILE on the ""What you want  to submit"" dialog to point to the correct file, so that I have an accurate reference for my agency submissions.",Software/IT,0.786,0.778,0.8,0.0,True,Intra-Domain,Software/IT,an indicator that orients you generally,Software/IT,a book to which you can refer for authoritative facts,"The word ""reference"" appears in a sentence whose detected domain is ""Software/IT"".
+  Candidate sense 1: [Software/IT] an indicator that orients you generally (context similarity=0.21)
+  Candidate sense 2: [Software/IT] a book to which you can refer for authoritative facts (context similarity=0.13)
+Classified as INTRA-DOMAIN ambiguity: the top two candidate senses both belong to the ""Software/IT"" domain but represent distinct concepts."
+gap,gap,"As a Developer, I want to prevent duplicate transactions from being published and deal with the time gap between validation and the publishing decision.",Software/IT,0.783,0.989,0.4,0.5,True,Inter-Domain,Finance/Business,an act of delaying or interrupting the continuity,Software/IT,an open or empty space in or between things,"The word ""gap"" appears in a sentence whose detected domain is ""Software/IT"".
+  Candidate sense 1: [Finance/Business] an act of delaying or interrupting the continuity (context similarity=0.14)
+  Candidate sense 2: [Software/IT] an open or empty space in or between things (context similarity=0.13)
+Classified as INTER-DOMAIN ambiguity: the top two candidate senses belong to different application domains (""Finance/Business"" vs. ""Software/IT"")."
+map,map,"As a agency user, I want to map the FederalActionObligation properly to the Atom Feed.",Software/IT,0.782,0.988,0.4,0.5,True,Inter-Domain,Software/IT,make a map of; show or establish the features of details of,Healthcare,"plan, delineate, or arrange in detail","The word ""map"" appears in a sentence whose detected domain is ""Software/IT"".
+  Candidate sense 1: [Software/IT] make a map of; show or establish the features of details of (context similarity=0.25)
+  Candidate sense 2: [Healthcare] plan, delineate, or arrange in detail (context similarity=0.24)
+Classified as INTER-DOMAIN ambiguity: the top two candidate senses belong to different application domains (""Software/IT"" vs. ""Healthcare"")."
+record,records,"As an agency user, I want the FABS validation rules to accept zero and blank for non-loan records.",Software/IT,0.781,0.878,0.6,0.5,True,Intra-Domain,Healthcare,the number of wins versus losses and ties a team has had,Healthcare,an extreme attainment; the best (or worst) performance ever attested (as in a sport),"The word ""record"" appears in a sentence whose detected domain is ""Software/IT"".
+  Candidate sense 1: [Healthcare] the number of wins versus losses and ties a team has had (context similarity=0.06)
+  Candidate sense 2: [Healthcare] an extreme attainment; the best (or worst) performance ever attested (as in a sport) (context similarity=0.05)
+Classified as INTRA-DOMAIN ambiguity: the top two candidate senses both belong to the ""Healthcare"" domain but represent distinct concepts."
+record,records,"As an agency user, I want the FABS validation rules to accept zero and blank for loan records.",Software/IT,0.781,0.878,0.6,0.5,True,Intra-Domain,Healthcare,the number of wins versus losses and ties a team has had,Healthcare,an extreme attainment; the best (or worst) performance ever attested (as in a sport),"The word ""record"" appears in a sentence whose detected domain is ""Software/IT"".
+  Candidate sense 1: [Healthcare] the number of wins versus losses and ties a team has had (context similarity=0.07)
+  Candidate sense 2: [Healthcare] an extreme attainment; the best (or worst) performance ever attested (as in a sport) (context similarity=0.05)
+Classified as INTRA-DOMAIN ambiguity: the top two candidate senses both belong to the ""Healthcare"" domain but represent distinct concepts."
+pull,pull,"As a data user, I want to access two additional fields from the FPDS data pull.",Software/IT,0.78,0.93,0.5,0.0,True,Intra-Domain,Software/IT,the force used in pulling,Software/IT,a sustained effort,"The word ""pull"" appears in a sentence whose detected domain is ""Software/IT"".
+  Candidate sense 1: [Software/IT] the force used in pulling (context similarity=0.21)
+  Candidate sense 2: [Software/IT] a sustained effort (context similarity=0.19)
+Classified as INTRA-DOMAIN ambiguity: the top two candidate senses both belong to the ""Software/IT"" domain but represent distinct concepts."
+manage,manage,"As a FABS user, I want additional helpful info in the submission dashboard, so that I can better manage submissions and IG requests.",Software/IT,0.779,0.929,0.5,0.0,True,Intra-Domain,Software/IT,carry on or function,Software/IT,handle effectively,"The word ""manage"" appears in a sentence whose detected domain is ""Software/IT"".
+  Candidate sense 1: [Software/IT] carry on or function (context similarity=0.13)
+  Candidate sense 2: [Software/IT] handle effectively (context similarity=0.11)
+Classified as INTRA-DOMAIN ambiguity: the top two candidate senses both belong to the ""Software/IT"" domain but represent distinct concepts."
+process,processed,"As a Data user, I want to have the 12-19-2017 deletions processed.",Software/IT,0.779,0.929,0.5,0.0,True,Intra-Domain,General,perform mathematical and logical operations on (data) according to programmed instructions in order to obtain the required information,General,deliver a warrant or summons to someone,"The word ""process"" appears in a sentence whose detected domain is ""Software/IT"".
+  Candidate sense 1: [General] perform mathematical and logical operations on (data) according to programmed instructions in order to obtain the required information (context similarity=0.17)
+  Candidate sense 2: [General] deliver a warrant or summons to someone (context similarity=0.15)
+Classified as INTRA-DOMAIN ambiguity: the top two candidate senses both belong to the ""General"" domain but represent distinct concepts."
+submission,submission,"As a FABS user, I want additional helpful info in the submission dashboard, so that I can better manage submissions and IG requests.",Software/IT,0.778,0.928,0.5,1.0,True,Inter-Domain,Healthcare,the condition of having submitted to control by someone or something else,Software/IT,something (manuscripts or architectural plans and models or estimates or works of art of all genres etc.) submitted for the judgment of others (as in a competition),"The word ""submission"" appears in a sentence whose detected domain is ""Software/IT"".
+  Candidate sense 1: [Healthcare] the condition of having submitted to control by someone or something else (context similarity=0.16)
+  Candidate sense 2: [Software/IT] something (manuscripts or architectural plans and models or estimates or works of art of all genres etc.) submitted for the judgment of others (as in a competition) (context similarity=0.14)
+Classified as INTER-DOMAIN ambiguity: the top two candidate senses belong to different application domains (""Healthcare"" vs. ""Software/IT"")."
+submission,submissions,"As a FABS user, I want additional helpful info in the submission dashboard, so that I can better manage submissions and IG requests.",Software/IT,0.778,0.928,0.5,1.0,True,Inter-Domain,Healthcare,the condition of having submitted to control by someone or something else,Software/IT,something (manuscripts or architectural plans and models or estimates or works of art of all genres etc.) submitted for the judgment of others (as in a competition),"The word ""submission"" appears in a sentence whose detected domain is ""Software/IT"".
+  Candidate sense 1: [Healthcare] the condition of having submitted to control by someone or something else (context similarity=0.16)
+  Candidate sense 2: [Software/IT] something (manuscripts or architectural plans and models or estimates or works of art of all genres etc.) submitted for the judgment of others (as in a competition) (context similarity=0.14)
+Classified as INTER-DOMAIN ambiguity: the top two candidate senses belong to different application domains (""Healthcare"" vs. ""Software/IT"")."
+language,language,"As a FABS user, I want the language on FABS pages to be appropriate for me, so that I am not confused.",Software/IT,0.778,0.981,0.4,0.5,True,Intra-Domain,Software/IT,(language) communication by word of mouth,Software/IT,a system of words used to name things in a particular discipline,"The word ""language"" appears in a sentence whose detected domain is ""Software/IT"".
+  Candidate sense 1: [Software/IT] (language) communication by word of mouth (context similarity=0.17)
+  Candidate sense 2: [Software/IT] a system of words used to name things in a particular discipline (context similarity=0.16)
+Classified as INTRA-DOMAIN ambiguity: the top two candidate senses both belong to the ""Software/IT"" domain but represent distinct concepts."
+create,create,"As a Developer , I want to ensure that attempts to correct or delete non-existent records don't create new published data.",Software/IT,0.774,0.976,0.4,0.5,True,Inter-Domain,Legal/Regulatory,"invest with a new title, office, or rank",Software/IT,make or cause to be or to become,"The word ""create"" appears in a sentence whose detected domain is ""Software/IT"".
+  Candidate sense 1: [Legal/Regulatory] invest with a new title, office, or rank (context similarity=0.13)
+  Candidate sense 2: [Software/IT] make or cause to be or to become (context similarity=0.12)
+Classified as INTER-DOMAIN ambiguity: the top two candidate senses belong to different application domains (""Legal/Regulatory"" vs. ""Software/IT"")."
+application,application,"As a FABS user, I do not want  DABS banner messages and vice versa, so that I have the appropriate information for my application.",Software/IT,0.772,0.918,0.5,0.0,True,Intra-Domain,Software/IT,the act of bringing something to bear; using it for a particular purpose,Software/IT,the action of putting something into operation,"The word ""application"" appears in a sentence whose detected domain is ""Software/IT"".
+  Candidate sense 1: [Software/IT] the act of bringing something to bear; using it for a particular purpose (context similarity=0.18)
+  Candidate sense 2: [Software/IT] the action of putting something into operation (context similarity=0.15)
+Classified as INTRA-DOMAIN ambiguity: the top two candidate senses both belong to the ""Software/IT"" domain but represent distinct concepts."
+notice,notice,"As a UI designer, I want to schedule user testing, so that I can give the testers advanced notice to ensure buy-in.",Software/IT,0.772,0.918,0.5,0.5,True,Inter-Domain,General,"an announcement containing information about an event; ; ; ""a notice of sale",Legal/Regulatory,advance notification (usually written) of the intention to withdraw from an arrangement of contract,"The word ""notice"" appears in a sentence whose detected domain is ""Software/IT"".
+  Candidate sense 1: [General] an announcement containing information about an event; ; ; ""a notice of sale (context similarity=0.20)
+  Candidate sense 2: [Legal/Regulatory] advance notification (usually written) of the intention to withdraw from an arrangement of contract (context similarity=0.17)
+Classified as INTER-DOMAIN ambiguity: the top two candidate senses belong to different application domains (""General"" vs. ""Legal/Regulatory"")."
+page,page,"As a UI designer, I want to move on to round 2 of DABS or FABS landing page edits, so that I can get approvals from leadership.",Software/IT,0.771,0.971,0.4,0.0,True,Intra-Domain,Software/IT,United States diplomat and writer about the Old South (1853-1922),Software/IT,English industrialist who pioneered in the design and manufacture of aircraft (1885-1962),"The word ""page"" appears in a sentence whose detected domain is ""Software/IT"".
+  Candidate sense 1: [Software/IT] United States diplomat and writer about the Old South (1853-1922) (context similarity=0.14)
+  Candidate sense 2: [Software/IT] English industrialist who pioneered in the design and manufacture of aircraft (1885-1962) (context similarity=0.13)
+Classified as INTRA-DOMAIN ambiguity: the top two candidate senses both belong to the ""Software/IT"" domain but represent distinct concepts."
+page,page,"As an agency user, I want a landing page to navigate to either FABS or DABS pages, so that I can access both sides of the site.",Software/IT,0.771,0.971,0.4,0.0,True,Intra-Domain,Software/IT,United States diplomat and writer about the Old South (1853-1922),Software/IT,English industrialist who pioneered in the design and manufacture of aircraft (1885-1962),"The word ""page"" appears in a sentence whose detected domain is ""Software/IT"".
+  Candidate sense 1: [Software/IT] United States diplomat and writer about the Old South (1853-1922) (context similarity=0.14)
+  Candidate sense 2: [Software/IT] English industrialist who pioneered in the design and manufacture of aircraft (1885-1962) (context similarity=0.13)
+Classified as INTRA-DOMAIN ambiguity: the top two candidate senses both belong to the ""Software/IT"" domain but represent distinct concepts."
+page,page,"As a UI designer, I want to move on to round 3 of the Help page edits, so that I can get approvals from leadership.",Software/IT,0.771,0.971,0.4,0.0,True,Intra-Domain,Software/IT,United States diplomat and writer about the Old South (1853-1922),Software/IT,English industrialist who pioneered in the design and manufacture of aircraft (1885-1962),"The word ""page"" appears in a sentence whose detected domain is ""Software/IT"".
+  Candidate sense 1: [Software/IT] United States diplomat and writer about the Old South (1853-1922) (context similarity=0.16)
+  Candidate sense 2: [Software/IT] English industrialist who pioneered in the design and manufacture of aircraft (1885-1962) (context similarity=0.15)
+Classified as INTRA-DOMAIN ambiguity: the top two candidate senses both belong to the ""Software/IT"" domain but represent distinct concepts."
+page,page,"As a FABS user, I want the frontend URLs to more accurately reflect the page I'm accessing, so that I'm not confused.",Software/IT,0.771,0.971,0.4,0.0,True,Intra-Domain,Software/IT,United States diplomat and writer about the Old South (1853-1922),Software/IT,English industrialist who pioneered in the design and manufacture of aircraft (1885-1962),"The word ""page"" appears in a sentence whose detected domain is ""Software/IT"".
+  Candidate sense 1: [Software/IT] United States diplomat and writer about the Old South (1853-1922) (context similarity=0.14)
+  Candidate sense 2: [Software/IT] English industrialist who pioneered in the design and manufacture of aircraft (1885-1962) (context similarity=0.13)
+Classified as INTRA-DOMAIN ambiguity: the top two candidate senses both belong to the ""Software/IT"" domain but represent distinct concepts."
+page,pages,"As an agency user, I want a landing page to navigate to either FABS or DABS pages, so that I can access both sides of the site.",Software/IT,0.771,0.971,0.4,0.0,True,Intra-Domain,Software/IT,United States diplomat and writer about the Old South (1853-1922),Software/IT,English industrialist who pioneered in the design and manufacture of aircraft (1885-1962),"The word ""page"" appears in a sentence whose detected domain is ""Software/IT"".
+  Candidate sense 1: [Software/IT] United States diplomat and writer about the Old South (1853-1922) (context similarity=0.14)
+  Candidate sense 2: [Software/IT] English industrialist who pioneered in the design and manufacture of aircraft (1885-1962) (context similarity=0.13)
+Classified as INTRA-DOMAIN ambiguity: the top two candidate senses both belong to the ""Software/IT"" domain but represent distinct concepts."
+page,page,"As a UI designer,  I want to move on to round 2 of the Help page edits, so that I can get approvals from leadership.",Software/IT,0.771,0.971,0.4,0.0,True,Intra-Domain,Software/IT,United States diplomat and writer about the Old South (1853-1922),Software/IT,English industrialist who pioneered in the design and manufacture of aircraft (1885-1962),"The word ""page"" appears in a sentence whose detected domain is ""Software/IT"".
+  Candidate sense 1: [Software/IT] United States diplomat and writer about the Old South (1853-1922) (context similarity=0.16)
+  Candidate sense 2: [Software/IT] English industrialist who pioneered in the design and manufacture of aircraft (1885-1962) (context similarity=0.15)
+Classified as INTRA-DOMAIN ambiguity: the top two candidate senses both belong to the ""Software/IT"" domain but represent distinct concepts."
+production,production,"As an Agency user, I want FABS deployed into production, so I can submit my Financial Assistance data.",Finance/Business,0.77,0.861,0.6,0.5,True,Inter-Domain,General,the act or process of producing something,Software/IT,a display that is exaggerated or unduly complicated,"The word ""production"" appears in a sentence whose detected domain is ""Finance/Business"".
+  Candidate sense 1: [General] the act or process of producing something (context similarity=0.19)
+  Candidate sense 2: [Software/IT] a display that is exaggerated or unduly complicated (context similarity=0.15)
+Classified as INTER-DOMAIN ambiguity: the top two candidate senses belong to different application domains (""General"" vs. ""Software/IT"")."
+appear,appear,"As a user, I want the flexfields in my submission file to appear in the warning and error files when the only error is a missing required element.",Software/IT,0.769,0.913,0.5,0.5,True,Inter-Domain,General,"appear as a character on stage or appear in a play, etc.",Software/IT,"present oneself formally, as before a (judicial) authority","The word ""appear"" appears in a sentence whose detected domain is ""Software/IT"".
+  Candidate sense 1: [General] appear as a character on stage or appear in a play, etc. (context similarity=0.16)
+  Candidate sense 2: [Software/IT] present oneself formally, as before a (judicial) authority (context similarity=0.13)
+Classified as INTER-DOMAIN ambiguity: the top two candidate senses belong to different application domains (""General"" vs. ""Software/IT"")."
+period,period,"As a Developer, I want to add the GTAS window data to the database, so that I can ensure the site is locked down during the GTAS submission period.",Software/IT,0.768,0.912,0.5,0.5,True,Intra-Domain,Software/IT,an amount of time,Software/IT,the end or completion of something,"The word ""period"" appears in a sentence whose detected domain is ""Software/IT"".
+  Candidate sense 1: [Software/IT] an amount of time (context similarity=0.15)
+  Candidate sense 2: [Software/IT] the end or completion of something (context similarity=0.13)
+Classified as INTRA-DOMAIN ambiguity: the top two candidate senses both belong to the ""Software/IT"" domain but represent distinct concepts."
+office,office,"As a data user, I want to see the office names derived from office codes, so that I can have appropriate context for understanding them.",Software/IT,0.76,0.9,0.5,0.5,True,Inter-Domain,General,professional or clerical workers in an office,Software/IT,(of a government or government official) holding an office means being in power,"The word ""office"" appears in a sentence whose detected domain is ""Software/IT"".
+  Candidate sense 1: [General] professional or clerical workers in an office (context similarity=0.31)
+  Candidate sense 2: [Software/IT] (of a government or government official) holding an office means being in power (context similarity=0.25)
+Classified as INTER-DOMAIN ambiguity: the top two candidate senses belong to different application domains (""General"" vs. ""Software/IT"")."
+office,office,"As a data user, I want to see the office names derived from office codes, so that I can have appropriate context for understanding them.",Software/IT,0.76,0.9,0.5,0.5,True,Inter-Domain,General,professional or clerical workers in an office,Software/IT,(of a government or government official) holding an office means being in power,"The word ""office"" appears in a sentence whose detected domain is ""Software/IT"".
+  Candidate sense 1: [General] professional or clerical workers in an office (context similarity=0.31)
+  Candidate sense 2: [Software/IT] (of a government or government official) holding an office means being in power (context similarity=0.25)
+Classified as INTER-DOMAIN ambiguity: the top two candidate senses belong to different application domains (""General"" vs. ""Software/IT"")."
+create,create,"As a Broker user, I want  to help create content mockups, so that I can submit my data efficiently.",Software/IT,0.759,0.953,0.4,0.5,True,Intra-Domain,Software/IT,make or cause to be or to become,Software/IT,create by artistic means,"The word ""create"" appears in a sentence whose detected domain is ""Software/IT"".
+  Candidate sense 1: [Software/IT] make or cause to be or to become (context similarity=0.15)
+  Candidate sense 2: [Software/IT] create by artistic means (context similarity=0.14)
+Classified as INTRA-DOMAIN ambiguity: the top two candidate senses both belong to the ""Software/IT"" domain but represent distinct concepts."
+create,create,"As an Owner, I want to create a user testing summary from the UI SME, so that I can know what UI improvements we will follow through on.",Software/IT,0.759,0.953,0.4,0.5,True,Intra-Domain,Software/IT,make or cause to be or to become,Software/IT,create by artistic means,"The word ""create"" appears in a sentence whose detected domain is ""Software/IT"".
+  Candidate sense 1: [Software/IT] make or cause to be or to become (context similarity=0.13)
+  Candidate sense 2: [Software/IT] create by artistic means (context similarity=0.12)
+Classified as INTRA-DOMAIN ambiguity: the top two candidate senses both belong to the ""Software/IT"" domain but represent distinct concepts."
+feature,features,"As a tester, I want to have access to test features in environments other than Staging, so that I can test any nonProd feature in any environment.",Software/IT,0.755,0.946,0.4,0.0,True,Intra-Domain,Software/IT,a special or prominent article in a newspaper or magazine,Software/IT,the principal (full-length) film in a program at a movie theater,"The word ""feature"" appears in a sentence whose detected domain is ""Software/IT"".
+  Candidate sense 1: [Software/IT] a special or prominent article in a newspaper or magazine (context similarity=0.16)
+  Candidate sense 2: [Software/IT] the principal (full-length) film in a program at a movie theater (context similarity=0.14)
+Classified as INTRA-DOMAIN ambiguity: the top two candidate senses both belong to the ""Software/IT"" domain but represent distinct concepts."
+feature,feature,"As a tester, I want to have access to test features in environments other than Staging, so that I can test any nonProd feature in any environment.",Software/IT,0.755,0.946,0.4,0.0,True,Intra-Domain,Software/IT,a special or prominent article in a newspaper or magazine,Software/IT,the principal (full-length) film in a program at a movie theater,"The word ""feature"" appears in a sentence whose detected domain is ""Software/IT"".
+  Candidate sense 1: [Software/IT] a special or prominent article in a newspaper or magazine (context similarity=0.16)
+  Candidate sense 2: [Software/IT] the principal (full-length) film in a program at a movie theater (context similarity=0.14)
+Classified as INTRA-DOMAIN ambiguity: the top two candidate senses both belong to the ""Software/IT"" domain but represent distinct concepts."
+designer,designer,"As a UI designer, I want to redesign the Resources page, so that it matches the new Broker design styles.",Software/IT,0.754,0.999,0.3,0.0,True,Intra-Domain,Software/IT,someone who specializes in graphic design,Software/IT,someone who designs clothing,"The word ""designer"" appears in a sentence whose detected domain is ""Software/IT"".
+  Candidate sense 1: [Software/IT] someone who specializes in graphic design (context similarity=0.18)
+  Candidate sense 2: [Software/IT] someone who designs clothing (context similarity=0.18)
+Classified as INTRA-DOMAIN ambiguity: the top two candidate senses both belong to the ""Software/IT"" domain but represent distinct concepts."
+match,matches,"As a UI designer, I want to redesign the Resources page, so that it matches the new Broker design styles.",Software/IT,0.753,0.728,0.8,0.0,True,Intra-Domain,Software/IT,be equal to in quality or ability,Software/IT,be equal or harmonize,"The word ""match"" appears in a sentence whose detected domain is ""Software/IT"".
+  Candidate sense 1: [Software/IT] be equal to in quality or ability (context similarity=0.07)
+  Candidate sense 2: [Software/IT] be equal or harmonize (context similarity=0.04)
+Classified as INTRA-DOMAIN ambiguity: the top two candidate senses both belong to the ""Software/IT"" domain but represent distinct concepts."
+domain,domain,"As a Developer , I want my domain models to be indexed properly, so that I can get validation results back in a reasonable amount of time.",Software/IT,0.746,0.987,0.3,0.5,True,Intra-Domain,Software/IT,the content of a particular field of knowledge,Software/IT,(mathematics) the set of values of the independent variable for which a function is defined,"The word ""domain"" appears in a sentence whose detected domain is ""Software/IT"".
+  Candidate sense 1: [Software/IT] the content of a particular field of knowledge (context similarity=0.15)
+  Candidate sense 2: [Software/IT] (mathematics) the set of values of the independent variable for which a function is defined (context similarity=0.15)
+Classified as INTRA-DOMAIN ambiguity: the top two candidate senses both belong to the ""Software/IT"" domain but represent distinct concepts."
+relate,related,"As a user, I want to have accurate and complete data related to PPoPCode and PPoPCongressionalDistrict.",Software/IT,0.746,0.986,0.3,1.0,True,Inter-Domain,Software/IT,be in a relationship with,Finance/Business,give an account of,"The word ""relate"" appears in a sentence whose detected domain is ""Software/IT"".
+  Candidate sense 1: [Software/IT] be in a relationship with (context similarity=0.11)
+  Candidate sense 2: [Finance/Business] give an account of (context similarity=0.11)
+Classified as INTER-DOMAIN ambiguity: the top two candidate senses belong to different application domains (""Software/IT"" vs. ""Finance/Business"")."
+access,access,"As a FABS user, I want to have read-only access to DABS, so that I can view DABS pages without wanting two sets of permissions.",Software/IT,0.744,0.929,0.4,0.5,True,Intra-Domain,Software/IT,the act of approaching or entering,Software/IT,a way of entering or leaving,"The word ""access"" appears in a sentence whose detected domain is ""Software/IT"".
+  Candidate sense 1: [Software/IT] the act of approaching or entering (context similarity=0.11)
+  Candidate sense 2: [Software/IT] a way of entering or leaving (context similarity=0.10)
+Classified as INTRA-DOMAIN ambiguity: the top two candidate senses both belong to the ""Software/IT"" domain but represent distinct concepts."
+access,access,"As an Owner, I want to reset the environment to only take Staging MAX permissions, so that I can ensure that the FABS testers no longer have access.",Software/IT,0.744,0.929,0.4,0.5,True,Intra-Domain,Software/IT,the act of approaching or entering,Software/IT,a way of entering or leaving,"The word ""access"" appears in a sentence whose detected domain is ""Software/IT"".
+  Candidate sense 1: [Software/IT] the act of approaching or entering (context similarity=0.12)
+  Candidate sense 2: [Software/IT] a way of entering or leaving (context similarity=0.10)
+Classified as INTRA-DOMAIN ambiguity: the top two candidate senses both belong to the ""Software/IT"" domain but represent distinct concepts."
+decision,decision,"As a Developer, I want to prevent duplicate transactions from being published and deal with the time gap between validation and the publishing decision.",Software/IT,0.744,0.983,0.3,0.5,True,Intra-Domain,Software/IT,the act of making up your mind about something,Software/IT,(boxing) a victory won on points when no knockout has occurred,"The word ""decision"" appears in a sentence whose detected domain is ""Software/IT"".
+  Candidate sense 1: [Software/IT] the act of making up your mind about something (context similarity=0.12)
+  Candidate sense 2: [Software/IT] (boxing) a victory won on points when no knockout has occurred (context similarity=0.11)
+Classified as INTRA-DOMAIN ambiguity: the top two candidate senses both belong to the ""Software/IT"" domain but represent distinct concepts."
+access,access,"As a tester, I want to have access to test features in environments other than Staging, so that I can test any nonProd feature in any environment.",Software/IT,0.744,0.929,0.4,0.5,True,Intra-Domain,Software/IT,the act of approaching or entering,Software/IT,a way of entering or leaving,"The word ""access"" appears in a sentence whose detected domain is ""Software/IT"".
+  Candidate sense 1: [Software/IT] the act of approaching or entering (context similarity=0.12)
+  Candidate sense 2: [Software/IT] a way of entering or leaving (context similarity=0.10)
+Classified as INTRA-DOMAIN ambiguity: the top two candidate senses both belong to the ""Software/IT"" domain but represent distinct concepts."
+track,track,"As a UI designer, I want to track the issues that come up in Tech Thursday, so that I know what to test and what want s to be fixed.",Software/IT,0.742,0.981,0.3,0.5,True,Inter-Domain,Software/IT,observe or plot the moving path of something,General,carry on the feet and deposit,"The word ""track"" appears in a sentence whose detected domain is ""Software/IT"".
+  Candidate sense 1: [Software/IT] observe or plot the moving path of something (context similarity=0.17)
+  Candidate sense 2: [General] carry on the feet and deposit (context similarity=0.16)
+Classified as INTER-DOMAIN ambiguity: the top two candidate senses belong to different application domains (""Software/IT"" vs. ""General"")."
+logic,logic,"As a Broker user, I want to have updated error codes that accurately reflect the logic and provide enough information, so that I can fix my submission.",Software/IT,0.739,0.976,0.3,0.5,True,Inter-Domain,Legal/Regulatory,the principles that guide reasoning within a given field or situation,Software/IT,a system of reasoning,"The word ""logic"" appears in a sentence whose detected domain is ""Software/IT"".
+  Candidate sense 1: [Legal/Regulatory] the principles that guide reasoning within a given field or situation (context similarity=0.20)
+  Candidate sense 2: [Software/IT] a system of reasoning (context similarity=0.19)
+Classified as INTER-DOMAIN ambiguity: the top two candidate senses belong to different application domains (""Legal/Regulatory"" vs. ""Software/IT"")."
+logic,logic,"As a broker team member, I want to add the 00***** and 00FORGN PPoPCode cases to the derivation logic.",Software/IT,0.739,0.976,0.3,0.5,True,Inter-Domain,Legal/Regulatory,the principles that guide reasoning within a given field or situation,Software/IT,a system of reasoning,"The word ""logic"" appears in a sentence whose detected domain is ""Software/IT"".
+  Candidate sense 1: [Legal/Regulatory] the principles that guide reasoning within a given field or situation (context similarity=0.23)
+  Candidate sense 2: [Software/IT] a system of reasoning (context similarity=0.22)
+Classified as INTER-DOMAIN ambiguity: the top two candidate senses belong to different application domains (""Legal/Regulatory"" vs. ""Software/IT"")."
+quality,quality,"As a broker team member, I want to derive FundingAgencyCode, so that the data quality and completeness improves.",Software/IT,0.734,0.968,0.3,0.5,True,Intra-Domain,Software/IT,high social status,Software/IT,a degree or grade of excellence or worth,"The word ""quality"" appears in a sentence whose detected domain is ""Software/IT"".
+  Candidate sense 1: [Software/IT] high social status (context similarity=0.11)
+  Candidate sense 2: [Software/IT] a degree or grade of excellence or worth (context similarity=0.10)
+Classified as INTRA-DOMAIN ambiguity: the top two candidate senses both belong to the ""Software/IT"" domain but represent distinct concepts."
+information,information,"As a FABS user, I want to make sure the historical data includes all necessary columns, so that the information in the database is correct.",Software/IT,0.734,0.968,0.3,0.0,True,Intra-Domain,General,a collection of facts from which conclusions may be drawn,General,(communication theory) a numerical measure of the uncertainty of an outcome,"The word ""information"" appears in a sentence whose detected domain is ""Software/IT"".
+  Candidate sense 1: [General] a collection of facts from which conclusions may be drawn (context similarity=0.15)
+  Candidate sense 2: [General] (communication theory) a numerical measure of the uncertainty of an outcome (context similarity=0.15)
+Classified as INTRA-DOMAIN ambiguity: the top two candidate senses both belong to the ""General"" domain but represent distinct concepts."
+use,use,"As an agency user, I want to use the schema v1.1 headers in my FABS file.",Software/IT,0.733,0.912,0.4,1.0,True,Inter-Domain,Legal/Regulatory,put into service; make work or employ for a particular purpose or for its inherent or natural purpose,Software/IT,"use up, consume fully","The word ""use"" appears in a sentence whose detected domain is ""Software/IT"".
+  Candidate sense 1: [Legal/Regulatory] put into service; make work or employ for a particular purpose or for its inherent or natural purpose (context similarity=0.16)
+  Candidate sense 2: [Software/IT] use up, consume fully (context similarity=0.13)
+Classified as INTER-DOMAIN ambiguity: the top two candidate senses belong to different application domains (""Legal/Regulatory"" vs. ""Software/IT"")."
+submission,submissions,"As a FABS user, I want to link the SAMPLE FILE on the ""What you want  to submit"" dialog to point to the correct file, so that I have an accurate reference for my agency submissions.",Software/IT,0.732,0.857,0.5,0.5,True,Inter-Domain,Software/IT,something (manuscripts or architectural plans and models or estimates or works of art of all genres etc.) submitted for the judgment of others (as in a competition),Legal/Regulatory,(law) a contention presented by a lawyer to a judge or jury as part of the case he is arguing,"The word ""submission"" appears in a sentence whose detected domain is ""Software/IT"".
+  Candidate sense 1: [Software/IT] something (manuscripts or architectural plans and models or estimates or works of art of all genres etc.) submitted for the judgment of others (as in a competition) (context similarity=0.05)
+  Candidate sense 2: [Legal/Regulatory] (law) a contention presented by a lawyer to a judge or jury as part of the case he is arguing (context similarity=0.04)
+Classified as INTER-DOMAIN ambiguity: the top two candidate senses belong to different application domains (""Software/IT"" vs. ""Legal/Regulatory"")."
+add,add,"As a Developer, I want to add the GTAS window data to the database, so that I can ensure the site is locked down during the GTAS submission period.",Software/IT,0.731,0.909,0.4,0.0,True,Intra-Domain,Software/IT,make an addition by combining numbers,Software/IT,constitute an addition,"The word ""add"" appears in a sentence whose detected domain is ""Software/IT"".
+  Candidate sense 1: [Software/IT] make an addition by combining numbers (context similarity=0.16)
+  Candidate sense 2: [Software/IT] constitute an addition (context similarity=0.13)
+Classified as INTRA-DOMAIN ambiguity: the top two candidate senses both belong to the ""Software/IT"" domain but represent distinct concepts."
+add,add,"As a Developer, I want to add the updates on a FABS submission to be modified when the publishStatus changes, so that I know when the status of the submission has changed.",Software/IT,0.731,0.909,0.4,0.0,True,Intra-Domain,Software/IT,make an addition by combining numbers,Software/IT,constitute an addition,"The word ""add"" appears in a sentence whose detected domain is ""Software/IT"".
+  Candidate sense 1: [Software/IT] make an addition by combining numbers (context similarity=0.17)
+  Candidate sense 2: [Software/IT] constitute an addition (context similarity=0.14)
+Classified as INTRA-DOMAIN ambiguity: the top two candidate senses both belong to the ""Software/IT"" domain but represent distinct concepts."
+add,add,"As a broker team member, I want to add the 00***** and 00FORGN PPoPCode cases to the derivation logic.",Software/IT,0.731,0.909,0.4,0.0,True,Intra-Domain,Software/IT,make an addition by combining numbers,Software/IT,constitute an addition,"The word ""add"" appears in a sentence whose detected domain is ""Software/IT"".
+  Candidate sense 1: [Software/IT] make an addition by combining numbers (context similarity=0.22)
+  Candidate sense 2: [Software/IT] constitute an addition (context similarity=0.18)
+Classified as INTRA-DOMAIN ambiguity: the top two candidate senses both belong to the ""Software/IT"" domain but represent distinct concepts."
+click,click,"As a user, I want the publish button in FABS to deactivate after I click it while the derivations are happening, so that I cannot click it multiple times for the same submission.",Software/IT,0.729,0.852,0.5,0.0,True,Intra-Domain,Software/IT,produce a click,Software/IT,click repeatedly or uncontrollably,"The word ""click"" appears in a sentence whose detected domain is ""Software/IT"".
+  Candidate sense 1: [Software/IT] produce a click (context similarity=0.37)
+  Candidate sense 2: [Software/IT] click repeatedly or uncontrollably (context similarity=0.27)
+Classified as INTRA-DOMAIN ambiguity: the top two candidate senses both belong to the ""Software/IT"" domain but represent distinct concepts."
+want,want,"As a Developer , I want to update the FABS sample file to remove FundingAgencyCode after FABS is updated to no longer require the header.",Software/IT,0.729,0.96,0.3,0.0,True,Intra-Domain,Software/IT,have need of,Software/IT,feel or have a desire for; want strongly,"The word ""want"" appears in a sentence whose detected domain is ""Software/IT"".
+  Candidate sense 1: [Software/IT] have need of (context similarity=0.11)
+  Candidate sense 2: [Software/IT] feel or have a desire for; want strongly (context similarity=0.10)
+Classified as INTRA-DOMAIN ambiguity: the top two candidate senses both belong to the ""Software/IT"" domain but represent distinct concepts."
+click,click,"As a user, I want the publish button in FABS to deactivate after I click it while the derivations are happening, so that I cannot click it multiple times for the same submission.",Software/IT,0.729,0.852,0.5,0.0,True,Intra-Domain,Software/IT,produce a click,Software/IT,click repeatedly or uncontrollably,"The word ""click"" appears in a sentence whose detected domain is ""Software/IT"".
+  Candidate sense 1: [Software/IT] produce a click (context similarity=0.37)
+  Candidate sense 2: [Software/IT] click repeatedly or uncontrollably (context similarity=0.27)
+Classified as INTRA-DOMAIN ambiguity: the top two candidate senses both belong to the ""Software/IT"" domain but represent distinct concepts."
+history,history,"As a FABS user, I want to see correct status labels on the Submission Dashboard, so that I can quickly see my submission history.",Healthcare,0.729,0.96,0.3,0.0,True,Intra-Domain,Healthcare,all that is remembered of the past as preserved in writing; a body of knowledge,Healthcare,the aggregate of past events,"The word ""history"" appears in a sentence whose detected domain is ""Healthcare"".
+  Candidate sense 1: [Healthcare] all that is remembered of the past as preserved in writing; a body of knowledge (context similarity=0.17)
+  Candidate sense 2: [Healthcare] the aggregate of past events (context similarity=0.15)
+Classified as INTRA-DOMAIN ambiguity: the top two candidate senses both belong to the ""Healthcare"" domain but represent distinct concepts."
+complete,complete,"As an agency user, I want to leave off the last 4 digits of the ZIP without an error, so that I can complete my submissions.",Software/IT,0.728,0.958,0.3,0.5,True,Intra-Domain,Software/IT,complete a pass,Software/IT,"bring to a whole, with all the necessary parts or elements","The word ""complete"" appears in a sentence whose detected domain is ""Software/IT"".
+  Candidate sense 1: [Software/IT] complete a pass (context similarity=0.21)
+  Candidate sense 2: [Software/IT] bring to a whole, with all the necessary parts or elements (context similarity=0.20)
+Classified as INTRA-DOMAIN ambiguity: the top two candidate senses both belong to the ""Software/IT"" domain but represent distinct concepts."
+performance,performance,"As an Agency user, I want to be able to include a large number of flexfields without performance impact.",Software/IT,0.726,0.955,0.3,0.5,True,Inter-Domain,General,any recognized accomplishment,Software/IT,the act of presenting a play or a piece of music or other entertainment,"The word ""performance"" appears in a sentence whose detected domain is ""Software/IT"".
+  Candidate sense 1: [General] any recognized accomplishment (context similarity=0.16)
+  Candidate sense 2: [Software/IT] the act of presenting a play or a piece of music or other entertainment (context similarity=0.15)
+Classified as INTER-DOMAIN ambiguity: the top two candidate senses belong to different application domains (""General"" vs. ""Software/IT"")."
+performance,performance,"As a Developer, I want D Files generation requests to be managed and cached, so that duplicate requests do not cause performance issues.",Software/IT,0.726,0.955,0.3,0.5,True,Inter-Domain,General,any recognized accomplishment,Software/IT,the act of presenting a play or a piece of music or other entertainment,"The word ""performance"" appears in a sentence whose detected domain is ""Software/IT"".
+  Candidate sense 1: [General] any recognized accomplishment (context similarity=0.12)
+  Candidate sense 2: [Software/IT] the act of presenting a play or a piece of music or other entertainment (context similarity=0.11)
+Classified as INTER-DOMAIN ambiguity: the top two candidate senses belong to different application domains (""General"" vs. ""Software/IT"")."
+performance,performance,"As an Agency user, I want to be able to include a large number of flexfields without performance impact.",Software/IT,0.726,0.955,0.3,0.5,True,Inter-Domain,General,any recognized accomplishment,Software/IT,the act of presenting a play or a piece of music or other entertainment,"The word ""performance"" appears in a sentence whose detected domain is ""Software/IT"".
+  Candidate sense 1: [General] any recognized accomplishment (context similarity=0.16)
+  Candidate sense 2: [Software/IT] the act of presenting a play or a piece of music or other entertainment (context similarity=0.15)
+Classified as INTER-DOMAIN ambiguity: the top two candidate senses belong to different application domains (""General"" vs. ""Software/IT"")."
+error,error,"As an Agency user, I want to receive a more helpful file-level error when I upload a file with the wrong extension.",Software/IT,0.724,0.845,0.5,0.5,True,Intra-Domain,Software/IT,departure from what is ethically acceptable,Software/IT,(computer science) the occurrence of an incorrect result produced by a computer,"The word ""error"" appears in a sentence whose detected domain is ""Software/IT"".
+  Candidate sense 1: [Software/IT] departure from what is ethically acceptable (context similarity=0.16)
+  Candidate sense 2: [Software/IT] (computer science) the occurrence of an incorrect result produced by a computer (context similarity=0.12)
+Classified as INTRA-DOMAIN ambiguity: the top two candidate senses both belong to the ""Software/IT"" domain but represent distinct concepts."
+element,elements,"As an agency user, I want to submit my data elements surrounded by quotation marks, so that Excel won't strip off leading and trailing zeroes.",Software/IT,0.718,0.836,0.5,0.5,True,Intra-Domain,Software/IT,one of four substances thought in ancient and medieval cosmology to constitute the physical universe,Software/IT,an abstract part of something,"The word ""element"" appears in a sentence whose detected domain is ""Software/IT"".
+  Candidate sense 1: [Software/IT] one of four substances thought in ancient and medieval cosmology to constitute the physical universe (context similarity=0.05)
+  Candidate sense 2: [Software/IT] an abstract part of something (context similarity=0.04)
+Classified as INTRA-DOMAIN ambiguity: the top two candidate senses both belong to the ""Software/IT"" domain but represent distinct concepts."
+element,elements,"As an agency user, I want to have all derived data elements derived properly.",Software/IT,0.718,0.836,0.5,0.5,True,Intra-Domain,Software/IT,one of four substances thought in ancient and medieval cosmology to constitute the physical universe,Software/IT,an abstract part of something,"The word ""element"" appears in a sentence whose detected domain is ""Software/IT"".
+  Candidate sense 1: [Software/IT] one of four substances thought in ancient and medieval cosmology to constitute the physical universe (context similarity=0.07)
+  Candidate sense 2: [Software/IT] an abstract part of something (context similarity=0.05)
+Classified as INTRA-DOMAIN ambiguity: the top two candidate senses both belong to the ""Software/IT"" domain but represent distinct concepts."
+table,table,"As a Developer, I want to update the Broker validation rule table to account for the rule updates in DB-2213.",Legal/Regulatory,0.717,0.888,0.4,0.0,True,Intra-Domain,Software/IT,a company of people assembled at a table for a meal or game,Software/IT,a set of data arranged in rows and columns,"The word ""table"" appears in a sentence whose detected domain is ""Legal/Regulatory"".
+  Candidate sense 1: [Software/IT] a company of people assembled at a table for a meal or game (context similarity=0.17)
+  Candidate sense 2: [Software/IT] a set of data arranged in rows and columns (context similarity=0.13)
+Classified as INTRA-DOMAIN ambiguity: the top two candidate senses both belong to the ""Software/IT"" domain but represent distinct concepts."
+want,want,"As an agency user, I want to be confident that the data coming from SAM is complete.",Software/IT,0.717,0.942,0.3,0.0,True,Intra-Domain,Software/IT,hunt or look for; want for a particular reason,Software/IT,feel or have a desire for; want strongly,"The word ""want"" appears in a sentence whose detected domain is ""Software/IT"".
+  Candidate sense 1: [Software/IT] hunt or look for; want for a particular reason (context similarity=0.15)
+  Candidate sense 2: [Software/IT] feel or have a desire for; want strongly (context similarity=0.14)
+Classified as INTRA-DOMAIN ambiguity: the top two candidate senses both belong to the ""Software/IT"" domain but represent distinct concepts."
+table,table,"As a broker user, I want the historical FABS loader to derive fields, so that my agency codes are correct in the PublishedAwardFinancialAssistance table.",Software/IT,0.717,0.888,0.4,0.0,True,Intra-Domain,Software/IT,a company of people assembled at a table for a meal or game,Software/IT,a set of data arranged in rows and columns,"The word ""table"" appears in a sentence whose detected domain is ""Software/IT"".
+  Candidate sense 1: [Software/IT] a company of people assembled at a table for a meal or game (context similarity=0.17)
+  Candidate sense 2: [Software/IT] a set of data arranged in rows and columns (context similarity=0.13)
+Classified as INTRA-DOMAIN ambiguity: the top two candidate senses both belong to the ""Software/IT"" domain but represent distinct concepts."
+want,want,"As a user, I want the DUNS validations to accept records whose ActionTypes are B, C, or D and the DUNS is registered in SAM, even though it may have expired.",Software/IT,0.717,0.942,0.3,0.0,True,Intra-Domain,Software/IT,hunt or look for; want for a particular reason,Software/IT,feel or have a desire for; want strongly,"The word ""want"" appears in a sentence whose detected domain is ""Software/IT"".
+  Candidate sense 1: [Software/IT] hunt or look for; want for a particular reason (context similarity=0.10)
+  Candidate sense 2: [Software/IT] feel or have a desire for; want strongly (context similarity=0.09)
+Classified as INTRA-DOMAIN ambiguity: the top two candidate senses both belong to the ""Software/IT"" domain but represent distinct concepts."
+want,want,"As a user, I want the DUNS validations to accept records whose ActionDates are before the current registration date in SAM, but after the initial registration date.",Software/IT,0.717,0.942,0.3,0.0,True,Intra-Domain,Software/IT,hunt or look for; want for a particular reason,Software/IT,feel or have a desire for; want strongly,"The word ""want"" appears in a sentence whose detected domain is ""Software/IT"".
+  Candidate sense 1: [Software/IT] hunt or look for; want for a particular reason (context similarity=0.09)
+  Candidate sense 2: [Software/IT] feel or have a desire for; want strongly (context similarity=0.08)
+Classified as INTRA-DOMAIN ambiguity: the top two candidate senses both belong to the ""Software/IT"" domain but represent distinct concepts."
+provide,provide,"As a DevOps engineer, I want New Relic to provide useful data across all applications.",Software/IT,0.716,0.832,0.5,0.5,True,Inter-Domain,Software/IT,give something useful or necessary to,General,take measures in preparation for,"The word ""provide"" appears in a sentence whose detected domain is ""Software/IT"".
+  Candidate sense 1: [Software/IT] give something useful or necessary to (context similarity=0.15)
+  Candidate sense 2: [General] take measures in preparation for (context similarity=0.11)
+Classified as INTER-DOMAIN ambiguity: the top two candidate senses belong to different application domains (""Software/IT"" vs. ""General"")."
+member,member,"As a broker team member, I want to make some updates to the SQL codes for clarity.",Software/IT,0.715,0.938,0.3,0.5,True,Inter-Domain,Software/IT,an organization that is a member of another organization (especially a state that belongs to a group of nations),General,one of the persons who compose a social group (especially individuals who have joined and participate in a group organization),"The word ""member"" appears in a sentence whose detected domain is ""Software/IT"".
+  Candidate sense 1: [Software/IT] an organization that is a member of another organization (especially a state that belongs to a group of nations) (context similarity=0.17)
+  Candidate sense 2: [General] one of the persons who compose a social group (especially individuals who have joined and participate in a group organization) (context similarity=0.15)
+Classified as INTER-DOMAIN ambiguity: the top two candidate senses belong to different application domains (""Software/IT"" vs. ""General"")."
+member,member,"As a broker team member, I want to ensure the Broker resources, validations, and P&P pages are updated appropriately for the launch of FABS and DAIMS v1.1.",Software/IT,0.715,0.938,0.3,0.5,True,Inter-Domain,Software/IT,an organization that is a member of another organization (especially a state that belongs to a group of nations),General,one of the persons who compose a social group (especially individuals who have joined and participate in a group organization),"The word ""member"" appears in a sentence whose detected domain is ""Software/IT"".
+  Candidate sense 1: [Software/IT] an organization that is a member of another organization (especially a state that belongs to a group of nations) (context similarity=0.13)
+  Candidate sense 2: [General] one of the persons who compose a social group (especially individuals who have joined and participate in a group organization) (context similarity=0.11)
+Classified as INTER-DOMAIN ambiguity: the top two candidate senses belong to different application domains (""Software/IT"" vs. ""General"")."
+member,member,"As a broker team member, I want to add the 00***** and 00FORGN PPoPCode cases to the derivation logic.",Software/IT,0.715,0.938,0.3,0.5,True,Inter-Domain,Software/IT,an organization that is a member of another organization (especially a state that belongs to a group of nations),General,one of the persons who compose a social group (especially individuals who have joined and participate in a group organization),"The word ""member"" appears in a sentence whose detected domain is ""Software/IT"".
+  Candidate sense 1: [Software/IT] an organization that is a member of another organization (especially a state that belongs to a group of nations) (context similarity=0.17)
+  Candidate sense 2: [General] one of the persons who compose a social group (especially individuals who have joined and participate in a group organization) (context similarity=0.15)
+Classified as INTER-DOMAIN ambiguity: the top two candidate senses belong to different application domains (""Software/IT"" vs. ""General"")."
+member,member,"As a broker team member, I want to derive FundingAgencyCode, so that the data quality and completeness improves.",Software/IT,0.715,0.938,0.3,0.5,True,Inter-Domain,Software/IT,an organization that is a member of another organization (especially a state that belongs to a group of nations),General,one of the persons who compose a social group (especially individuals who have joined and participate in a group organization),"The word ""member"" appears in a sentence whose detected domain is ""Software/IT"".
+  Candidate sense 1: [Software/IT] an organization that is a member of another organization (especially a state that belongs to a group of nations) (context similarity=0.16)
+  Candidate sense 2: [General] one of the persons who compose a social group (especially individuals who have joined and participate in a group organization) (context similarity=0.14)
+Classified as INTER-DOMAIN ambiguity: the top two candidate senses belong to different application domains (""Software/IT"" vs. ""General"")."
+change,changes,"As a Developer, I want to add the updates on a FABS submission to be modified when the publishStatus changes, so that I know when the status of the submission has changed.",Software/IT,0.711,0.663,0.8,0.0,True,Intra-Domain,Software/IT,undergo a change; become different in essence; losing one's or its original nature,Software/IT,change from one vehicle or transportation line to another,"The word ""change"" appears in a sentence whose detected domain is ""Software/IT"".
+  Candidate sense 1: [Software/IT] undergo a change; become different in essence; losing one's or its original nature (context similarity=0.12)
+  Candidate sense 2: [Software/IT] change from one vehicle or transportation line to another (context similarity=0.06)
+Classified as INTRA-DOMAIN ambiguity: the top two candidate senses both belong to the ""Software/IT"" domain but represent distinct concepts."
+change,changed,"As a Developer, I want to add the updates on a FABS submission to be modified when the publishStatus changes, so that I know when the status of the submission has changed.",Software/IT,0.711,0.663,0.8,0.0,True,Intra-Domain,Software/IT,undergo a change; become different in essence; losing one's or its original nature,Software/IT,change from one vehicle or transportation line to another,"The word ""change"" appears in a sentence whose detected domain is ""Software/IT"".
+  Candidate sense 1: [Software/IT] undergo a change; become different in essence; losing one's or its original nature (context similarity=0.12)
+  Candidate sense 2: [Software/IT] change from one vehicle or transportation line to another (context similarity=0.06)
+Classified as INTRA-DOMAIN ambiguity: the top two candidate senses both belong to the ""Software/IT"" domain but represent distinct concepts."
+test,test,"As a UI designer, I want to track the issues that come up in Tech Thursday, so that I know what to test and what want s to be fixed.",Software/IT,0.705,0.816,0.5,0.0,True,Intra-Domain,Software/IT,undergo a test,Software/IT,"put to the test, as for its quality, or give experimental use to","The word ""test"" appears in a sentence whose detected domain is ""Software/IT"".
+  Candidate sense 1: [Software/IT] undergo a test (context similarity=0.18)
+  Candidate sense 2: [Software/IT] put to the test, as for its quality, or give experimental use to (context similarity=0.12)
+Classified as INTRA-DOMAIN ambiguity: the top two candidate senses both belong to the ""Software/IT"" domain but represent distinct concepts."
+test,test,"As a tester, I want to have access to test features in environments other than Staging, so that I can test any nonProd feature in any environment.",Software/IT,0.705,0.816,0.5,0.0,True,Intra-Domain,Software/IT,undergo a test,Software/IT,"put to the test, as for its quality, or give experimental use to","The word ""test"" appears in a sentence whose detected domain is ""Software/IT"".
+  Candidate sense 1: [Software/IT] undergo a test (context similarity=0.34)
+  Candidate sense 2: [Software/IT] put to the test, as for its quality, or give experimental use to (context similarity=0.24)
+Classified as INTRA-DOMAIN ambiguity: the top two candidate senses both belong to the ""Software/IT"" domain but represent distinct concepts."
+application,applications,"As a DevOps engineer, I want New Relic to provide useful data across all applications.",Software/IT,0.704,0.813,0.5,0.0,True,Intra-Domain,Software/IT,a program that gives a computer instructions that provide the user with tools to accomplish a task,Software/IT,the action of putting something into operation,"The word ""application"" appears in a sentence whose detected domain is ""Software/IT"".
+  Candidate sense 1: [Software/IT] a program that gives a computer instructions that provide the user with tools to accomplish a task (context similarity=0.16)
+  Candidate sense 2: [Software/IT] the action of putting something into operation (context similarity=0.11)
+Classified as INTRA-DOMAIN ambiguity: the top two candidate senses both belong to the ""Software/IT"" domain but represent distinct concepts."
+name,names,"As a data user, I want to see the office names derived from office codes, so that I can have appropriate context for understanding them.",Software/IT,0.703,0.866,0.4,0.5,True,Inter-Domain,Software/IT,a language unit by which a person or thing is known,Healthcare,a well-known or notable person,"The word ""name"" appears in a sentence whose detected domain is ""Software/IT"".
+  Candidate sense 1: [Software/IT] a language unit by which a person or thing is known (context similarity=0.07)
+  Candidate sense 2: [Healthcare] a well-known or notable person (context similarity=0.06)
+Classified as INTER-DOMAIN ambiguity: the top two candidate senses belong to different application domains (""Software/IT"" vs. ""Healthcare"")."
+want,want,"As an Owner, I want to design a schedule from the UI SME, so that I know the potential timeline of the UI improvements wanted.",Software/IT,0.703,0.92,0.3,0.0,True,Intra-Domain,Software/IT,hunt or look for; want for a particular reason,Software/IT,feel or have a desire for; want strongly,"The word ""want"" appears in a sentence whose detected domain is ""Software/IT"".
+  Candidate sense 1: [Software/IT] hunt or look for; want for a particular reason (context similarity=0.11)
+  Candidate sense 2: [Software/IT] feel or have a desire for; want strongly (context similarity=0.09)
+Classified as INTRA-DOMAIN ambiguity: the top two candidate senses both belong to the ""Software/IT"" domain but represent distinct concepts."
+provide,provide,"As a Developer , I want to provide FABS groups that function under the FREC paradigm.",Software/IT,0.703,0.812,0.5,0.5,True,Intra-Domain,General,take measures in preparation for,General,make a possibility or provide opportunity for; permit to be attainable or cause to remain,"The word ""provide"" appears in a sentence whose detected domain is ""Software/IT"".
+  Candidate sense 1: [General] take measures in preparation for (context similarity=0.13)
+  Candidate sense 2: [General] make a possibility or provide opportunity for; permit to be attainable or cause to remain (context similarity=0.09)
+Classified as INTRA-DOMAIN ambiguity: the top two candidate senses both belong to the ""General"" domain but represent distinct concepts."
+provide,provide,"As a Broker user, I want to have updated error codes that accurately reflect the logic and provide enough information, so that I can fix my submission.",Software/IT,0.703,0.812,0.5,0.5,True,Intra-Domain,General,take measures in preparation for,General,make a possibility or provide opportunity for; permit to be attainable or cause to remain,"The word ""provide"" appears in a sentence whose detected domain is ""Software/IT"".
+  Candidate sense 1: [General] take measures in preparation for (context similarity=0.10)
+  Candidate sense 2: [General] make a possibility or provide opportunity for; permit to be attainable or cause to remain (context similarity=0.07)
+Classified as INTRA-DOMAIN ambiguity: the top two candidate senses both belong to the ""General"" domain but represent distinct concepts."
+want,wanted,"As an Owner, I want to design a schedule from the UI SME, so that I know the potential timeline of the UI improvements wanted.",Software/IT,0.703,0.92,0.3,0.0,True,Intra-Domain,Software/IT,hunt or look for; want for a particular reason,Software/IT,feel or have a desire for; want strongly,"The word ""want"" appears in a sentence whose detected domain is ""Software/IT"".
+  Candidate sense 1: [Software/IT] hunt or look for; want for a particular reason (context similarity=0.11)
+  Candidate sense 2: [Software/IT] feel or have a desire for; want strongly (context similarity=0.09)
+Classified as INTRA-DOMAIN ambiguity: the top two candidate senses both belong to the ""Software/IT"" domain but represent distinct concepts."
+derivation,derivations,"As a Developer, I want the data loaded from historical FABS to include the FREC derivations, so that I can have consistent FREC data for USASpending.gov.",Software/IT,0.703,0.759,0.6,0.5,True,Intra-Domain,General,(historical linguistics) an explanation of the historical origins of a word or phrase,General,(descriptive linguistics) the process whereby new words are formed from existing words or bases by affixation,"The word ""derivation"" appears in a sentence whose detected domain is ""Software/IT"".
+  Candidate sense 1: [General] (historical linguistics) an explanation of the historical origins of a word or phrase (context similarity=0.10)
+  Candidate sense 2: [General] (descriptive linguistics) the process whereby new words are formed from existing words or bases by affixation (context similarity=0.06)
+Classified as INTRA-DOMAIN ambiguity: the top two candidate senses both belong to the ""General"" domain but represent distinct concepts."
+regenerate,regenerate,"As a Broker user, I want the D1 file generation to be synced with the FPDS data load, so that I don't have to regenerate a file if no data has been updated.",Software/IT,0.695,0.693,0.7,0.5,True,Inter-Domain,Software/IT,form or produce anew,General,be formed or shaped anew,"The word ""regenerate"" appears in a sentence whose detected domain is ""Software/IT"".
+  Candidate sense 1: [Software/IT] form or produce anew (context similarity=0.17)
+  Candidate sense 2: [General] be formed or shaped anew (context similarity=0.09)
+Classified as INTER-DOMAIN ambiguity: the top two candidate senses belong to different application domains (""Software/IT"" vs. ""General"")."
+error,error,"As a Broker user, I want to Upload and Validate the error message to have accurate text.",Software/IT,0.694,0.798,0.5,0.0,True,Intra-Domain,Software/IT,(computer science) the occurrence of an incorrect result produced by a computer,Software/IT,inadvertent incorrectness,"The word ""error"" appears in a sentence whose detected domain is ""Software/IT"".
+  Candidate sense 1: [Software/IT] (computer science) the occurrence of an incorrect result produced by a computer (context similarity=0.14)
+  Candidate sense 2: [Software/IT] inadvertent incorrectness (context similarity=0.09)
+Classified as INTRA-DOMAIN ambiguity: the top two candidate senses both belong to the ""Software/IT"" domain but represent distinct concepts."
+page,page,"As a UI designer, I want to redesign the Resources page, so that it matches the new Broker design styles.",Software/IT,0.694,0.852,0.4,0.0,True,Intra-Domain,Software/IT,English industrialist who pioneered in the design and manufacture of aircraft (1885-1962),Software/IT,United States diplomat and writer about the Old South (1853-1922),"The word ""page"" appears in a sentence whose detected domain is ""Software/IT"".
+  Candidate sense 1: [Software/IT] English industrialist who pioneered in the design and manufacture of aircraft (1885-1962) (context similarity=0.18)
+  Candidate sense 2: [Software/IT] United States diplomat and writer about the Old South (1853-1922) (context similarity=0.13)
+Classified as INTRA-DOMAIN ambiguity: the top two candidate senses both belong to the ""Software/IT"" domain but represent distinct concepts."
+error,error,"As a user, I want the flexfields in my submission file to appear in the warning and error files when the only error is a missing required element.",Software/IT,0.694,0.798,0.5,0.0,True,Intra-Domain,Software/IT,(computer science) the occurrence of an incorrect result produced by a computer,Software/IT,inadvertent incorrectness,"The word ""error"" appears in a sentence whose detected domain is ""Software/IT"".
+  Candidate sense 1: [Software/IT] (computer science) the occurrence of an incorrect result produced by a computer (context similarity=0.22)
+  Candidate sense 2: [Software/IT] inadvertent incorrectness (context similarity=0.15)
+Classified as INTRA-DOMAIN ambiguity: the top two candidate senses both belong to the ""Software/IT"" domain but represent distinct concepts."
+error,error,"As a Developer , I want to clarify to users what exactly is triggering the CFDA error code in each case.",Software/IT,0.694,0.798,0.5,0.0,True,Intra-Domain,Software/IT,(computer science) the occurrence of an incorrect result produced by a computer,Software/IT,inadvertent incorrectness,"The word ""error"" appears in a sentence whose detected domain is ""Software/IT"".
+  Candidate sense 1: [Software/IT] (computer science) the occurrence of an incorrect result produced by a computer (context similarity=0.12)
+  Candidate sense 2: [Software/IT] inadvertent incorrectness (context similarity=0.08)
+Classified as INTRA-DOMAIN ambiguity: the top two candidate senses both belong to the ""Software/IT"" domain but represent distinct concepts."
+error,error,"As a user, I want the flexfields in my submission file to appear in the warning and error files when the only error is a missing required element.",Software/IT,0.694,0.798,0.5,0.0,True,Intra-Domain,Software/IT,(computer science) the occurrence of an incorrect result produced by a computer,Software/IT,inadvertent incorrectness,"The word ""error"" appears in a sentence whose detected domain is ""Software/IT"".
+  Candidate sense 1: [Software/IT] (computer science) the occurrence of an incorrect result produced by a computer (context similarity=0.22)
+  Candidate sense 2: [Software/IT] inadvertent incorrectness (context similarity=0.15)
+Classified as INTRA-DOMAIN ambiguity: the top two candidate senses both belong to the ""Software/IT"" domain but represent distinct concepts."
+error,error,"As a Broker user, I want to submit records for individual recipients without receiving a DUNS error.",Software/IT,0.694,0.798,0.5,0.0,True,Intra-Domain,Software/IT,(computer science) the occurrence of an incorrect result produced by a computer,Software/IT,inadvertent incorrectness,"The word ""error"" appears in a sentence whose detected domain is ""Software/IT"".
+  Candidate sense 1: [Software/IT] (computer science) the occurrence of an incorrect result produced by a computer (context similarity=0.13)
+  Candidate sense 2: [Software/IT] inadvertent incorrectness (context similarity=0.09)
+Classified as INTRA-DOMAIN ambiguity: the top two candidate senses both belong to the ""Software/IT"" domain but represent distinct concepts."
+error,error,"As an agency user, I want to leave off the last 4 digits of the ZIP without an error, so that I can complete my submissions.",Software/IT,0.694,0.798,0.5,0.0,True,Intra-Domain,Software/IT,(computer science) the occurrence of an incorrect result produced by a computer,Software/IT,inadvertent incorrectness,"The word ""error"" appears in a sentence whose detected domain is ""Software/IT"".
+  Candidate sense 1: [Software/IT] (computer science) the occurrence of an incorrect result produced by a computer (context similarity=0.15)
+  Candidate sense 2: [Software/IT] inadvertent incorrectness (context similarity=0.10)
+Classified as INTRA-DOMAIN ambiguity: the top two candidate senses both belong to the ""Software/IT"" domain but represent distinct concepts."

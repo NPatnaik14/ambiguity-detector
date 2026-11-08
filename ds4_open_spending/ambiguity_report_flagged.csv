@@ -1,0 +1,465 @@
+word,surface_form,sentence,sentence_domain,ambiguity_score,semantic_similarity_spread,contextual_confidence_gap,domain_diversity,is_ambiguous,ambiguity_type,top_sense_1_domain,top_sense_1_gloss,top_sense_2_domain,top_sense_2_gloss,explanation
+deal,deal,"As a Platform Administrator, I want to be able to delete any dataset published, So that I can deal with takedown requests, or clean up test datasets.",Software/IT,0.991,0.986,1.0,1.0,True,Inter-Domain,General,take action with respect to (someone or something),Software/IT,sell,"The word ""deal"" appears in a sentence whose detected domain is ""Software/IT"".
+  Candidate sense 1: [General] take action with respect to (someone or something) (context similarity=0.15)
+  Candidate sense 2: [Software/IT] sell (context similarity=0.15)
+Classified as INTER-DOMAIN ambiguity: the top two candidate senses belong to different application domains (""General"" vs. ""Software/IT"")."
+fix,fix,"As a Data Publishing User, I want to know if my CSV file is valid, So that I can fix possible data issues before publishing it on Open Spending.",Software/IT,0.991,0.986,1.0,0.5,True,Intra-Domain,Software/IT,decide upon or fix definitely,Software/IT,set or place definitely,"The word ""fix"" appears in a sentence whose detected domain is ""Software/IT"".
+  Candidate sense 1: [Software/IT] decide upon or fix definitely (context similarity=0.12)
+  Candidate sense 2: [Software/IT] set or place definitely (context similarity=0.12)
+Classified as INTRA-DOMAIN ambiguity: the top two candidate senses both belong to the ""Software/IT"" domain but represent distinct concepts."
+fix,fix,"As a Data Publishing User, I want to be able to Hide a dataset that I have already added as Public, So that I can fix my mistakes or have a dataset primarily for my own use.",Software/IT,0.991,0.986,1.0,0.5,True,Intra-Domain,Software/IT,decide upon or fix definitely,Software/IT,set or place definitely,"The word ""fix"" appears in a sentence whose detected domain is ""Software/IT"".
+  Candidate sense 1: [Software/IT] decide upon or fix definitely (context similarity=0.13)
+  Candidate sense 2: [Software/IT] set or place definitely (context similarity=0.13)
+Classified as INTRA-DOMAIN ambiguity: the top two candidate senses both belong to the ""Software/IT"" domain but represent distinct concepts."
+order,order,"As a Data Publishing User, I want to be able to import data in Excel, So that I do not have to convert data formats in order to use the data packager.",Software/IT,0.99,0.985,1.0,1.0,True,Inter-Domain,Healthcare,a condition of regular or proper arrangement,Software/IT,a degree in a continuum of size or quantity,"The word ""order"" appears in a sentence whose detected domain is ""Software/IT"".
+  Candidate sense 1: [Healthcare] a condition of regular or proper arrangement (context similarity=0.11)
+  Candidate sense 2: [Software/IT] a degree in a continuum of size or quantity (context similarity=0.11)
+Classified as INTER-DOMAIN ambiguity: the top two candidate senses belong to different application domains (""Healthcare"" vs. ""Software/IT"")."
+order,order,"As a Data Publishing User, I want to be able to import data from Fiscal Data Package descriptor file, So that I do not have to convert data formats in order to use the data packager.",Software/IT,0.99,0.985,1.0,1.0,True,Inter-Domain,Healthcare,a condition of regular or proper arrangement,Software/IT,a degree in a continuum of size or quantity,"The word ""order"" appears in a sentence whose detected domain is ""Software/IT"".
+  Candidate sense 1: [Healthcare] a condition of regular or proper arrangement (context similarity=0.09)
+  Candidate sense 2: [Software/IT] a degree in a continuum of size or quantity (context similarity=0.09)
+Classified as INTER-DOMAIN ambiguity: the top two candidate senses belong to different application domains (""Healthcare"" vs. ""Software/IT"")."
+order,order,"As a Data Publishing User, I want to be able to import data in JSON, So that I do not have to convert data formats in order to use the data packager.",Software/IT,0.99,0.985,1.0,1.0,True,Inter-Domain,Healthcare,a condition of regular or proper arrangement,Software/IT,a degree in a continuum of size or quantity,"The word ""order"" appears in a sentence whose detected domain is ""Software/IT"".
+  Candidate sense 1: [Healthcare] a condition of regular or proper arrangement (context similarity=0.11)
+  Candidate sense 2: [Software/IT] a degree in a continuum of size or quantity (context similarity=0.11)
+Classified as INTER-DOMAIN ambiguity: the top two candidate senses belong to different application domains (""Healthcare"" vs. ""Software/IT"")."
+order,order,"As a Data Publishing User, I want to be able to import data from a Google Spreadsheet, So that I do not have to convert data formats in order to use the data packager.",Software/IT,0.99,0.985,1.0,1.0,True,Inter-Domain,Healthcare,a condition of regular or proper arrangement,Software/IT,a degree in a continuum of size or quantity,"The word ""order"" appears in a sentence whose detected domain is ""Software/IT"".
+  Candidate sense 1: [Healthcare] a condition of regular or proper arrangement (context similarity=0.10)
+  Candidate sense 2: [Software/IT] a degree in a continuum of size or quantity (context similarity=0.10)
+Classified as INTER-DOMAIN ambiguity: the top two candidate senses belong to different application domains (""Healthcare"" vs. ""Software/IT"")."
+work,work,"As an API User, I want to be able to normalise measures by GDP, so I work with datasets in reference to their contextual constraints.",Software/IT,0.987,0.98,1.0,0.5,True,Intra-Domain,Software/IT,be employed,Software/IT,cause to work,"The word ""work"" appears in a sentence whose detected domain is ""Software/IT"".
+  Candidate sense 1: [Software/IT] be employed (context similarity=0.12)
+  Candidate sense 2: [Software/IT] cause to work (context similarity=0.12)
+Classified as INTRA-DOMAIN ambiguity: the top two candidate senses both belong to the ""Software/IT"" domain but represent distinct concepts."
+work,work,"As an API User, I want to be able to normalise measures by GINI and related socioeconomic indexes, So that I work with datasets in reference to their contextual constraints.",Software/IT,0.987,0.98,1.0,0.5,True,Intra-Domain,Software/IT,be employed,Software/IT,cause to work,"The word ""work"" appears in a sentence whose detected domain is ""Software/IT"".
+  Candidate sense 1: [Software/IT] be employed (context similarity=0.10)
+  Candidate sense 2: [Software/IT] cause to work (context similarity=0.10)
+Classified as INTRA-DOMAIN ambiguity: the top two candidate senses both belong to the ""Software/IT"" domain but represent distinct concepts."
+work,work,"As an API User, I want to be able to normalise measures by population, So that I work with datasets in reference to their contextual constraints.",Software/IT,0.987,0.98,1.0,0.5,True,Intra-Domain,Software/IT,be employed,Software/IT,cause to work,"The word ""work"" appears in a sentence whose detected domain is ""Software/IT"".
+  Candidate sense 1: [Software/IT] be employed (context similarity=0.13)
+  Candidate sense 2: [Software/IT] cause to work (context similarity=0.12)
+Classified as INTRA-DOMAIN ambiguity: the top two candidate senses both belong to the ""Software/IT"" domain but represent distinct concepts."
+line,line,"As a Data Publishing User, I want to have a functioning Python Client, So that I can add data to the datastore in bulk from the command line or my own programs.",Software/IT,0.987,0.98,1.0,0.5,True,Inter-Domain,Software/IT,a particular kind of product or merchandise,Networking,the maximum credit that a customer is allowed,"The word ""line"" appears in a sentence whose detected domain is ""Software/IT"".
+  Candidate sense 1: [Software/IT] a particular kind of product or merchandise (context similarity=0.16)
+  Candidate sense 2: [Networking] the maximum credit that a customer is allowed (context similarity=0.15)
+Classified as INTER-DOMAIN ambiguity: the top two candidate senses belong to different application domains (""Software/IT"" vs. ""Networking"")."
+work,work,"As a Data Publishing User, I want to be able to add a dataset in a Hidden state, So that I can work on a dataset before having it discoverable via OpenSpending user interfaces.",Software/IT,0.987,0.98,1.0,0.5,True,Intra-Domain,Software/IT,be employed,Software/IT,cause to work,"The word ""work"" appears in a sentence whose detected domain is ""Software/IT"".
+  Candidate sense 1: [Software/IT] be employed (context similarity=0.10)
+  Candidate sense 2: [Software/IT] cause to work (context similarity=0.10)
+Classified as INTRA-DOMAIN ambiguity: the top two candidate senses both belong to the ""Software/IT"" domain but represent distinct concepts."
+work,work,"As an API User, I want to be able to normalise measures by geographical area, So that I work with datasets in reference to their contextual constraints.",Software/IT,0.987,0.98,1.0,0.5,True,Intra-Domain,Software/IT,be employed,Software/IT,cause to work,"The word ""work"" appears in a sentence whose detected domain is ""Software/IT"".
+  Candidate sense 1: [Software/IT] be employed (context similarity=0.12)
+  Candidate sense 2: [Software/IT] cause to work (context similarity=0.12)
+Classified as INTRA-DOMAIN ambiguity: the top two candidate senses both belong to the ""Software/IT"" domain but represent distinct concepts."
+fix,fix,"As a Data Publishing User, I want to be able to edit the model of data I have already imported, So that I can fix bugs or make enhancements in the API built for my data.",Software/IT,0.979,0.968,1.0,0.0,True,Intra-Domain,Software/IT,"make fixed, stable or stationary",Software/IT,decide upon or fix definitely,"The word ""fix"" appears in a sentence whose detected domain is ""Software/IT"".
+  Candidate sense 1: [Software/IT] make fixed, stable or stationary (context similarity=0.12)
+  Candidate sense 2: [Software/IT] decide upon or fix definitely (context similarity=0.12)
+Classified as INTRA-DOMAIN ambiguity: the top two candidate senses both belong to the ""Software/IT"" domain but represent distinct concepts."
+fix,fix,"As a Data Publishing User, I want to be able to edit the data source of data I have already imported, So that I can fix bugs or make enhancements in the API built for my data.",Software/IT,0.979,0.968,1.0,0.0,True,Intra-Domain,Software/IT,"make fixed, stable or stationary",Software/IT,decide upon or fix definitely,"The word ""fix"" appears in a sentence whose detected domain is ""Software/IT"".
+  Candidate sense 1: [Software/IT] make fixed, stable or stationary (context similarity=0.11)
+  Candidate sense 2: [Software/IT] decide upon or fix definitely (context similarity=0.11)
+Classified as INTRA-DOMAIN ambiguity: the top two candidate senses both belong to the ""Software/IT"" domain but represent distinct concepts."
+show,shows,"As a Data Publishing User, I want to have my dataset update automatically as the source file/files changes, So that OpenSpending always shows current data.",Software/IT,0.966,0.948,1.0,0.0,True,Intra-Domain,Software/IT,be or become visible or noticeable,Software/IT,"give evidence of, as of records","The word ""show"" appears in a sentence whose detected domain is ""Software/IT"".
+  Candidate sense 1: [Software/IT] be or become visible or noticeable (context similarity=0.09)
+  Candidate sense 2: [Software/IT] give evidence of, as of records (context similarity=0.08)
+Classified as INTRA-DOMAIN ambiguity: the top two candidate senses both belong to the ""Software/IT"" domain but represent distinct concepts."
+set,set,"As a User, I want to be able to set my own username, So that my data is more easily discoverable.",Software/IT,0.945,0.916,1.0,0.5,True,Intra-Domain,Software/IT,apply or start,Software/IT,fix conclusively or authoritatively,"The word ""set"" appears in a sentence whose detected domain is ""Software/IT"".
+  Candidate sense 1: [Software/IT] apply or start (context similarity=0.16)
+  Candidate sense 2: [Software/IT] fix conclusively or authoritatively (context similarity=0.14)
+Classified as INTRA-DOMAIN ambiguity: the top two candidate senses both belong to the ""Software/IT"" domain but represent distinct concepts."
+know,know,"As a Data Publishing User, I want to know if my CSV file is valid, So that I can fix possible data issues before publishing it on Open Spending.",Software/IT,0.943,0.966,0.9,0.5,True,Intra-Domain,General,be familiar or acquainted with a person or an object,General,be cognizant or aware of a fact or a specific piece of information; possess knowledge or information about,"The word ""know"" appears in a sentence whose detected domain is ""Software/IT"".
+  Candidate sense 1: [General] be familiar or acquainted with a person or an object (context similarity=0.15)
+  Candidate sense 2: [General] be cognizant or aware of a fact or a specific piece of information; possess knowledge or information about (context similarity=0.14)
+Classified as INTRA-DOMAIN ambiguity: the top two candidate senses both belong to the ""General"" domain but represent distinct concepts."
+control,control,"As a Data Consuming User, I want to be able to have stepped zoom on map visualisations, So that I can have better control over the navigation experience inside a map view.",Software/IT,0.943,0.967,0.9,1.0,True,Inter-Domain,General,the activity of managing or exerting control over something,Software/IT,power to direct or determine,"The word ""control"" appears in a sentence whose detected domain is ""Software/IT"".
+  Candidate sense 1: [General] the activity of managing or exerting control over something (context similarity=0.12)
+  Candidate sense 2: [Software/IT] power to direct or determine (context similarity=0.12)
+Classified as INTER-DOMAIN ambiguity: the top two candidate senses belong to different application domains (""General"" vs. ""Software/IT"")."
+know,know,"As a Data Publishing User, I want to know what my data needs to be able to be visualised on a map, So that I can visualise it on a map.",Software/IT,0.943,0.966,0.9,0.5,True,Intra-Domain,General,be familiar or acquainted with a person or an object,General,be cognizant or aware of a fact or a specific piece of information; possess knowledge or information about,"The word ""know"" appears in a sentence whose detected domain is ""Software/IT"".
+  Candidate sense 1: [General] be familiar or acquainted with a person or an object (context similarity=0.17)
+  Candidate sense 2: [General] be cognizant or aware of a fact or a specific piece of information; possess knowledge or information about (context similarity=0.16)
+Classified as INTRA-DOMAIN ambiguity: the top two candidate senses both belong to the ""General"" domain but represent distinct concepts."
+support,support,"As a Data Publishing User, I want to have the Packager support Constants, So that I can model dimensions that may not exist in the source file.",Software/IT,0.935,0.954,0.9,1.0,True,Inter-Domain,Legal/Regulatory,something providing immaterial assistance to a person or cause or interest,Software/IT,supporting structure that holds up or provides a foundation,"The word ""support"" appears in a sentence whose detected domain is ""Software/IT"".
+  Candidate sense 1: [Legal/Regulatory] something providing immaterial assistance to a person or cause or interest (context similarity=0.16)
+  Candidate sense 2: [Software/IT] supporting structure that holds up or provides a foundation (context similarity=0.14)
+Classified as INTER-DOMAIN ambiguity: the top two candidate senses belong to different application domains (""Legal/Regulatory"" vs. ""Software/IT"")."
+view,view,"As a Data Consuming User, I want to be able to have stepped zoom on map visualisations, So that I can have better control over the navigation experience inside a map view.",Software/IT,0.929,0.998,0.8,0.0,True,Intra-Domain,Software/IT,purpose; the phrase `with a view to' means `with the intention of' or `for the purpose of',Software/IT,the act of looking or seeing or observing,"The word ""view"" appears in a sentence whose detected domain is ""Software/IT"".
+  Candidate sense 1: [Software/IT] purpose; the phrase `with a view to' means `with the intention of' or `for the purpose of' (context similarity=0.11)
+  Candidate sense 2: [Software/IT] the act of looking or seeing or observing (context similarity=0.11)
+Classified as INTRA-DOMAIN ambiguity: the top two candidate senses both belong to the ""Software/IT"" domain but represent distinct concepts."
+view,view,"As a Data Consuming User, I want to be able to share a view state as a URL to social networks, So that I can share data that I have found with others.",Software/IT,0.919,0.983,0.8,0.0,True,Intra-Domain,Software/IT,purpose; the phrase `with a view to' means `with the intention of' or `for the purpose of',Software/IT,the range of the eye,"The word ""view"" appears in a sentence whose detected domain is ""Software/IT"".
+  Candidate sense 1: [Software/IT] purpose; the phrase `with a view to' means `with the intention of' or `for the purpose of' (context similarity=0.12)
+  Candidate sense 2: [Software/IT] the range of the eye (context similarity=0.12)
+Classified as INTRA-DOMAIN ambiguity: the top two candidate senses both belong to the ""Software/IT"" domain but represent distinct concepts."
+view,view,"As a Data Consuming User, I want to be able to download an image ofa particular view state, So that I can use it offline.",Software/IT,0.919,0.983,0.8,0.0,True,Intra-Domain,Software/IT,purpose; the phrase `with a view to' means `with the intention of' or `for the purpose of',Software/IT,the range of the eye,"The word ""view"" appears in a sentence whose detected domain is ""Software/IT"".
+  Candidate sense 1: [Software/IT] purpose; the phrase `with a view to' means `with the intention of' or `for the purpose of' (context similarity=0.14)
+  Candidate sense 2: [Software/IT] the range of the eye (context similarity=0.13)
+Classified as INTRA-DOMAIN ambiguity: the top two candidate senses both belong to the ""Software/IT"" domain but represent distinct concepts."
+title,title,"As a Data Consuming User, I want to be able to search any dataset published and publicly accessible by their title and metadata, So that I can find the datasets I'm interested in.",Software/IT,0.919,0.983,0.8,1.0,True,Inter-Domain,Software/IT,the status of being a champion,Legal/Regulatory,a heading that names a statute or legislative bill; may give a brief summary of the matters it deals with,"The word ""title"" appears in a sentence whose detected domain is ""Software/IT"".
+  Candidate sense 1: [Software/IT] the status of being a champion (context similarity=0.14)
+  Candidate sense 2: [Legal/Regulatory] a heading that names a statute or legislative bill; may give a brief summary of the matters it deals with (context similarity=0.13)
+Classified as INTER-DOMAIN ambiguity: the top two candidate senses belong to different application domains (""Software/IT"" vs. ""Legal/Regulatory"")."
+view,view,"As a Data Consuming User, I want to be able to share an image of a particular view state to the social networks that support this, So that I can provide richer context in those communication channels for data I am sharing.",Software/IT,0.919,0.983,0.8,0.0,True,Intra-Domain,Software/IT,purpose; the phrase `with a view to' means `with the intention of' or `for the purpose of',Software/IT,the range of the eye,"The word ""view"" appears in a sentence whose detected domain is ""Software/IT"".
+  Candidate sense 1: [Software/IT] purpose; the phrase `with a view to' means `with the intention of' or `for the purpose of' (context similarity=0.11)
+  Candidate sense 2: [Software/IT] the range of the eye (context similarity=0.10)
+Classified as INTRA-DOMAIN ambiguity: the top two candidate senses both belong to the ""Software/IT"" domain but represent distinct concepts."
+build,build,"As an API User, I want to be able to use metadata to get results from multiple datasets, So that I can build user experiences based on more than one dataset more easily.",Software/IT,0.918,0.982,0.8,0.5,True,Intra-Domain,Software/IT,build or establish something abstract,Software/IT,found or ground,"The word ""build"" appears in a sentence whose detected domain is ""Software/IT"".
+  Candidate sense 1: [Software/IT] build or establish something abstract (context similarity=0.21)
+  Candidate sense 2: [Software/IT] found or ground (context similarity=0.20)
+Classified as INTRA-DOMAIN ambiguity: the top two candidate senses both belong to the ""Software/IT"" domain but represent distinct concepts."
+build,build,"As an API User, I want to be able to use data to get results from multiple datasets, So that I can build user experiences based on more than one dataset more easily.",Software/IT,0.918,0.982,0.8,0.5,True,Intra-Domain,Software/IT,build or establish something abstract,Software/IT,found or ground,"The word ""build"" appears in a sentence whose detected domain is ""Software/IT"".
+  Candidate sense 1: [Software/IT] build or establish something abstract (context similarity=0.22)
+  Candidate sense 2: [Software/IT] found or ground (context similarity=0.21)
+Classified as INTRA-DOMAIN ambiguity: the top two candidate senses both belong to the ""Software/IT"" domain but represent distinct concepts."
+read,read,"As an API User, I want to be able to get a CSV output of any cube-based query, So that I can use work with tools that read CSV.",Software/IT,0.909,0.913,0.9,0.0,True,Intra-Domain,Software/IT,interpret something that is written or printed,Software/IT,to hear and understand,"The word ""read"" appears in a sentence whose detected domain is ""Software/IT"".
+  Candidate sense 1: [Software/IT] interpret something that is written or printed (context similarity=0.16)
+  Candidate sense 2: [Software/IT] to hear and understand (context similarity=0.13)
+Classified as INTRA-DOMAIN ambiguity: the top two candidate senses both belong to the ""Software/IT"" domain but represent distinct concepts."
+support,support,"As a Data Consuming User, I want to be able to share an image of a particular view state to the social networks that support this, So that I can provide richer context in those communication channels for data I am sharing.",Software/IT,0.908,0.912,0.9,0.0,True,Intra-Domain,Software/IT,support materially or financially,Software/IT,"give moral or psychological support, aid, or courage to","The word ""support"" appears in a sentence whose detected domain is ""Software/IT"".
+  Candidate sense 1: [Software/IT] support materially or financially (context similarity=0.11)
+  Candidate sense 2: [Software/IT] give moral or psychological support, aid, or courage to (context similarity=0.10)
+Classified as INTRA-DOMAIN ambiguity: the top two candidate senses both belong to the ""Software/IT"" domain but represent distinct concepts."
+clean,clean,"As a Platform Administrator, I want to be able to delete any dataset published, So that I can deal with takedown requests, or clean up test datasets.",Software/IT,0.907,0.965,0.8,0.5,True,Inter-Domain,Healthcare,"clean one's body or parts thereof, as by washing",Software/IT,"make clean by removing dirt, filth, or unwanted substances from","The word ""clean"" appears in a sentence whose detected domain is ""Software/IT"".
+  Candidate sense 1: [Healthcare] clean one's body or parts thereof, as by washing (context similarity=0.21)
+  Candidate sense 2: [Software/IT] make clean by removing dirt, filth, or unwanted substances from (context similarity=0.19)
+Classified as INTER-DOMAIN ambiguity: the top two candidate senses belong to different application domains (""Healthcare"" vs. ""Software/IT"")."
+view,view,"As a Data Consuming User, I want to have consistent use of colour on map visualisations, So that I can better understand the visual logic of the map view.",Software/IT,0.906,0.963,0.8,0.0,True,Intra-Domain,Software/IT,the visual percept of a region,Software/IT,purpose; the phrase `with a view to' means `with the intention of' or `for the purpose of',"The word ""view"" appears in a sentence whose detected domain is ""Software/IT"".
+  Candidate sense 1: [Software/IT] the visual percept of a region (context similarity=0.12)
+  Candidate sense 2: [Software/IT] purpose; the phrase `with a view to' means `with the intention of' or `for the purpose of' (context similarity=0.12)
+Classified as INTRA-DOMAIN ambiguity: the top two candidate senses both belong to the ""Software/IT"" domain but represent distinct concepts."
+match,match,"As an API User, I want to be able to dynamically request polygons based on the query made, So that I can provide maps that match the query.",Software/IT,0.906,0.964,0.8,0.5,True,Intra-Domain,Software/IT,be equal or harmonize,Software/IT,provide funds complementary to,"The word ""match"" appears in a sentence whose detected domain is ""Software/IT"".
+  Candidate sense 1: [Software/IT] be equal or harmonize (context similarity=0.12)
+  Candidate sense 2: [Software/IT] provide funds complementary to (context similarity=0.11)
+Classified as INTRA-DOMAIN ambiguity: the top two candidate senses both belong to the ""Software/IT"" domain but represent distinct concepts."
+convert,convert,"As a Data Publishing User, I want to be able to import data in Excel, So that I do not have to convert data formats in order to use the data packager.",Software/IT,0.9,0.9,0.9,0.0,True,Intra-Domain,Software/IT,"change the nature, purpose, or function of something",Software/IT,"exchange or replace with another, usually of the same kind or category","The word ""convert"" appears in a sentence whose detected domain is ""Software/IT"".
+  Candidate sense 1: [Software/IT] change the nature, purpose, or function of something (context similarity=0.18)
+  Candidate sense 2: [Software/IT] exchange or replace with another, usually of the same kind or category (context similarity=0.14)
+Classified as INTRA-DOMAIN ambiguity: the top two candidate senses both belong to the ""Software/IT"" domain but represent distinct concepts."
+convert,convert,"As a Data Publishing User, I want to be able to import data from Fiscal Data Package descriptor file, So that I do not have to convert data formats in order to use the data packager.",Software/IT,0.9,0.9,0.9,0.0,True,Intra-Domain,Software/IT,"change the nature, purpose, or function of something",Software/IT,"exchange or replace with another, usually of the same kind or category","The word ""convert"" appears in a sentence whose detected domain is ""Software/IT"".
+  Candidate sense 1: [Software/IT] change the nature, purpose, or function of something (context similarity=0.15)
+  Candidate sense 2: [Software/IT] exchange or replace with another, usually of the same kind or category (context similarity=0.12)
+Classified as INTRA-DOMAIN ambiguity: the top two candidate senses both belong to the ""Software/IT"" domain but represent distinct concepts."
+convert,convert,"As a Data Publishing User, I want to be able to import data from a Google Spreadsheet, So that I do not have to convert data formats in order to use the data packager.",Software/IT,0.9,0.9,0.9,0.0,True,Intra-Domain,Software/IT,"change the nature, purpose, or function of something",Software/IT,"exchange or replace with another, usually of the same kind or category","The word ""convert"" appears in a sentence whose detected domain is ""Software/IT"".
+  Candidate sense 1: [Software/IT] change the nature, purpose, or function of something (context similarity=0.17)
+  Candidate sense 2: [Software/IT] exchange or replace with another, usually of the same kind or category (context similarity=0.14)
+Classified as INTRA-DOMAIN ambiguity: the top two candidate senses both belong to the ""Software/IT"" domain but represent distinct concepts."
+convert,convert,"As a Data Publishing User, I want to be able to import data in JSON, So that I do not have to convert data formats in order to use the data packager.",Software/IT,0.9,0.9,0.9,0.0,True,Intra-Domain,Software/IT,"change the nature, purpose, or function of something",Software/IT,"exchange or replace with another, usually of the same kind or category","The word ""convert"" appears in a sentence whose detected domain is ""Software/IT"".
+  Candidate sense 1: [Software/IT] change the nature, purpose, or function of something (context similarity=0.17)
+  Candidate sense 2: [Software/IT] exchange or replace with another, usually of the same kind or category (context similarity=0.14)
+Classified as INTRA-DOMAIN ambiguity: the top two candidate senses both belong to the ""Software/IT"" domain but represent distinct concepts."
+change,change,"As a Data Consuming User, I want to be able to change the display of all monetary measures across a set of currencies, So that I can understand localised amounts in non-localised figures.",Software/IT,0.896,0.948,0.8,0.0,True,Intra-Domain,Software/IT,"give to, and receive from, one another",Software/IT,change from one vehicle or transportation line to another,"The word ""change"" appears in a sentence whose detected domain is ""Software/IT"".
+  Candidate sense 1: [Software/IT] give to, and receive from, one another (context similarity=0.08)
+  Candidate sense 2: [Software/IT] change from one vehicle or transportation line to another (context similarity=0.07)
+Classified as INTRA-DOMAIN ambiguity: the top two candidate senses both belong to the ""Software/IT"" domain but represent distinct concepts."
+change,change,"As an API user, I want to be able to change the colors of the embedded visualisations in my own platform, So that I can customize the visualisations.",Software/IT,0.896,0.948,0.8,0.0,True,Intra-Domain,Software/IT,"give to, and receive from, one another",Software/IT,change from one vehicle or transportation line to another,"The word ""change"" appears in a sentence whose detected domain is ""Software/IT"".
+  Candidate sense 1: [Software/IT] give to, and receive from, one another (context similarity=0.10)
+  Candidate sense 2: [Software/IT] change from one vehicle or transportation line to another (context similarity=0.09)
+Classified as INTRA-DOMAIN ambiguity: the top two candidate senses both belong to the ""Software/IT"" domain but represent distinct concepts."
+change,change,"As an API user, I want to be able to change some of the styling of the embedded Viewer in my own platform, So that I can brand it to my own organisation's color scheme.",Software/IT,0.896,0.948,0.8,0.0,True,Intra-Domain,Software/IT,"give to, and receive from, one another",Software/IT,change from one vehicle or transportation line to another,"The word ""change"" appears in a sentence whose detected domain is ""Software/IT"".
+  Candidate sense 1: [Software/IT] give to, and receive from, one another (context similarity=0.10)
+  Candidate sense 2: [Software/IT] change from one vehicle or transportation line to another (context similarity=0.09)
+Classified as INTRA-DOMAIN ambiguity: the top two candidate senses both belong to the ""Software/IT"" domain but represent distinct concepts."
+build,built,"As a Data Publishing User, I want to be able to edit the model of data I have already imported, So that I can fix bugs or make enhancements in the API built for my data.",Software/IT,0.895,0.946,0.8,0.5,True,Inter-Domain,General,form or accumulate steadily,Software/IT,make by combining materials and parts,"The word ""build"" appears in a sentence whose detected domain is ""Software/IT"".
+  Candidate sense 1: [General] form or accumulate steadily (context similarity=0.05)
+  Candidate sense 2: [Software/IT] make by combining materials and parts (context similarity=0.05)
+Classified as INTER-DOMAIN ambiguity: the top two candidate senses belong to different application domains (""General"" vs. ""Software/IT"")."
+view,views,"As a Data Consuming User, I want to be able to filter, sort and aggregate data by multiple dimensions and measures, So that I can get more granular views on the data.",Software/IT,0.895,0.947,0.8,0.0,True,Intra-Domain,Software/IT,the visual percept of a region,Software/IT,graphic art consisting of the graphic or photographic representation of a visual percept,"The word ""view"" appears in a sentence whose detected domain is ""Software/IT"".
+  Candidate sense 1: [Software/IT] the visual percept of a region (context similarity=0.06)
+  Candidate sense 2: [Software/IT] graphic art consisting of the graphic or photographic representation of a visual percept (context similarity=0.05)
+Classified as INTRA-DOMAIN ambiguity: the top two candidate senses both belong to the ""Software/IT"" domain but represent distinct concepts."
+measure,measures,"As a Data Consuming User, I want to be able to change the display of all monetary measures across a set of currencies, So that I can understand localised amounts in non-localised figures.",Software/IT,0.889,0.991,0.7,0.5,True,Inter-Domain,General,a container of some standard capacity that is used to obtain fixed amounts of a substance,Legal/Regulatory,a basis for comparison; a reference point against which other things can be evaluated,"The word ""measure"" appears in a sentence whose detected domain is ""Software/IT"".
+  Candidate sense 1: [General] a container of some standard capacity that is used to obtain fixed amounts of a substance (context similarity=0.07)
+  Candidate sense 2: [Legal/Regulatory] a basis for comparison; a reference point against which other things can be evaluated (context similarity=0.07)
+Classified as INTER-DOMAIN ambiguity: the top two candidate senses belong to different application domains (""General"" vs. ""Legal/Regulatory"")."
+set,set,"As a Data Consuming User, I want to be able to change the display of all monetary measures across a set of currencies, So that I can understand localised amounts in non-localised figures.",Software/IT,0.889,0.829,1.0,0.0,True,Intra-Domain,Software/IT,a group of things of the same kind that belong together and are so used,Software/IT,the descent of a heavenly body below the horizon,"The word ""set"" appears in a sentence whose detected domain is ""Software/IT"".
+  Candidate sense 1: [Software/IT] a group of things of the same kind that belong together and are so used (context similarity=0.09)
+  Candidate sense 2: [Software/IT] the descent of a heavenly body below the horizon (context similarity=0.07)
+Classified as INTRA-DOMAIN ambiguity: the top two candidate senses both belong to the ""Software/IT"" domain but represent distinct concepts."
+set,set,"As an API User, I want to be able to get a set of monetary measures transferred to different currencies, So that I can use this in scenarios that might enable comparison by normalisation.",Software/IT,0.889,0.829,1.0,0.0,True,Intra-Domain,Software/IT,a group of things of the same kind that belong together and are so used,Software/IT,the descent of a heavenly body below the horizon,"The word ""set"" appears in a sentence whose detected domain is ""Software/IT"".
+  Candidate sense 1: [Software/IT] a group of things of the same kind that belong together and are so used (context similarity=0.11)
+  Candidate sense 2: [Software/IT] the descent of a heavenly body below the horizon (context similarity=0.08)
+Classified as INTRA-DOMAIN ambiguity: the top two candidate senses both belong to the ""Software/IT"" domain but represent distinct concepts."
+offer,offer,"As an API User, I want to be able to understand if a user is an Administrator, So that I can offer functionality based on Platform Administration privileges.",Software/IT,0.885,0.824,1.0,0.0,True,Intra-Domain,Software/IT,present as an act of worship,Software/IT,mount or put up,"The word ""offer"" appears in a sentence whose detected domain is ""Software/IT"".
+  Candidate sense 1: [Software/IT] present as an act of worship (context similarity=0.18)
+  Candidate sense 2: [Software/IT] mount or put up (context similarity=0.13)
+Classified as INTRA-DOMAIN ambiguity: the top two candidate senses both belong to the ""Software/IT"" domain but represent distinct concepts."
+offer,offer,"As an API User, I want to be able to understand if a user is a Publisher, So that I can offer functionality based on Dataset Publisher privileges.",Software/IT,0.885,0.824,1.0,0.0,True,Intra-Domain,Software/IT,present as an act of worship,Software/IT,mount or put up,"The word ""offer"" appears in a sentence whose detected domain is ""Software/IT"".
+  Candidate sense 1: [Software/IT] present as an act of worship (context similarity=0.17)
+  Candidate sense 2: [Software/IT] mount or put up (context similarity=0.12)
+Classified as INTRA-DOMAIN ambiguity: the top two candidate senses both belong to the ""Software/IT"" domain but represent distinct concepts."
+translate,translate,"As a Platform administrator, I want to be able to translate the data types hierarchies of the Viewer while in embed mode, So that my users can understand the interface in their native language.",Software/IT,0.882,0.926,0.8,0.5,True,Intra-Domain,Software/IT,"express, as in simple and less technical language",Software/IT,make sense of a language,"The word ""translate"" appears in a sentence whose detected domain is ""Software/IT"".
+  Candidate sense 1: [Software/IT] express, as in simple and less technical language (context similarity=0.19)
+  Candidate sense 2: [Software/IT] make sense of a language (context similarity=0.16)
+Classified as INTRA-DOMAIN ambiguity: the top two candidate senses both belong to the ""Software/IT"" domain but represent distinct concepts."
+reference,reference,"As an API User, I want to be able to normalise measures by geographical area, So that I work with datasets in reference to their contextual constraints.",Software/IT,0.875,0.916,0.8,0.0,True,Intra-Domain,Software/IT,a book to which you can refer for authoritative facts,Software/IT,an indicator that orients you generally,"The word ""reference"" appears in a sentence whose detected domain is ""Software/IT"".
+  Candidate sense 1: [Software/IT] a book to which you can refer for authoritative facts (context similarity=0.20)
+  Candidate sense 2: [Software/IT] an indicator that orients you generally (context similarity=0.17)
+Classified as INTRA-DOMAIN ambiguity: the top two candidate senses both belong to the ""Software/IT"" domain but represent distinct concepts."
+reference,reference,"As an API User, I want to be able to normalise measures by GDP, so I work with datasets in reference to their contextual constraints.",Software/IT,0.875,0.916,0.8,0.0,True,Intra-Domain,Software/IT,a book to which you can refer for authoritative facts,Software/IT,an indicator that orients you generally,"The word ""reference"" appears in a sentence whose detected domain is ""Software/IT"".
+  Candidate sense 1: [Software/IT] a book to which you can refer for authoritative facts (context similarity=0.20)
+  Candidate sense 2: [Software/IT] an indicator that orients you generally (context similarity=0.17)
+Classified as INTRA-DOMAIN ambiguity: the top two candidate senses both belong to the ""Software/IT"" domain but represent distinct concepts."
+reference,reference,"As an API User, I want to be able to normalise measures by GINI and related socioeconomic indexes, So that I work with datasets in reference to their contextual constraints.",Software/IT,0.875,0.916,0.8,0.0,True,Intra-Domain,Software/IT,a book to which you can refer for authoritative facts,Software/IT,an indicator that orients you generally,"The word ""reference"" appears in a sentence whose detected domain is ""Software/IT"".
+  Candidate sense 1: [Software/IT] a book to which you can refer for authoritative facts (context similarity=0.17)
+  Candidate sense 2: [Software/IT] an indicator that orients you generally (context similarity=0.15)
+Classified as INTRA-DOMAIN ambiguity: the top two candidate senses both belong to the ""Software/IT"" domain but represent distinct concepts."
+reference,reference,"As an API User, I want to be able to normalise measures by population, So that I work with datasets in reference to their contextual constraints.",Software/IT,0.875,0.916,0.8,0.0,True,Intra-Domain,Software/IT,a book to which you can refer for authoritative facts,Software/IT,an indicator that orients you generally,"The word ""reference"" appears in a sentence whose detected domain is ""Software/IT"".
+  Candidate sense 1: [Software/IT] a book to which you can refer for authoritative facts (context similarity=0.21)
+  Candidate sense 2: [Software/IT] an indicator that orients you generally (context similarity=0.18)
+Classified as INTRA-DOMAIN ambiguity: the top two candidate senses both belong to the ""Software/IT"" domain but represent distinct concepts."
+image,image,"As a Data Consuming User, I want to be able to share an image of a particular view state to the social networks that support this, So that I can provide richer context in those communication channels for data I am sharing.",Software/IT,0.868,0.958,0.7,0.0,True,Intra-Domain,Software/IT,an iconic mental representation,Software/IT,the general impression that something (a person or organization or product) presents to the public,"The word ""image"" appears in a sentence whose detected domain is ""Software/IT"".
+  Candidate sense 1: [Software/IT] an iconic mental representation (context similarity=0.12)
+  Candidate sense 2: [Software/IT] the general impression that something (a person or organization or product) presents to the public (context similarity=0.11)
+Classified as INTRA-DOMAIN ambiguity: the top two candidate senses both belong to the ""Software/IT"" domain but represent distinct concepts."
+image,image,"As a Data Consuming User, I want to be able to download an image ofa particular view state, So that I can use it offline.",Software/IT,0.868,0.958,0.7,0.0,True,Intra-Domain,Software/IT,an iconic mental representation,Software/IT,the general impression that something (a person or organization or product) presents to the public,"The word ""image"" appears in a sentence whose detected domain is ""Software/IT"".
+  Candidate sense 1: [Software/IT] an iconic mental representation (context similarity=0.15)
+  Candidate sense 2: [Software/IT] the general impression that something (a person or organization or product) presents to the public (context similarity=0.14)
+Classified as INTRA-DOMAIN ambiguity: the top two candidate senses both belong to the ""Software/IT"" domain but represent distinct concepts."
+build,build,"As an API User, I want to be able to get a relative percentage of a measure to the total of the dataset it comes from, So that I can build alternative displays of the data.",Software/IT,0.868,0.904,0.8,1.0,True,Inter-Domain,Software/IT,build or establish something abstract,Healthcare,"give form to, according to a plan","The word ""build"" appears in a sentence whose detected domain is ""Software/IT"".
+  Candidate sense 1: [Software/IT] build or establish something abstract (context similarity=0.21)
+  Candidate sense 2: [Healthcare] give form to, according to a plan (context similarity=0.18)
+Classified as INTER-DOMAIN ambiguity: the top two candidate senses belong to different application domains (""Software/IT"" vs. ""Healthcare"")."
+measure,measures,"As a Data Consuming User, I want to be able to filter, sort and aggregate data by multiple dimensions and measures, So that I can get more granular views on the data.",Software/IT,0.866,0.956,0.7,0.5,True,Intra-Domain,General,any maneuver made as part of progress toward a goal,General,a container of some standard capacity that is used to obtain fixed amounts of a substance,"The word ""measure"" appears in a sentence whose detected domain is ""Software/IT"".
+  Candidate sense 1: [General] any maneuver made as part of progress toward a goal (context similarity=0.06)
+  Candidate sense 2: [General] a container of some standard capacity that is used to obtain fixed amounts of a substance (context similarity=0.06)
+Classified as INTRA-DOMAIN ambiguity: the top two candidate senses both belong to the ""General"" domain but represent distinct concepts."
+model,model,"As a Data Publishing User, I want to be able to edit the model of data I have already imported, So that I can fix bugs or make enhancements in the API built for my data.",Software/IT,0.863,0.951,0.7,0.0,True,Intra-Domain,Software/IT,someone worthy of imitation,Software/IT,a type of product,"The word ""model"" appears in a sentence whose detected domain is ""Software/IT"".
+  Candidate sense 1: [Software/IT] someone worthy of imitation (context similarity=0.15)
+  Candidate sense 2: [Software/IT] a type of product (context similarity=0.13)
+Classified as INTRA-DOMAIN ambiguity: the top two candidate senses both belong to the ""Software/IT"" domain but represent distinct concepts."
+state,state,"As a Data Consuming User, I want to be able to share an image of a particular view state to the social networks that support this, So that I can provide richer context in those communication channels for data I am sharing.",Software/IT,0.855,0.992,0.6,0.5,True,Inter-Domain,General,the way something is with respect to its main attributes,Software/IT,a state of depression or agitation,"The word ""state"" appears in a sentence whose detected domain is ""Software/IT"".
+  Candidate sense 1: [General] the way something is with respect to its main attributes (context similarity=0.10)
+  Candidate sense 2: [Software/IT] a state of depression or agitation (context similarity=0.10)
+Classified as INTER-DOMAIN ambiguity: the top two candidate senses belong to different application domains (""General"" vs. ""Software/IT"")."
+state,state,"As a Data Consuming User, I want to be able to share a view state as a URL to social networks, So that I can share data that I have found with others.",Software/IT,0.855,0.992,0.6,0.5,True,Inter-Domain,General,the way something is with respect to its main attributes,Software/IT,a state of depression or agitation,"The word ""state"" appears in a sentence whose detected domain is ""Software/IT"".
+  Candidate sense 1: [General] the way something is with respect to its main attributes (context similarity=0.12)
+  Candidate sense 2: [Software/IT] a state of depression or agitation (context similarity=0.11)
+Classified as INTER-DOMAIN ambiguity: the top two candidate senses belong to different application domains (""General"" vs. ""Software/IT"")."
+state,state,"As a Data Consuming User, I want to be able to download an image ofa particular view state, So that I can use it offline.",Software/IT,0.855,0.992,0.6,0.5,True,Inter-Domain,General,the way something is with respect to its main attributes,Software/IT,a state of depression or agitation,"The word ""state"" appears in a sentence whose detected domain is ""Software/IT"".
+  Candidate sense 1: [General] the way something is with respect to its main attributes (context similarity=0.13)
+  Candidate sense 2: [Software/IT] a state of depression or agitation (context similarity=0.13)
+Classified as INTER-DOMAIN ambiguity: the top two candidate senses belong to different application domains (""General"" vs. ""Software/IT"")."
+state,state,"As a Data Publishing User, I want to be able to add a dataset in a Hidden state, So that I can work on a dataset before having it discoverable via OpenSpending user interfaces.",Software/IT,0.855,0.992,0.6,0.5,True,Inter-Domain,General,the way something is with respect to its main attributes,Software/IT,a state of depression or agitation,"The word ""state"" appears in a sentence whose detected domain is ""Software/IT"".
+  Candidate sense 1: [General] the way something is with respect to its main attributes (context similarity=0.11)
+  Candidate sense 2: [Software/IT] a state of depression or agitation (context similarity=0.10)
+Classified as INTER-DOMAIN ambiguity: the top two candidate senses belong to different application domains (""General"" vs. ""Software/IT"")."
+state,state,"As an API User, I want to be able to persistently store visualisation state in the database, So that such can be shared more easily and contribute to a visualisation gallery.",Software/IT,0.855,0.992,0.6,0.5,True,Inter-Domain,General,the way something is with respect to its main attributes,Software/IT,a state of depression or agitation,"The word ""state"" appears in a sentence whose detected domain is ""Software/IT"".
+  Candidate sense 1: [General] the way something is with respect to its main attributes (context similarity=0.10)
+  Candidate sense 2: [Software/IT] a state of depression or agitation (context similarity=0.10)
+Classified as INTER-DOMAIN ambiguity: the top two candidate senses belong to different application domains (""General"" vs. ""Software/IT"")."
+colour,colour,"As a Data Consuming User, I want to have consistent use of colour on map visualisations, So that I can better understand the visual logic of the map view.",Software/IT,0.838,0.967,0.6,0.0,True,Intra-Domain,Software/IT,a race with skin pigmentation different from the white race (especially Blacks),Software/IT,a visual attribute of things that results from the light they emit or transmit or reflect,"The word ""colour"" appears in a sentence whose detected domain is ""Software/IT"".
+  Candidate sense 1: [Software/IT] a race with skin pigmentation different from the white race (especially Blacks) (context similarity=0.11)
+  Candidate sense 2: [Software/IT] a visual attribute of things that results from the light they emit or transmit or reflect (context similarity=0.10)
+Classified as INTRA-DOMAIN ambiguity: the top two candidate senses both belong to the ""Software/IT"" domain but represent distinct concepts."
+remove,remove,"As a Data Publishing User, I want to be able to delete a dataset I have published, So that I can remove unwanted data from OpenSpending.",Software/IT,0.826,0.947,0.6,0.0,True,Intra-Domain,Software/IT,remove from a position or an office,Software/IT,"remove something concrete, as by lifting, pushing, or taking off, or remove something abstract","The word ""remove"" appears in a sentence whose detected domain is ""Software/IT"".
+  Candidate sense 1: [Software/IT] remove from a position or an office (context similarity=0.23)
+  Candidate sense 2: [Software/IT] remove something concrete, as by lifting, pushing, or taking off, or remove something abstract (context similarity=0.21)
+Classified as INTRA-DOMAIN ambiguity: the top two candidate senses both belong to the ""Software/IT"" domain but represent distinct concepts."
+change,changes,"As a Data Publishing User, I want to have my dataset update automatically as the source file/files changes, So that OpenSpending always shows current data.",Software/IT,0.822,0.833,0.8,0.5,True,Inter-Domain,General,a thing that is different,Healthcare,the result of alteration or modification,"The word ""change"" appears in a sentence whose detected domain is ""Software/IT"".
+  Candidate sense 1: [General] a thing that is different (context similarity=0.08)
+  Candidate sense 2: [Healthcare] the result of alteration or modification (context similarity=0.06)
+Classified as INTER-DOMAIN ambiguity: the top two candidate senses belong to different application domains (""General"" vs. ""Healthcare"")."
+measure,measure,"As an API User, I want to be able to get a relative percentage of a measure to the total of the dataset it comes from, So that I can build alternative displays of the data.",Software/IT,0.82,0.884,0.7,0.5,True,Inter-Domain,Legal/Regulatory,a basis for comparison; a reference point against which other things can be evaluated,Software/IT,how much there is or how many there are of something that you can quantify,"The word ""measure"" appears in a sentence whose detected domain is ""Software/IT"".
+  Candidate sense 1: [Legal/Regulatory] a basis for comparison; a reference point against which other things can be evaluated (context similarity=0.09)
+  Candidate sense 2: [Software/IT] how much there is or how many there are of something that you can quantify (context similarity=0.07)
+Classified as INTER-DOMAIN ambiguity: the top two candidate senses belong to different application domains (""Legal/Regulatory"" vs. ""Software/IT"")."
+maintain,maintain,"As a Platform Administrator, I want to be able to Hide any dataset already added as Public, So that I can maintain Public/Hidden status for other users.",Software/IT,0.814,0.821,0.8,0.5,True,Inter-Domain,Healthcare,maintain by writing regular records,Software/IT,maintain for use and service,"The word ""maintain"" appears in a sentence whose detected domain is ""Software/IT"".
+  Candidate sense 1: [Healthcare] maintain by writing regular records (context similarity=0.19)
+  Candidate sense 2: [Software/IT] maintain for use and service (context similarity=0.13)
+Classified as INTER-DOMAIN ambiguity: the top two candidate senses belong to different application domains (""Healthcare"" vs. ""Software/IT"")."
+correct,correct,"As a Data Publishing User, I want to be able to edit a dataset I have published, So that I can correct or enhance existing data.",Software/IT,0.811,0.925,0.6,1.0,True,Inter-Domain,Software/IT,make right or correct,Healthcare,treat a defect,"The word ""correct"" appears in a sentence whose detected domain is ""Software/IT"".
+  Candidate sense 1: [Software/IT] make right or correct (context similarity=0.17)
+  Candidate sense 2: [Healthcare] treat a defect (context similarity=0.15)
+Classified as INTER-DOMAIN ambiguity: the top two candidate senses belong to different application domains (""Software/IT"" vs. ""Healthcare"")."
+view,view,"As a Data Publishing User, I want to have a view on all the datasets I have published, So that I can perform management actions on my own datasets.",Software/IT,0.801,0.801,0.8,0.0,True,Intra-Domain,Software/IT,purpose; the phrase `with a view to' means `with the intention of' or `for the purpose of',Software/IT,the range of the eye,"The word ""view"" appears in a sentence whose detected domain is ""Software/IT"".
+  Candidate sense 1: [Software/IT] purpose; the phrase `with a view to' means `with the intention of' or `for the purpose of' (context similarity=0.20)
+  Candidate sense 2: [Software/IT] the range of the eye (context similarity=0.13)
+Classified as INTRA-DOMAIN ambiguity: the top two candidate senses both belong to the ""Software/IT"" domain but represent distinct concepts."
+view,view,"As a Platform Administrator, I want to have a view on all datasets published by all users, So that I can perform management actions on any dataset.",Software/IT,0.801,0.801,0.8,0.0,True,Intra-Domain,Software/IT,purpose; the phrase `with a view to' means `with the intention of' or `for the purpose of',Software/IT,the range of the eye,"The word ""view"" appears in a sentence whose detected domain is ""Software/IT"".
+  Candidate sense 1: [Software/IT] purpose; the phrase `with a view to' means `with the intention of' or `for the purpose of' (context similarity=0.21)
+  Candidate sense 2: [Software/IT] the range of the eye (context similarity=0.14)
+Classified as INTRA-DOMAIN ambiguity: the top two candidate senses both belong to the ""Software/IT"" domain but represent distinct concepts."
+display,display,"As a Data Consuming User, I want to be able to change the display of all monetary measures across a set of currencies, So that I can understand localised amounts in non-localised figures.",Software/IT,0.787,0.996,0.4,0.0,True,Intra-Domain,Software/IT,behavior that makes your feelings public,Software/IT,exhibiting openly in public view,"The word ""display"" appears in a sentence whose detected domain is ""Software/IT"".
+  Candidate sense 1: [Software/IT] behavior that makes your feelings public (context similarity=0.12)
+  Candidate sense 2: [Software/IT] exhibiting openly in public view (context similarity=0.12)
+Classified as INTRA-DOMAIN ambiguity: the top two candidate senses both belong to the ""Software/IT"" domain but represent distinct concepts."
+table,table,"As a Data Consuming User, I want to visualize by default in treemap, bubble tree, map and pivot table the most recent year when my dataset contain multiple years, So that I'm not confused with the amounts.",Software/IT,0.785,0.992,0.4,0.0,True,Intra-Domain,Software/IT,a set of data arranged in rows and columns,Software/IT,a company of people assembled at a table for a meal or game,"The word ""table"" appears in a sentence whose detected domain is ""Software/IT"".
+  Candidate sense 1: [Software/IT] a set of data arranged in rows and columns (context similarity=0.13)
+  Candidate sense 2: [Software/IT] a company of people assembled at a table for a meal or game (context similarity=0.13)
+Classified as INTRA-DOMAIN ambiguity: the top two candidate senses both belong to the ""Software/IT"" domain but represent distinct concepts."
+channel,channels,"As a Data Consuming User, I want to be able to share an image of a particular view state to the social networks that support this, So that I can provide richer context in those communication channels for data I am sharing.",Software/IT,0.784,0.882,0.6,1.0,True,Inter-Domain,General,(often plural) a means of communication or access,Software/IT,a passage for water (or other fluids) to flow through,"The word ""channel"" appears in a sentence whose detected domain is ""Software/IT"".
+  Candidate sense 1: [General] (often plural) a means of communication or access (context similarity=0.17)
+  Candidate sense 2: [Software/IT] a passage for water (or other fluids) to flow through (context similarity=0.13)
+Classified as INTER-DOMAIN ambiguity: the top two candidate senses belong to different application domains (""General"" vs. ""Software/IT"")."
+contain,contain,"As a Data Consuming User, I want to visualize by default in treemap, bubble tree, map and pivot table the most recent year when my dataset contain multiple years, So that I'm not confused with the amounts.",Software/IT,0.779,0.983,0.4,0.5,True,Inter-Domain,Healthcare,include or contain; have as a component,Software/IT,contain or hold; have within,"The word ""contain"" appears in a sentence whose detected domain is ""Software/IT"".
+  Candidate sense 1: [Healthcare] include or contain; have as a component (context similarity=0.11)
+  Candidate sense 2: [Software/IT] contain or hold; have within (context similarity=0.11)
+Classified as INTER-DOMAIN ambiguity: the top two candidate senses belong to different application domains (""Healthcare"" vs. ""Software/IT"")."
+work,work,"As an API User, I want to be able to get a CSV output of any cube-based query, So that I can use work with tools that read CSV.",Software/IT,0.777,0.926,0.5,0.5,True,Intra-Domain,Software/IT,the total output of a writer or artist (or a substantial part of it),Software/IT,a place where work is done,"The word ""work"" appears in a sentence whose detected domain is ""Software/IT"".
+  Candidate sense 1: [Software/IT] the total output of a writer or artist (or a substantial part of it) (context similarity=0.11)
+  Candidate sense 2: [Software/IT] a place where work is done (context similarity=0.09)
+Classified as INTRA-DOMAIN ambiguity: the top two candidate senses both belong to the ""Software/IT"" domain but represent distinct concepts."
+gallery,gallery,"As an API User, I want to be able to persistently store visualisation state in the database, So that such can be shared more easily and contribute to a visualisation gallery.",Software/IT,0.773,0.921,0.5,0.0,True,Intra-Domain,Software/IT,a room or series of rooms where works of art are exhibited,Software/IT,a long usually narrow room used for some specific purpose,"The word ""gallery"" appears in a sentence whose detected domain is ""Software/IT"".
+  Candidate sense 1: [Software/IT] a room or series of rooms where works of art are exhibited (context similarity=0.16)
+  Candidate sense 2: [Software/IT] a long usually narrow room used for some specific purpose (context similarity=0.14)
+Classified as INTRA-DOMAIN ambiguity: the top two candidate senses both belong to the ""Software/IT"" domain but represent distinct concepts."
+space,space,"As an OpenSpending Community Member, I want to have a blog that highlights any and all projects in the open fiscal space, So that I can relate to openspending.org as the central hub of fiscal openness.",Software/IT,0.772,0.81,0.7,0.0,True,Intra-Domain,Software/IT,an empty area (usually bounded in some way between things),Software/IT,any location outside the Earth's atmosphere,"The word ""space"" appears in a sentence whose detected domain is ""Software/IT"".
+  Candidate sense 1: [Software/IT] an empty area (usually bounded in some way between things) (context similarity=0.14)
+  Candidate sense 2: [Software/IT] any location outside the Earth's atmosphere (context similarity=0.09)
+Classified as INTRA-DOMAIN ambiguity: the top two candidate senses both belong to the ""Software/IT"" domain but represent distinct concepts."
+source,source,"As a Data Publishing User, I want to have the Packager support Constants, So that I can model dimensions that may not exist in the source file.",Software/IT,0.759,0.79,0.7,0.5,True,Inter-Domain,General,(technology) a process by which energy or a substance enters a system,Software/IT,a publication (or a passage from a publication) that is referred to,"The word ""source"" appears in a sentence whose detected domain is ""Software/IT"".
+  Candidate sense 1: [General] (technology) a process by which energy or a substance enters a system (context similarity=0.15)
+  Candidate sense 2: [Software/IT] a publication (or a passage from a publication) that is referred to (context similarity=0.10)
+Classified as INTER-DOMAIN ambiguity: the top two candidate senses belong to different application domains (""General"" vs. ""Software/IT"")."
+source,source,"As a Data Publishing User, I want to have my dataset update automatically as the source file/files changes, So that OpenSpending always shows current data.",Software/IT,0.759,0.79,0.7,0.5,True,Inter-Domain,General,(technology) a process by which energy or a substance enters a system,Software/IT,a publication (or a passage from a publication) that is referred to,"The word ""source"" appears in a sentence whose detected domain is ""Software/IT"".
+  Candidate sense 1: [General] (technology) a process by which energy or a substance enters a system (context similarity=0.13)
+  Candidate sense 2: [Software/IT] a publication (or a passage from a publication) that is referred to (context similarity=0.08)
+Classified as INTER-DOMAIN ambiguity: the top two candidate senses belong to different application domains (""General"" vs. ""Software/IT"")."
+source,source,"As a Data Publishing User, I want to be able to edit the data source of data I have already imported, So that I can fix bugs or make enhancements in the API built for my data.",Software/IT,0.759,0.79,0.7,0.5,True,Inter-Domain,General,(technology) a process by which energy or a substance enters a system,Software/IT,a publication (or a passage from a publication) that is referred to,"The word ""source"" appears in a sentence whose detected domain is ""Software/IT"".
+  Candidate sense 1: [General] (technology) a process by which energy or a substance enters a system (context similarity=0.11)
+  Candidate sense 2: [Software/IT] a publication (or a passage from a publication) that is referred to (context similarity=0.07)
+Classified as INTER-DOMAIN ambiguity: the top two candidate senses belong to different application domains (""General"" vs. ""Software/IT"")."
+community,Community,"As an OpenSpending Community Member, I want to have a blog that highlights any and all projects in the open fiscal space, So that I can relate to openspending.org as the central hub of fiscal openness.",Software/IT,0.757,0.949,0.4,0.0,True,Intra-Domain,Software/IT,agreement as to goals,Software/IT,a group of people living in a particular local area,"The word ""community"" appears in a sentence whose detected domain is ""Software/IT"".
+  Candidate sense 1: [Software/IT] agreement as to goals (context similarity=0.12)
+  Candidate sense 2: [Software/IT] a group of people living in a particular local area (context similarity=0.11)
+Classified as INTRA-DOMAIN ambiguity: the top two candidate senses both belong to the ""Software/IT"" domain but represent distinct concepts."
+community,Community,"As an OpenSpending Community Member, I want to have an app where I can find examples of use of fiscal data visualisations, So that I can find guidance in creating my own with Open Spending.",Software/IT,0.757,0.949,0.4,0.0,True,Intra-Domain,Software/IT,agreement as to goals,Software/IT,a group of people living in a particular local area,"The word ""community"" appears in a sentence whose detected domain is ""Software/IT"".
+  Candidate sense 1: [Software/IT] agreement as to goals (context similarity=0.16)
+  Candidate sense 2: [Software/IT] a group of people living in a particular local area (context similarity=0.15)
+Classified as INTRA-DOMAIN ambiguity: the top two candidate senses both belong to the ""Software/IT"" domain but represent distinct concepts."
+area,area,"As an API User, I want to be able to normalise measures by geographical area, So that I work with datasets in reference to their contextual constraints.",Software/IT,0.755,0.947,0.4,0.5,True,Intra-Domain,Software/IT,the extent of a 2-dimensional surface enclosed within a boundary,Software/IT,a particular geographical region of indefinite boundary (usually serving some special purpose or distinguished by its people or culture or geography),"The word ""area"" appears in a sentence whose detected domain is ""Software/IT"".
+  Candidate sense 1: [Software/IT] the extent of a 2-dimensional surface enclosed within a boundary (context similarity=0.16)
+  Candidate sense 2: [Software/IT] a particular geographical region of indefinite boundary (usually serving some special purpose or distinguished by its people or culture or geography) (context similarity=0.14)
+Classified as INTRA-DOMAIN ambiguity: the top two candidate senses both belong to the ""Software/IT"" domain but represent distinct concepts."
+population,population,"As an API User, I want to be able to normalise measures by population, So that I work with datasets in reference to their contextual constraints.",Software/IT,0.754,0.999,0.3,0.0,True,Intra-Domain,Software/IT,(statistics) the entire aggregation of items from which samples can be drawn,Software/IT,the people who inhabit a territory or state,"The word ""population"" appears in a sentence whose detected domain is ""Software/IT"".
+  Candidate sense 1: [Software/IT] (statistics) the entire aggregation of items from which samples can be drawn (context similarity=0.17)
+  Candidate sense 2: [Software/IT] the people who inhabit a territory or state (context similarity=0.17)
+Classified as INTRA-DOMAIN ambiguity: the top two candidate senses both belong to the ""Software/IT"" domain but represent distinct concepts."
+understand,understand,"As a Platform administrator, I want to be able to translate the data types hierarchies of the Viewer while in embed mode, So that my users can understand the interface in their native language.",Software/IT,0.754,0.999,0.3,0.0,True,Intra-Domain,Software/IT,know and comprehend the nature or meaning of,Software/IT,make sense of a language,"The word ""understand"" appears in a sentence whose detected domain is ""Software/IT"".
+  Candidate sense 1: [Software/IT] know and comprehend the nature or meaning of (context similarity=0.17)
+  Candidate sense 2: [Software/IT] make sense of a language (context similarity=0.16)
+Classified as INTRA-DOMAIN ambiguity: the top two candidate senses both belong to the ""Software/IT"" domain but represent distinct concepts."
+command,command,"As a Data Publishing User, I want to have a functioning Python Client, So that I can add data to the datastore in bulk from the command line or my own programs.",Software/IT,0.748,0.881,0.5,0.0,True,Intra-Domain,Software/IT,the power or authority to command,Software/IT,availability for use,"The word ""command"" appears in a sentence whose detected domain is ""Software/IT"".
+  Candidate sense 1: [Software/IT] the power or authority to command (context similarity=0.19)
+  Candidate sense 2: [Software/IT] availability for use (context similarity=0.15)
+Classified as INTRA-DOMAIN ambiguity: the top two candidate senses both belong to the ""Software/IT"" domain but represent distinct concepts."
+share,share,"As a Data Consuming User, I want to be able to share an image of a particular view state to the social networks that support this, So that I can provide richer context in those communication channels for data I am sharing.",Software/IT,0.747,0.988,0.3,0.0,True,Intra-Domain,Software/IT,have in common,Software/IT,communicate,"The word ""share"" appears in a sentence whose detected domain is ""Software/IT"".
+  Candidate sense 1: [Software/IT] have in common (context similarity=0.16)
+  Candidate sense 2: [Software/IT] communicate (context similarity=0.16)
+Classified as INTRA-DOMAIN ambiguity: the top two candidate senses both belong to the ""Software/IT"" domain but represent distinct concepts."
+share,share,"As a Data Consuming User, I want to be able to share a view state as a URL to social networks, So that I can share data that I have found with others.",Software/IT,0.747,0.988,0.3,0.0,True,Intra-Domain,Software/IT,have in common,Software/IT,communicate,"The word ""share"" appears in a sentence whose detected domain is ""Software/IT"".
+  Candidate sense 1: [Software/IT] have in common (context similarity=0.37)
+  Candidate sense 2: [Software/IT] communicate (context similarity=0.36)
+Classified as INTRA-DOMAIN ambiguity: the top two candidate senses both belong to the ""Software/IT"" domain but represent distinct concepts."
+share,sharing,"As a Data Consuming User, I want to be able to share an image of a particular view state to the social networks that support this, So that I can provide richer context in those communication channels for data I am sharing.",Software/IT,0.747,0.988,0.3,0.0,True,Intra-Domain,Software/IT,have in common,Software/IT,communicate,"The word ""share"" appears in a sentence whose detected domain is ""Software/IT"".
+  Candidate sense 1: [Software/IT] have in common (context similarity=0.16)
+  Candidate sense 2: [Software/IT] communicate (context similarity=0.16)
+Classified as INTRA-DOMAIN ambiguity: the top two candidate senses both belong to the ""Software/IT"" domain but represent distinct concepts."
+color,color,"As an API user, I want to be able to change some of the styling of the embedded Viewer in my own platform, So that I can brand it to my own organisation's color scheme.",Software/IT,0.747,0.826,0.6,0.5,True,Inter-Domain,General,any material used for its color,Software/IT,a visual attribute of things that results from the light they emit or transmit or reflect,"The word ""color"" appears in a sentence whose detected domain is ""Software/IT"".
+  Candidate sense 1: [General] any material used for its color (context similarity=0.17)
+  Candidate sense 2: [Software/IT] a visual attribute of things that results from the light they emit or transmit or reflect (context similarity=0.12)
+Classified as INTER-DOMAIN ambiguity: the top two candidate senses belong to different application domains (""General"" vs. ""Software/IT"")."
+color,Color,"As a Developer, I want to be able to customise the Brand Name and Icon, and Primary Color of all frontend Javascript apps, So that I can customise the branding for my own needs.",Software/IT,0.747,0.826,0.6,0.5,True,Inter-Domain,General,any material used for its color,Software/IT,a visual attribute of things that results from the light they emit or transmit or reflect,"The word ""color"" appears in a sentence whose detected domain is ""Software/IT"".
+  Candidate sense 1: [General] any material used for its color (context similarity=0.13)
+  Candidate sense 2: [Software/IT] a visual attribute of things that results from the light they emit or transmit or reflect (context similarity=0.09)
+Classified as INTER-DOMAIN ambiguity: the top two candidate senses belong to different application domains (""General"" vs. ""Software/IT"")."
+share,share,"As a Data Consuming User, I want to be able to share a view state as a URL to social networks, So that I can share data that I have found with others.",Software/IT,0.747,0.988,0.3,0.0,True,Intra-Domain,Software/IT,have in common,Software/IT,communicate,"The word ""share"" appears in a sentence whose detected domain is ""Software/IT"".
+  Candidate sense 1: [Software/IT] have in common (context similarity=0.37)
+  Candidate sense 2: [Software/IT] communicate (context similarity=0.36)
+Classified as INTRA-DOMAIN ambiguity: the top two candidate senses both belong to the ""Software/IT"" domain but represent distinct concepts."
+logic,logic,"As a Data Consuming User, I want to have consistent use of colour on map visualisations, So that I can better understand the visual logic of the map view.",Software/IT,0.744,0.984,0.3,0.5,True,Inter-Domain,Legal/Regulatory,the principles that guide reasoning within a given field or situation,Software/IT,a system of reasoning,"The word ""logic"" appears in a sentence whose detected domain is ""Software/IT"".
+  Candidate sense 1: [Legal/Regulatory] the principles that guide reasoning within a given field or situation (context similarity=0.19)
+  Candidate sense 2: [Software/IT] a system of reasoning (context similarity=0.18)
+Classified as INTER-DOMAIN ambiguity: the top two candidate senses belong to different application domains (""Legal/Regulatory"" vs. ""Software/IT"")."
+use,use,"As an OpenSpending Community Member, I want to have an app where I can find examples of use of fiscal data visualisations, So that I can find guidance in creating my own with Open Spending.",Software/IT,0.743,0.874,0.5,0.5,True,Intra-Domain,Software/IT,a particular service,Software/IT,what something is used for,"The word ""use"" appears in a sentence whose detected domain is ""Software/IT"".
+  Candidate sense 1: [Software/IT] a particular service (context similarity=0.11)
+  Candidate sense 2: [Software/IT] what something is used for (context similarity=0.09)
+Classified as INTRA-DOMAIN ambiguity: the top two candidate senses both belong to the ""Software/IT"" domain but represent distinct concepts."
+use,use,"As a Data Publishing User, I want to be able to Hide a dataset that I have already added as Public, So that I can fix my mistakes or have a dataset primarily for my own use.",Software/IT,0.743,0.874,0.5,0.5,True,Intra-Domain,Software/IT,a particular service,Software/IT,what something is used for,"The word ""use"" appears in a sentence whose detected domain is ""Software/IT"".
+  Candidate sense 1: [Software/IT] a particular service (context similarity=0.12)
+  Candidate sense 2: [Software/IT] what something is used for (context similarity=0.09)
+Classified as INTRA-DOMAIN ambiguity: the top two candidate senses both belong to the ""Software/IT"" domain but represent distinct concepts."
+brand,Brand,"As a Developer, I want to be able to customise the Brand Name and Icon, and Primary Color of all frontend Javascript apps, So that I can customise the branding for my own needs.",Software/IT,0.743,0.928,0.4,0.0,True,Intra-Domain,Software/IT,a name given to a product or service,Software/IT,a recognizable kind,"The word ""brand"" appears in a sentence whose detected domain is ""Software/IT"".
+  Candidate sense 1: [Software/IT] a name given to a product or service (context similarity=0.13)
+  Candidate sense 2: [Software/IT] a recognizable kind (context similarity=0.11)
+Classified as INTRA-DOMAIN ambiguity: the top two candidate senses both belong to the ""Software/IT"" domain but represent distinct concepts."
+use,use,"As a Data Consuming User, I want to have consistent use of colour on map visualisations, So that I can better understand the visual logic of the map view.",Software/IT,0.743,0.874,0.5,0.5,True,Intra-Domain,Software/IT,a particular service,Software/IT,what something is used for,"The word ""use"" appears in a sentence whose detected domain is ""Software/IT"".
+  Candidate sense 1: [Software/IT] a particular service (context similarity=0.11)
+  Candidate sense 2: [Software/IT] what something is used for (context similarity=0.08)
+Classified as INTRA-DOMAIN ambiguity: the top two candidate senses both belong to the ""Software/IT"" domain but represent distinct concepts."
+use,use,"As a Data Consuming User, I want to be able to download a CSV of the data that is used in any visualisation I am viewing, So that I can use the data in other tools.",Software/IT,0.74,0.923,0.4,1.0,True,Inter-Domain,General,habitually do something (use only in the past tense),Legal/Regulatory,put into service; make work or employ for a particular purpose or for its inherent or natural purpose,"The word ""use"" appears in a sentence whose detected domain is ""Software/IT"".
+  Candidate sense 1: [General] habitually do something (use only in the past tense) (context similarity=0.10)
+  Candidate sense 2: [Legal/Regulatory] put into service; make work or employ for a particular purpose or for its inherent or natural purpose (context similarity=0.09)
+Classified as INTER-DOMAIN ambiguity: the top two candidate senses belong to different application domains (""General"" vs. ""Legal/Regulatory"")."
+measure,measures,"As an API User, I want to be able to normalise measures by geographical area, So that I work with datasets in reference to their contextual constraints.",Software/IT,0.739,0.76,0.7,1.0,True,Inter-Domain,Legal/Regulatory,a basis for comparison; a reference point against which other things can be evaluated,General,any maneuver made as part of progress toward a goal,"The word ""measure"" appears in a sentence whose detected domain is ""Software/IT"".
+  Candidate sense 1: [Legal/Regulatory] a basis for comparison; a reference point against which other things can be evaluated (context similarity=0.13)
+  Candidate sense 2: [General] any maneuver made as part of progress toward a goal (context similarity=0.08)
+Classified as INTER-DOMAIN ambiguity: the top two candidate senses belong to different application domains (""Legal/Regulatory"" vs. ""General"")."
+measure,measures,"As an API User, I want to be able to normalise measures by population, So that I work with datasets in reference to their contextual constraints.",Software/IT,0.739,0.76,0.7,1.0,True,Inter-Domain,Legal/Regulatory,a basis for comparison; a reference point against which other things can be evaluated,General,any maneuver made as part of progress toward a goal,"The word ""measure"" appears in a sentence whose detected domain is ""Software/IT"".
+  Candidate sense 1: [Legal/Regulatory] a basis for comparison; a reference point against which other things can be evaluated (context similarity=0.13)
+  Candidate sense 2: [General] any maneuver made as part of progress toward a goal (context similarity=0.08)
+Classified as INTER-DOMAIN ambiguity: the top two candidate senses belong to different application domains (""Legal/Regulatory"" vs. ""General"")."
+measure,measures,"As an API User, I want to be able to normalise measures by GDP, so I work with datasets in reference to their contextual constraints.",Software/IT,0.739,0.76,0.7,1.0,True,Inter-Domain,Legal/Regulatory,a basis for comparison; a reference point against which other things can be evaluated,General,any maneuver made as part of progress toward a goal,"The word ""measure"" appears in a sentence whose detected domain is ""Software/IT"".
+  Candidate sense 1: [Legal/Regulatory] a basis for comparison; a reference point against which other things can be evaluated (context similarity=0.13)
+  Candidate sense 2: [General] any maneuver made as part of progress toward a goal (context similarity=0.08)
+Classified as INTER-DOMAIN ambiguity: the top two candidate senses belong to different application domains (""Legal/Regulatory"" vs. ""General"")."
+member,Member,"As an OpenSpending Community Member, I want to have a blog that highlights any and all projects in the open fiscal space, So that I can relate to openspending.org as the central hub of fiscal openness.",Software/IT,0.734,0.967,0.3,0.5,True,Intra-Domain,Software/IT,an external body part that projects from the body,Software/IT,an organization that is a member of another organization (especially a state that belongs to a group of nations),"The word ""member"" appears in a sentence whose detected domain is ""Software/IT"".
+  Candidate sense 1: [Software/IT] an external body part that projects from the body (context similarity=0.08)
+  Candidate sense 2: [Software/IT] an organization that is a member of another organization (especially a state that belongs to a group of nations) (context similarity=0.08)
+Classified as INTRA-DOMAIN ambiguity: the top two candidate senses both belong to the ""Software/IT"" domain but represent distinct concepts."
+add,add,"As a Data Publishing User, I want to have a functioning Python Client, So that I can add data to the datastore in bulk from the command line or my own programs.",Software/IT,0.731,0.909,0.4,0.0,True,Intra-Domain,Software/IT,make an addition by combining numbers,Software/IT,constitute an addition,"The word ""add"" appears in a sentence whose detected domain is ""Software/IT"".
+  Candidate sense 1: [Software/IT] make an addition by combining numbers (context similarity=0.17)
+  Candidate sense 2: [Software/IT] constitute an addition (context similarity=0.14)
+Classified as INTRA-DOMAIN ambiguity: the top two candidate senses both belong to the ""Software/IT"" domain but represent distinct concepts."
+add,add,"As a Data Publishing User, I want to be able to add a dataset in a Hidden state, So that I can work on a dataset before having it discoverable via OpenSpending user interfaces.",Software/IT,0.731,0.909,0.4,0.0,True,Intra-Domain,Software/IT,make an addition by combining numbers,Software/IT,constitute an addition,"The word ""add"" appears in a sentence whose detected domain is ""Software/IT"".
+  Candidate sense 1: [Software/IT] make an addition by combining numbers (context similarity=0.15)
+  Candidate sense 2: [Software/IT] constitute an addition (context similarity=0.13)
+Classified as INTRA-DOMAIN ambiguity: the top two candidate senses both belong to the ""Software/IT"" domain but represent distinct concepts."
+platform,Platform,"As a Platform Administrator, I want to be able to delete any dataset published, So that I can deal with takedown requests, or clean up test datasets.",Software/IT,0.728,0.958,0.3,0.5,True,Inter-Domain,Software/IT,a raised horizontal surface,General,any military structure or vehicle bearing weapons,"The word ""platform"" appears in a sentence whose detected domain is ""Software/IT"".
+  Candidate sense 1: [Software/IT] a raised horizontal surface (context similarity=0.13)
+  Candidate sense 2: [General] any military structure or vehicle bearing weapons (context similarity=0.12)
+Classified as INTER-DOMAIN ambiguity: the top two candidate senses belong to different application domains (""Software/IT"" vs. ""General"")."
+platform,Platform,"As a Data Publishing User, I want to be able to provide the Platform Administrator with additional GeoJSON sources, So that I can improve the map-based visualisations of my data.",Software/IT,0.728,0.958,0.3,0.5,True,Inter-Domain,Software/IT,a raised horizontal surface,General,any military structure or vehicle bearing weapons,"The word ""platform"" appears in a sentence whose detected domain is ""Software/IT"".
+  Candidate sense 1: [Software/IT] a raised horizontal surface (context similarity=0.12)
+  Candidate sense 2: [General] any military structure or vehicle bearing weapons (context similarity=0.11)
+Classified as INTER-DOMAIN ambiguity: the top two candidate senses belong to different application domains (""Software/IT"" vs. ""General"")."
+platform,Platform,"As a Platform Administrator, I want to be able to Hide any dataset already added as Public, So that I can maintain Public/Hidden status for other users.",Software/IT,0.728,0.958,0.3,0.5,True,Inter-Domain,Software/IT,a raised horizontal surface,General,any military structure or vehicle bearing weapons,"The word ""platform"" appears in a sentence whose detected domain is ""Software/IT"".
+  Candidate sense 1: [Software/IT] a raised horizontal surface (context similarity=0.13)
+  Candidate sense 2: [General] any military structure or vehicle bearing weapons (context similarity=0.12)
+Classified as INTER-DOMAIN ambiguity: the top two candidate senses belong to different application domains (""Software/IT"" vs. ""General"")."
+platform,Platform,"As a Platform Administrator, I want to have a view on all datasets published by all users, So that I can perform management actions on any dataset.",Software/IT,0.728,0.958,0.3,0.5,True,Inter-Domain,Software/IT,a raised horizontal surface,General,any military structure or vehicle bearing weapons,"The word ""platform"" appears in a sentence whose detected domain is ""Software/IT"".
+  Candidate sense 1: [Software/IT] a raised horizontal surface (context similarity=0.15)
+  Candidate sense 2: [General] any military structure or vehicle bearing weapons (context similarity=0.14)
+Classified as INTER-DOMAIN ambiguity: the top two candidate senses belong to different application domains (""Software/IT"" vs. ""General"")."
+platform,platform,"As an API user, I want to be able to change the colors of the embedded visualisations in my own platform, So that I can customize the visualisations.",Software/IT,0.728,0.958,0.3,0.5,True,Inter-Domain,Software/IT,a raised horizontal surface,General,any military structure or vehicle bearing weapons,"The word ""platform"" appears in a sentence whose detected domain is ""Software/IT"".
+  Candidate sense 1: [Software/IT] a raised horizontal surface (context similarity=0.13)
+  Candidate sense 2: [General] any military structure or vehicle bearing weapons (context similarity=0.12)
+Classified as INTER-DOMAIN ambiguity: the top two candidate senses belong to different application domains (""Software/IT"" vs. ""General"")."
+platform,Platform,"As an API User, I want to be able to understand if a user is an Administrator, So that I can offer functionality based on Platform Administration privileges.",Software/IT,0.728,0.958,0.3,0.5,True,Inter-Domain,Software/IT,a raised horizontal surface,General,any military structure or vehicle bearing weapons,"The word ""platform"" appears in a sentence whose detected domain is ""Software/IT"".
+  Candidate sense 1: [Software/IT] a raised horizontal surface (context similarity=0.13)
+  Candidate sense 2: [General] any military structure or vehicle bearing weapons (context similarity=0.12)
+Classified as INTER-DOMAIN ambiguity: the top two candidate senses belong to different application domains (""Software/IT"" vs. ""General"")."
+platform,Platform,"As a Platform administrator, I want to be able to translate the data types hierarchies of the Viewer while in embed mode, So that my users can understand the interface in their native language.",Software/IT,0.728,0.958,0.3,0.5,True,Inter-Domain,Software/IT,a raised horizontal surface,General,any military structure or vehicle bearing weapons,"The word ""platform"" appears in a sentence whose detected domain is ""Software/IT"".
+  Candidate sense 1: [Software/IT] a raised horizontal surface (context similarity=0.11)
+  Candidate sense 2: [General] any military structure or vehicle bearing weapons (context similarity=0.10)
+Classified as INTER-DOMAIN ambiguity: the top two candidate senses belong to different application domains (""Software/IT"" vs. ""General"")."
+platform,platform,"As an API user, I want to be able to change some of the styling of the embedded Viewer in my own platform, So that I can brand it to my own organisation's color scheme.",Software/IT,0.728,0.958,0.3,0.5,True,Inter-Domain,Software/IT,a raised horizontal surface,General,any military structure or vehicle bearing weapons,"The word ""platform"" appears in a sentence whose detected domain is ""Software/IT"".
+  Candidate sense 1: [Software/IT] a raised horizontal surface (context similarity=0.13)
+  Candidate sense 2: [General] any military structure or vehicle bearing weapons (context similarity=0.12)
+Classified as INTER-DOMAIN ambiguity: the top two candidate senses belong to different application domains (""Software/IT"" vs. ""General"")."
+confuse,confused,"As a Data Consuming User, I want to visualize by default in treemap, bubble tree, map and pivot table the most recent year when my dataset contain multiple years, So that I'm not confused with the amounts.",Software/IT,0.723,0.951,0.3,0.0,True,Intra-Domain,Software/IT,cause to feel embarrassment,Software/IT,"make unclear, indistinct, or blurred","The word ""confuse"" appears in a sentence whose detected domain is ""Software/IT"".
+  Candidate sense 1: [Software/IT] cause to feel embarrassment (context similarity=0.06)
+  Candidate sense 2: [Software/IT] make unclear, indistinct, or blurred (context similarity=0.05)
+Classified as INTRA-DOMAIN ambiguity: the top two candidate senses both belong to the ""Software/IT"" domain but represent distinct concepts."
+provide,provide,"As a Data Consuming User, I want to be able to share an image of a particular view state to the social networks that support this, So that I can provide richer context in those communication channels for data I am sharing.",Software/IT,0.721,0.84,0.5,1.0,True,Inter-Domain,General,take measures in preparation for,Software/IT,"give what is desired or needed, especially support, food or sustenance","The word ""provide"" appears in a sentence whose detected domain is ""Software/IT"".
+  Candidate sense 1: [General] take measures in preparation for (context similarity=0.11)
+  Candidate sense 2: [Software/IT] give what is desired or needed, especially support, food or sustenance (context similarity=0.08)
+Classified as INTER-DOMAIN ambiguity: the top two candidate senses belong to different application domains (""General"" vs. ""Software/IT"")."
+scheme,scheme,"As an API user, I want to be able to change some of the styling of the embedded Viewer in my own platform, So that I can brand it to my own organisation's color scheme.",Software/IT,0.721,0.948,0.3,0.5,True,Intra-Domain,Healthcare,an elaborate and systematic plan of action,Healthcare,a schematic or preliminary plan,"The word ""scheme"" appears in a sentence whose detected domain is ""Software/IT"".
+  Candidate sense 1: [Healthcare] an elaborate and systematic plan of action (context similarity=0.10)
+  Candidate sense 2: [Healthcare] a schematic or preliminary plan (context similarity=0.09)
+Classified as INTRA-DOMAIN ambiguity: the top two candidate senses both belong to the ""Healthcare"" domain but represent distinct concepts."
+come,comes,"As an API User, I want to be able to get a relative percentage of a measure to the total of the dataset it comes from, So that I can build alternative displays of the data.",Software/IT,0.718,0.565,1.0,0.0,True,Intra-Domain,Software/IT,have a certain priority,Software/IT,be found or available,"The word ""come"" appears in a sentence whose detected domain is ""Software/IT"".
+  Candidate sense 1: [Software/IT] have a certain priority (context similarity=0.22)
+  Candidate sense 2: [Software/IT] be found or available (context similarity=0.09)
+Classified as INTRA-DOMAIN ambiguity: the top two candidate senses both belong to the ""Software/IT"" domain but represent distinct concepts."

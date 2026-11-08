@@ -1,0 +1,20 @@
+Dataset Title:                 USASpending & Broker System
+Dataset ID:                    ds1_usaspending_broker
+Operating Point:               Score >= 0.690 (Top 30%)
+Sentences Analysed:            98
+Candidate Word Instances:      598
+Flagged Ambiguous Instances:   181 (30.3%)
+  - Inter-Domain:              65
+  - Intra-Domain:              116
+
+Top 10 Flagged Words:
+  know: 9
+  page: 7
+  submit: 6
+  round: 5
+  leadership: 5
+  member: 4
+  time: 4
+  date: 4
+  accept: 4
+  field: 4

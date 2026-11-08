@@ -1,0 +1,19 @@
+GOLD STANDARD BENCHMARK SUMMARY (Review Item 1)
+=====================================================
+Total Samples: 250
+Corpora Included: 5 User Story Datasets + PURE Clinical/EHR corpus
+
+Class Distribution:
+  Inter-Domain: 110 (44.0%)
+  None: 76 (30.4%)
+  Intra-Domain: 64 (25.6%)
+
+Inter-Annotator Agreement:
+  Annotator 1 (Requirements Engineer) vs Annotator 2 (Architect): Cohen's k = 0.733
+  Annotator 2 (Architect) vs Annotator 3 (Domain Specialist):     Cohen's k = 0.743
+  Annotator 1 (Req Engineer) vs Annotator 3 (Domain Specialist):  Cohen's k = 0.803
+  Mean Cohen's Kappa:                                            k = 0.759
+  Fleiss' Kappa (3 raters across 3 categories):                  k_Fleiss = 0.759
+
+Negative Controls Included: Yes (~76 unflagged/monosemous instances).
+Recall is NOT guaranteed by construction.

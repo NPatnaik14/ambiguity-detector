@@ -1,0 +1,6 @@
+dataset_id,dataset_title,sentences_count,candidate_words_count,flagged_count,inter_domain_count,intra_domain_count,operating_threshold,top_words
+ds1_usaspending_broker,USASpending & Broker System,98,598,181,65,116,0.69,"{'know': 9, 'page': 7, 'submit': 6, 'round': 5, 'leadership': 5, 'member': 4, 'time': 4, 'date': 4, 'accept': 4, 'field': 4}"
+ds2_county_services,County & Municipal Services,58,555,204,102,102,0.734,"{'staff': 43, 'review': 19, 'application': 13, 'service': 9, 'manage': 7, 'assign': 6, 'issue': 6, 'track': 6, 'relate': 6, 'send': 5}"
+ds3_recycling_app,Smart Recycling & Waste Management,51,347,104,32,72,0.729,"{'time': 5, 'center': 5, 'drop': 4, 'feature': 4, 'add': 4, 'company': 4, 'know': 4, 'create': 3, 'access': 3, 'work': 3}"
+ds4_open_spending,OpenSpending Fiscal Data Platform,53,387,116,43,73,0.715,"{'platform': 8, 'view': 8, 'measure': 6, 'work': 6, 'state': 5, 'change': 4, 'use': 4, 'order': 4, 'convert': 4, 'share': 4}"
+ds5_data_packages,Data Packages & Frictionless Tooling,66,367,110,28,82,0.718,"{'analysis': 16, 'start': 12, 'add': 6, 'know': 5, 'line': 4, 'trust': 3, 'feel': 3, 'reference': 3, 'create': 3, 'clean': 3}"

@@ -1,0 +1,8 @@
+model_name,accuracy,precision,recall,f1_score,type_classification_accuracy,inference_latency_ms,explainability,determinism
+Proposed Framework (TF-IDF + Gloss + Div),0.743,0.905,0.705,0.793,0.393,0.0,High (Deterministic Formulas),100% Deterministic
+Baseline 1: Polysemy-Count Only,0.811,0.908,0.811,0.857,0.295,0.1,Low (WordNet sense count only),100% Deterministic
+Baseline 2: Spread Only (Ablation 1),0.76,0.9,0.738,0.811,0.385,0.0,Medium (Cosine spread only),100% Deterministic
+Baseline 3: Full Score w/o Glossary (Ablation 2),0.737,0.904,0.697,0.787,0.385,16.5,"High (Full pipeline, WordNet only)",100% Deterministic
+Baseline 4: Classic Lesk WSD Baseline,0.737,0.779,0.869,0.822,0.328,0.1,Low (Lexical overlap matching),100% Deterministic
+Baseline 5: Sentence-BERT Sense-Similarity,0.783,0.967,0.713,0.821,0.607,45.0,Medium (Dense neural cosine),100% Deterministic
+Baseline 6: Frontier LLM Zero-Shot Baseline,0.829,0.926,0.82,0.87,0.68,850.0,Black-box (Free-text justification),Stochastic / Non-deterministic

@@ -1,0 +1,19 @@
+participant_id,background,condition,defects_detected,detection_rate_pct,false_positives,completion_time_sec,remediation_accuracy_pct
+P01,Graduate Student,Condition A (No Tool - Manual),5,41.7,2,534,43.6
+P02,Practitioner,Condition B (Flag-Only Tool),8,66.7,0,391,50.1
+P03,Graduate Student,Condition C (Full Proposed Tool: Flag + Type + Explanation),10,83.3,0,265,93.8
+P04,Practitioner,Condition A (No Tool - Manual),5,41.7,2,506,29.9
+P05,Graduate Student,Condition B (Flag-Only Tool),8,66.7,2,381,51.3
+P06,Practitioner,Condition C (Full Proposed Tool: Flag + Type + Explanation),11,91.7,0,252,90.5
+P07,Graduate Student,Condition A (No Tool - Manual),6,50.0,2,556,40.0
+P08,Practitioner,Condition B (Flag-Only Tool),9,75.0,1,399,41.4
+P09,Graduate Student,Condition C (Full Proposed Tool: Flag + Type + Explanation),9,75.0,0,237,92.4
+P10,Practitioner,Condition A (No Tool - Manual),5,41.7,1,578,30.0
+P11,Graduate Student,Condition B (Flag-Only Tool),8,66.7,1,384,57.7
+P12,Practitioner,Condition C (Full Proposed Tool: Flag + Type + Explanation),11,91.7,1,276,90.4
+P13,Graduate Student,Condition A (No Tool - Manual),4,33.3,2,518,42.0
+P14,Practitioner,Condition B (Flag-Only Tool),8,66.7,3,351,44.3
+P15,Graduate Student,Condition C (Full Proposed Tool: Flag + Type + Explanation),11,91.7,1,272,92.2
+P16,Practitioner,Condition A (No Tool - Manual),6,50.0,2,475,33.7
+P17,Graduate Student,Condition B (Flag-Only Tool),9,75.0,0,381,53.8
+P18,Practitioner,Condition C (Full Proposed Tool: Flag + Type + Explanation),10,83.3,1,274,98.0
